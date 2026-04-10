@@ -1,0 +1,1138 @@
+{
+  "RD Manager": [
+    {
+      "name": "Ashok Patil",
+      "responsibility": "Zapper 应用",
+      "modules": [
+        {
+          "module_owner": "Sasi Sibyala",
+          "jira_default_owners": [
+            "Sasi Sibyala"
+          ],
+          "JIRA Component": [
+            "Zapper App (Arka)"
+          ],
+          "Issues_classification": [
+            "Zapper Application"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frank Chen",
+      "responsibility": "回声消除(AEC)、噪声抑制(NS)、自动增益控制(AGC)、唤醒词引擎(WWE)及第三方语音助手集成，并承担Fuchsia系统的Zircon内核、内核驱动、用户态驱动及Fuchsia系统框架的开发与维护。",
+      "modules": [
+        {
+          "module_owner": "Frank Chen",
+          "jira_default_owners": [
+            "Frank Chen"
+          ],
+          "JIRA Component": [
+            "Audio- Smart Engine",
+            "Fuchsia-Zircon",
+            "Fuchsia-System"
+          ],
+          "Issues_classification": [
+            "Audio Front End(AEC, NS, AGC), WWE\n3rd party voice assistant integration",
+            "Fuchsia kernel and kernel drivers",
+            "Fuchsia system"
+          ]
+        },
+        {
+          "module_owner": "Manliang Tang",
+          "jira_default_owners": [
+            "Manliang Tang"
+          ],
+          "JIRA Component": [
+            "Fuchsia-Drivers"
+          ],
+          "Issues_classification": [
+            "Fuchsia userland drivers"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guofeng Tang",
+      "responsibility": "智能家居（SmartHome）、Yocto电视/OTT（Yocto TV/OTT）、安防摄像头（IPC）等产品线的软件开发与维护，承担视频编码器（Video Encoder）的用户层接口（Mediacodec/OMX/Codec2）需求及安卓兼容性测试套件（Android CTS）相关工作（驱动与算法由其他团队负责），并处理RDK特性（RDK Feature）相关需求。",
+      "modules": [
+        {
+          "module_owner": "Guofeng Tang",
+          "jira_default_owners": [
+            "Guofeng Tang"
+          ],
+          "JIRA Component": [
+            "RDK-Youtube"
+          ],
+          "Issues_classification": []
+        },
+        {
+          "module_owner": "Guoping Li",
+          "jira_default_owners": [
+            "Guoping Li"
+          ],
+          "JIRA Component": [
+            "System-Linux framework"
+          ],
+          "Issues_classification": [
+            "SmartHome Product line"
+          ]
+        },
+        {
+          "module_owner": "Jun Zhang",
+          "jira_default_owners": [
+            "Jun Zhang",
+            "Guofeng Tang"
+          ],
+          "JIRA Component": [
+            "System-Linux framework"
+          ],
+          "Issues_classification": [
+            "Yocto TV/OTT product line"
+          ]
+        },
+        {
+          "module_owner": "Xuequan Feng",
+          "jira_default_owners": [
+            "Xuequan Feng"
+          ],
+          "JIRA Component": [
+            "System-Linux framework"
+          ],
+          "Issues_classification": [
+            "IPCproduct line"
+          ]
+        },
+        {
+          "module_owner": "Yang Su",
+          "jira_default_owners": [
+            "Yang Su"
+          ],
+          "JIRA Component": [
+            "Video-Encoder"
+          ],
+          "Issues_classification": [
+            "Encoder用户层mediecodec/omx/codec2等接口需求，android CTS   User interface requirements from mediacodec/omx/codec2 for Encoder, android CTS related to Encoder user interface.\nencoder 驱动和encoder 算法由guofeng.tang team负责 video encoder driver and algorithms"
+          ]
+        },
+        {
+          "module_owner": "Zhengyu Gao",
+          "jira_default_owners": [
+            "Zhengyu Gao"
+          ],
+          "JIRA Component": [
+            "System-Linux framework"
+          ],
+          "Issues_classification": [
+            "RDK Feature Related"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jerry Cao",
+      "responsibility": "",
+      "modules": [
+        {
+          "module_owner": "Jerry Cao",
+          "jira_default_owners": [
+            "Jerry Cao"
+          ],
+          "JIRA Component": [
+            "Architecture-System"
+          ],
+          "Issues_classification": []
+        }
+      ]
+    },
+    {
+      "name": "Jian Xu",
+      "responsibility": "IPTV项目音频需求，处理参考平台的音频设备输入/输出策略（Audio device input/output policy）、USB/PDM麦克风录音及远场语音（Far Field Voice）、TDM输入/输出（TDM in/out）、SPDIF输入/输出（SPDIF in/out）、eARC/ARC功能、USB卡拉OK（USB karaoke）、蓝牙音频（Bluetooth Audio）及A2DP播放，承担音频驱动（Audio Driver）与HiFi DSP相关需求，解决Gstreamer音频播放及Linux/RDK平台所有音频问题，处理参考平台xGTS问题，负责杜比MS12（Dolby MS12）、杜比数字+（DD+）、DTS 2.0、DTS-HD/DTSX解码、透传与认证，处理非杜比/DTS解码播放兼容性、奈飞NTS认证（Netflix NTS cert）、YouTube/奈飞/HBO等播放问题、本地播放器（Movieplayer）音画同步（AV sync）与容器兼容性，支持SoundBar产品音频，完成安卓隧道框架（Android Tunnel CBS）、安卓音频用户界面（Android Audio UI）显示、数字电视音频（DTV Audio）、高清多媒体接口输入音频（HDMI in Audio）、模拟/音频视频输入音频（ATV/AV in audio），并负责音效工具（AVL/EQ）及平台SoC音效与音频质量调优（AQ tuning）。",
+      "modules": [
+        {
+          "module_owner": "Jian Xu",
+          "jira_default_owners": [
+            "Jian Xu"
+          ],
+          "JIRA Component": [
+            "Audio_IPTV"
+          ],
+          "Issues_classification": [
+            "IPTV 项目相关问题和需求Audio Issues and Requirements from IPTV"
+          ]
+        },
+        {
+          "module_owner": "Shuai Li",
+          "jira_default_owners": [
+            "Shuai Li",
+            "Jian Zhou",
+            "Jian Xu",
+            "Yang Liu"
+          ],
+          "JIRA Component": [
+            "Audio-framework",
+            "Audio-platform",
+            "Audio-Driver",
+            "Audio DSP"
+          ],
+          "Issues_classification": [
+            "2.平台输出/输入音频设备策略相关 Audio device input/output policy issue on reference platform",
+            "3.USB/PDM mic 录音相关，包括远场语音 Audio issue with USB/PDM MIC Recorder including far-field related issues",
+            "4.平台TDM in/out 相关需求 TDMP in/out on reference platform",
+            "5.SPDIF in/out播放相关需求 SPDIF in/out on reference platform",
+            "6.eARC/ARC 功能相关  eARC/ARC function related",
+            "7.USB  karaoke相关 USB karaoke related",
+            "8.蓝牙语音，远场语音 Bluetooth Audio, Far Field Voice",
+            "9.a2dp 播放相关 a2dp playback issues",
+            "1. Audio 驱动所有相关 Audio Driver Related Issues",
+            "1.HiFi DSP相关音频需求 HiFi DSP Related Audio Issues"
+          ]
+        },
+        {
+          "module_owner": "Wei Du",
+          "jira_default_owners": [
+            "Wei Du"
+          ],
+          "JIRA Component": [
+            "Audio-decoder",
+            "Audio_Linux/RDK"
+          ],
+          "Issues_classification": [
+            "12. gstreamer Audio 播放相关 Audio issues with stream",
+            "Linux 平台所有相关音频问题，以及需求对口 Audio Issues & requirements on Linux/RDK platform"
+          ]
+        },
+        {
+          "module_owner": "Yujie Wu",
+          "jira_default_owners": [
+            "Yujie Wu",
+            "Chuntian Miao",
+            "Xiushan Lu",
+            "Sijia Lin",
+            "Zeming Huang"
+          ],
+          "JIRA Component": [
+            "Audio-framework",
+            "Audio-decoder"
+          ],
+          "Issues_classification": [
+            "1.平台xGTS相关问题 reference platform xGTS issues",
+            "1.Dolby MS12 认证相关，行为相关 Issues with Dolby MS12 cert and behavior",
+            "2.DD+ 播放，认证 Issues with DD+ playback and cert",
+            "3.DTS 2.0 解码 透传，认证相关 Issues for DTS2.0 decoder, pass-through and cert",
+            "4.DTS-HD/DTSX 解码，透传，认证相关 Issues for DTS-HD/DTSX decoder, pass-through and cert",
+            "6.非Dolby/DTS解码播放，兼容性相关 Issues for non-dolby decoder and playback, audio compatibility issues",
+            "7.NTS认证audio相关问题 Audio issues related to Netflix NTS cert",
+            "8.Youtube/Netflix/HBO.. 播放问题 Playback audio issues with Youtube/Netflix/HBO..",
+            "9.  Movieplayer本地播放同步，兼容性相关 Audio issue & AV sync with Movieplayer local playback and AV container compatibility issues.",
+            "10.SoundBar 产品所有音频相关 Audio issues related to SoundBar product"
+          ]
+        },
+        {
+          "module_owner": "Zhe Wang",
+          "jira_default_owners": [
+            "Zhe Wang",
+            "Lianlian Zhu"
+          ],
+          "JIRA Component": [
+            "Audio-framework",
+            "Audio-decoder",
+            "Audio-platform",
+            "Audio-AQ"
+          ],
+          "Issues_classification": [
+            "android Tunnel frameowork (CBS) function",
+            "Android Audio UI  setting and audio UI display (显示相关)",
+            "11.TV audio-DTV Audio",
+            "1.TV audio-HDMI in Audio",
+            "2.TV audio-ATV/AV in audio",
+            "1.音效相关，UI,工具（AVL,EQ，。。。）Tools for Audio effect, UI settings (AVL, EQ, ....)",
+            "2.平台SoC音效，AQ tuning相关 Audio Effect for platform SOC, issues with QA tuning"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lei Li",
+      "responsibility": "数字电视（DTV）全栈功能，包括卫星（DVBS）、地面（DVBT）、有线（DVBC）的前端扫描流程与配置，处理频道调谐（Channel tuning）、频道信息及网络更新（服务增删），维护电子节目指南（EPG）、数字电视时间（DTV time）、家长分级（Parental rating）、音频语言选择及CI+（非个人录像）接口，并承担混合广播宽带电视（HBBTV）与Freely交互应用的开发。",
+      "modules": [
+        {
+          "module_owner": "Bin Luo",
+          "jira_default_owners": [
+            "Bin Luo",
+            "Haobin Chen",
+            "Jianlin Liu",
+            "Liangjun Wang",
+            "Zhiwei Jiang"
+          ],
+          "JIRA Component": [
+            "DVB Stack",
+            "ISDB Stack",
+            "ATSC Stack"
+          ],
+          "Issues_classification": [
+            "DVBS frontend：LNB、Satellite、Transponder、Diseqc and Satellite scan flow",
+            "DVBT scan flow",
+            "DVBC scan flow",
+            "DTV configuration",
+            "Scan"
+          ]
+        },
+        {
+          "module_owner": "Bing Feng",
+          "jira_default_owners": [
+            "Bing Feng",
+            "Gengxin Li",
+            "Suxiang Hao"
+          ],
+          "JIRA Component": [
+            "DVB Stack",
+            "ATSC Stack"
+          ],
+          "Issues_classification": [
+            "HBBTV",
+            "Freely",
+            "EPG"
+          ]
+        },
+        {
+          "module_owner": "Hujian Zheng",
+          "jira_default_owners": [
+            "Hujian Zheng",
+            "Rongsheng Jiang",
+            "Liyang Huang"
+          ],
+          "JIRA Component": [
+            "DVB Stack",
+            "ISDB Stack",
+            "ATSC Stack"
+          ],
+          "Issues_classification": [
+            "Channel tuning, channel information",
+            "Network update: service addition/removal, etc.",
+            "DTV time",
+            "Parental rating",
+            "CI+（None-PVR）",
+            "DTV audio language"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pradeep Sriram",
+      "responsibility": "跟踪 RDK 驻留应用（RDK Residence App）的问题",
+      "modules": [
+        {
+          "module_owner": "Pradeep Sriram",
+          "jira_default_owners": [
+            "Pradeep Sriram"
+          ],
+          "JIRA Component": [
+            "RDK SDK",
+            "RDK UI"
+          ],
+          "Issues_classification": [
+            "To track issues of RDK Residence App"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Simon Zheng",
+      "responsibility": "底层显示管线（OSD/VPP/DI/HDR/DV/Video 合成）、DV IDK/SDK 及 HDR 认证、2D 驱动接口（GE2D/Dewarp）与截屏/旋转功能；处理 HDR 管线逻辑与认证；解决电视芯片 HDMI RX 问题、CVBS 输入驱动问题（含 Vchip/teletext）；处理 SDR PQ 模块效果及 HDR 非逻辑效果问题；解决 HDMI TX 问题；负责 Linux/Android 图形（drm/kms、SurfaceFlinger/hwc、video tunnel、hotplug、active mode、keystone、双屏显示）及 GPU 相关需求；承担 Android/Linux 摄像头内核驱动/HAL 驱动及 ISP IQ 需求；负责 NN 驱动/工具/SDK/框架及 NN 专有算法需求。",
+      "modules": [
+        {
+          "module_owner": "Brian Zhu",
+          "jira_default_owners": [
+            "Brian Zhu"
+          ],
+          "JIRA Component": [
+            "Display-Video Pipeline",
+            "Display-HDR"
+          ],
+          "Issues_classification": [
+            "1. OSD/VPP/DI/HDR/DV/Video合成等相关底层显示Pipeline需求 Pipeline components for OSD/VPP/DI/HDR/DV/Video Composite etc..\n2. DV IDK/SDK 以及HDR认证需求 DV IKD/SDK and HDR Cert\n2. GE2D/Dewarp 等2D driver接口以及截屏/旋转需求 2D Driver interface of GE2D/Dewarp, screen capture, screen rotation",
+            "HDR Pipeline逻辑相关需求， HDR认证 requirements of HDR pipeline, HDR Cert"
+          ]
+        },
+        {
+          "module_owner": "Jinhong Zhang",
+          "jira_default_owners": [
+            "Jinhong Zhang"
+          ],
+          "JIRA Component": [],
+          "Issues_classification": []
+        },
+        {
+          "module_owner": "Lei Yang",
+          "jira_default_owners": [
+            "Lei Yang"
+          ],
+          "JIRA Component": [
+            "Driver-HDMI RX（TV）输入",
+            "Display-Video in"
+          ],
+          "Issues_classification": [
+            "TV芯片HDMI RX相关问题\nHDMI RX Issue with TV Chipset",
+            "CVBS input相关的驱动问题；Driver issues with CVBS input\nCVBS input，Vchip/teletext 相关的驱动问题 Driver issues related to Vchip/teletext via CVBS input signal"
+          ]
+        },
+        {
+          "module_owner": "Mingliang Dong",
+          "jira_default_owners": [
+            "Mingliang Dong"
+          ],
+          "JIRA Component": [
+            "Display-PQ"
+          ],
+          "Issues_classification": [
+            "SDR PQ模块的效果类问题 SDR PQ Effect issues\nHDR的效果问题（非逻辑处理）问题 HDR Effect Issues (Not logical)"
+          ]
+        },
+        {
+          "module_owner": "Sky Zhou",
+          "jira_default_owners": [
+            "Sky Zhou"
+          ],
+          "JIRA Component": [
+            "Driver-HDMI TX（盒子）输出",
+            "Display-Graphics"
+          ],
+          "Issues_classification": [
+            "HDMI TX相关问题\nHDMI TX Issues with STB Chipset",
+            "1. Linux graphic , drm/kms\n2. Android graphic, SurfaceFlinger/hwc , video tunnel对接 ,hotplug ,active mode , keystone, dual display等相关需求\n3. GPU 等相关需求"
+          ]
+        },
+        {
+          "module_owner": "Xiaoxin Cao",
+          "jira_default_owners": [
+            "Xiaoxin Cao"
+          ],
+          "JIRA Component": [
+            "Display-Camera"
+          ],
+          "Issues_classification": [
+            "Android/linux camera kernel driver/HAL driver相关需求\nISP IQ 相关需求"
+          ]
+        },
+        {
+          "module_owner": "Xingwei Zhou",
+          "jira_default_owners": [
+            "Xingwei Zhou"
+          ],
+          "JIRA Component": [
+            "Display-NN"
+          ],
+          "Issues_classification": [
+            "1. NN  驱动/工具/SDK/Framework相关需求 NN Driver/Tools/SDK/Framwork\n2. NN 算法相关需求. NN private Algorithms"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tao Dong",
+      "responsibility": "模拟电视（ATV）通道信号分析与处理、电子节目指南（EPG）、数字电视空中下载（DTV OAD）、紧急预警系统（EWS/EWBS）、ATV输入、电视/机顶盒芯片数字电视解调器（DTV Demod）驱动；承担开机速度与挂起恢复（STR）速度分析、内存优化、带宽分析、STR/上下电流程与开机视频、Coverity/Kasan/Asan/内存泄漏/稳定性缺陷、网络问题修复、参考项目板级支持包（BSP）与扩展板BSP维护；处理电视/OTT安卓开源项目/安卓电视的兼容性测试套件（xTS）缺陷、奈飞认证测试（NTS）缺陷与Ninja集成及认证、多解码器APK、屏幕捕捉与录制、流媒体APK（YouTube/HBO GO/Google Movie）问题分析、系统问题、亚马逊Prime Video功能与认证、云游戏（腾讯游戏/Stadia）缺陷修复；负责PC生产工具、密钥工具、画质调优（PQ tuning）工具、图像信号处理（ISP）调优工具、时序控制器（Tcon）调优工具及其他PC工具（定制/PCBA等）；处理安卓空中下载（OTA）/恢复模式（Recovery）缺陷及Buildroot/Yocto Linux软件更新（SWupdate）缺陷；承担画质调优（PQ tuning）、PQ服务器、显示服务器（系统控制、HDMI/面板逻辑控制与缺陷修复）。",
+      "modules": [
+        {
+          "module_owner": "Lei Qian",
+          "jira_default_owners": [
+            "Lei Qian",
+            "Xiaorong Wang"
+          ],
+          "JIRA Component": [
+            "Driver- Analog demod",
+            "DVB Stack",
+            "ISDB Stack",
+            "ATSC Stack"
+          ],
+          "Issues_classification": [
+            "ATV通道下信号相关问题的分析，处理 Analog signal analysis and process in Analog TV pipeline",
+            "EPG",
+            "DTV OAD",
+            "EWS/EWBS"
+          ]
+        },
+        {
+          "module_owner": "Nengwen Chen",
+          "jira_default_owners": [
+            "Nengwen Chen"
+          ],
+          "JIRA Component": [
+            "Display-Video in",
+            "Driver-DTV demod"
+          ],
+          "Issues_classification": [
+            "ATV input",
+            "TV/OTT芯片内置DTV Dedmod驱动相关问题\nDTV Demod on both TV & OTT Chip"
+          ]
+        },
+        {
+          "module_owner": "Sandy Luo",
+          "jira_default_owners": [
+            "Sandy Luo",
+            "Yuehu Mi",
+            "Lijun Meng"
+          ],
+          "JIRA Component": [
+            "System-Peformance",
+            "System-STR/Shutdown",
+            "System-Stability",
+            "System-Network",
+            "System-BSP"
+          ],
+          "Issues_classification": [
+            "1, 开机速度，STR 速度 分析 boot-up time/STR analysis\n2，内存优化 Memory Optimization\n3，带宽profile Memory bandwidth profiling",
+            "1，STR/Power on-off process and bug fix\n2, boot video",
+            "1, Coverity bug \n2, Kasan bug \n3,Asan bug \n4, Leak bug\n5,Stability bug",
+            "1, Network related bug fix(frameworks and application)",
+            "1, Ref project BSP maintain\n2, Socket board BSP maintain"
+          ]
+        },
+        {
+          "module_owner": "Shen Liu",
+          "jira_default_owners": [
+            "Shen Liu",
+            "Lijun Zou",
+            "Yingwei Long",
+            "Zhewen Luo"
+          ],
+          "JIRA Component": [
+            "Android-GTVS",
+            "Android-NTS",
+            "Multi-Media application"
+          ],
+          "Issues_classification": [
+            "1, xTS of TV/OTT AOSP/ATV bug fix",
+            "1, NTS bug\n2, Ninja integration\n3, Ninja feature development\n4, NTS cert",
+            "Multi-decoder APK",
+            "screen capture, Screen record",
+            "Streaming APK bug analyze , like youtube/hbogo/google movie"
+          ]
+        },
+        {
+          "module_owner": "Tao Dong",
+          "jira_default_owners": [
+            "Tao Dong"
+          ],
+          "JIRA Component": [
+            "System-Android(SZ)"
+          ],
+          "Issues_classification": [
+            "System issues"
+          ]
+        },
+        {
+          "module_owner": "Wenbiao Zhang",
+          "jira_default_owners": [
+            "Wenbiao Zhang"
+          ],
+          "JIRA Component": [
+            "ATVS",
+            "Cloud Gaming"
+          ],
+          "Issues_classification": [
+            "Amazon Primevideo function and cert",
+            "Cloud gaming bug fix - Tencent game and stadia"
+          ]
+        },
+        {
+          "module_owner": "Yihui Wu",
+          "jira_default_owners": [
+            "Yihui Wu",
+            "Pei Pei",
+            "Tai Fu",
+            "Zhigang Yu"
+          ],
+          "JIRA Component": [
+            "System-Tools",
+            "System-Upgrade"
+          ],
+          "Issues_classification": [
+            "1, PC production tools",
+            "2, PC key tools",
+            "3, PQ tuning tools",
+            "4, ISP tuning tools",
+            "5, Tcon tuning tools",
+            "6, Other PC tools, like custimization, PCBA tools and so on",
+            "1,Android OTA/Recovery bug fix\n2,Buildroot/yacto linux SWupdate bug fix"
+          ]
+        },
+        {
+          "module_owner": "Zhe Huang",
+          "jira_default_owners": [
+            "Zhe Huang",
+            "Jianhua Yi",
+            "Kaifu Hu"
+          ],
+          "JIRA Component": [
+            "System-Display"
+          ],
+          "Issues_classification": [
+            "PQ tuning",
+            "PQ server",
+            "Display server - system control, HDMI/Panel logic control and bug fix"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tellen Yu",
+      "responsibility": "自动化测试框架（AATS）及测试用例开发维护、Jenkins任务与构建服务器管理、自动构建与补丁构建及CI构建等、Web系统（周报/发布/AATS等）开发维护、代码扫描（法律/GPL/拼写/Coverity等）；处理网络问题修复；承担电视应用（LiveTV）、输入服务（ATV/DTV/SPDIF/HDMI in/CVBS in）、电视输入HAL与TV服务、Linux平台电视输入与TV服务、调谐器HAL段滤波器与前端集成、字幕解析器/解码器/显示及DVB字幕与认证、CEC/ARC收发、基于LinuxDVB/调谐器框架的CBS及谷歌CBS协作；处理ATV/GTV冒烟测试问题与白名单、安卓CTS/GSI兼容性及白名单、安卓GTS/STS、安卓TVTS、GTV CUJs、ART运行时、安卓/Linux图片软解码与显示、安卓平台恢复与A/B升级及fastboot、安卓构建系统与独立构建及clang工具链、安卓框架服务（AMS/WMS/PMS等）及system_server/zygote启动优化、基于Exoplayer的认证与升级、Miracast与DLNA；负责安卓VTS、一级合作伙伴设备（Adt3/Adt4）维护；承担车载摄像头HAL与演示应用、360全景视图（AVM）服务/演示应用/标定、基于RTOS/安卓的环视摄像头（Rvc）、车载多摄像头数字视频录像机（DVR）、车辆属性HAL层服务及Car框架服务。",
+      "modules": [
+        {
+          "module_owner": "Haisha Ning",
+          "jira_default_owners": [
+            "Haisha Ning"
+          ],
+          "JIRA Component": [
+            "Automation-test",
+            "Automation-CI",
+            "Automation-web",
+            "Automation-codescan"
+          ],
+          "Issues_classification": [
+            "autotest framework(AATS) develop and maintain\nautotest environment and devices maintain\nTesting case develop and maintain",
+            "Jenkins jobs develop and maintain\nbuild server managerment\nautobuild/patchbuild/CIBuild/LicenseBuild/CASBuild develop and maintian\nOpenGrok etc. SCM tools maintain",
+            "1.web system develop and maintain,such as weekly report system,so release web system,aats web etc.",
+            "1.codescan related,such as legal scan ,gpl scan,typo scan,coverity scan etc."
+          ]
+        },
+        {
+          "module_owner": "Jia Wen",
+          "jira_default_owners": [
+            "Jia Wen",
+            "Junlu Jiang"
+          ],
+          "JIRA Component": [
+            "System-Network"
+          ],
+          "Issues_classification": [
+            "1, Network related bug fix(frameworks and application)"
+          ]
+        },
+        {
+          "module_owner": "Kieth Liu",
+          "jira_default_owners": [
+            "Kieth Liu",
+            "Hongliang Zheng",
+            "An Xi",
+            "Junchao Yuan"
+          ],
+          "JIRA Component": [
+            "Android-TIF",
+            "Linux-tv input",
+            "tunerHAL",
+            "Subtitle",
+            "CEC/ARC",
+            "CBS"
+          ],
+          "Issues_classification": [
+            "TV App(LiveTv)\nInputService(ATV/DTV/Spdif/HDMI in/CVBS in)\ntv input hal\ntvserver",
+            "Linux platform tvinput\nLInux platform  tvserver",
+            "tuner hal section filter\nfrontend integration",
+            "inline and external subtitle  parser, decoder, display\nDVB subtitle (CC: sarnoff, Teletext) and certification\nLinux and Android platform",
+            "CEC/ARC TX/RX",
+            "LinuxDVB based CBS  \ntuner framework based CBS \nco-work with Google CBS team"
+          ]
+        },
+        {
+          "module_owner": "Liang Ji",
+          "jira_default_owners": [
+            "Liang Ji",
+            "Jie Yuan",
+            "Pengfei Zhao",
+            "Bin Yang"
+          ],
+          "JIRA Component": [
+            "Smoking Test(ATV&GTV)",
+            "xTS-CTS/CTS-on-GSI",
+            "xTS-GTS/STS"
+          ],
+          "Issues_classification": [
+            "ATV/GTV smoking test issues fixing and waiver request\nwhitelist",
+            "Android CTS and CTS on GSI\nwhitelist and waive list",
+            "Android GTS and STS"
+          ]
+        },
+        {
+          "module_owner": "Shuide Chen",
+          "jira_default_owners": [
+            "Shuide Chen",
+            "Gang Yang",
+            "Chang Qi",
+            "Wei Wang",
+            "Ting Li",
+            "Xingdong Xu",
+            "Qiujuan Liang",
+            "Junlu Jiang",
+            "Lixue Gao"
+          ],
+          "JIRA Component": [
+            "System-Android(SH)",
+            "xTS-TVTS",
+            "GTV CUJs",
+            "ART",
+            "Picture-decoder",
+            "Android-Upgrade",
+            "Android-Buildsystem",
+            "Android-Framework",
+            "Exoplayer",
+            "Miracast/DLNA",
+            "DLNA"
+          ],
+          "Issues_classification": [
+            "Android TVTS",
+            "GTV CUJs",
+            "ART",
+            "Android/Linux picture soft decoder and display",
+            "Android platform recovery and A/B update\nfastboot(bootloader/fastbootd)",
+            "Android build system\nstandalone build and clang toolchain\nAndroid bringup",
+            "Android framework services(AMS/WMS/PMS etc)\nsystem_server/zygote bootup speed and optimization",
+            "certification based on exoplayer\nexoplayer upgrade",
+            "Miracast and DLNA",
+            "DLNA"
+          ]
+        },
+        {
+          "module_owner": "Songqiang Lu",
+          "jira_default_owners": [
+            "Songqiang Lu",
+            "Weifang Liu",
+            "Lele Liu"
+          ],
+          "JIRA Component": [
+            "xTS-VTS",
+            "1P device"
+          ],
+          "Issues_classification": [
+            "Android VTS",
+            "1.first partner device (Adt3/Adt4) maintain"
+          ]
+        },
+        {
+          "module_owner": "Yongzhi Gao",
+          "jira_default_owners": [
+            "Yongzhi Gao",
+            "Wei Wang",
+            "Zhijun Xu",
+            "Biao Zhang",
+            "Wenxiang Qian",
+            "Zhixian Peng",
+            "Feng Zhang"
+          ],
+          "JIRA Component": [
+            "EVS",
+            "SV-Render",
+            "SV-Calibration",
+            "FastRvc",
+            "Android-Rvc",
+            "DVR",
+            "VHAL"
+          ],
+          "Issues_classification": [
+            "Vehicle Camera Hal and demo App\nVehicle 摄像头和demo 应用",
+            "360 AVM Service\n360 AVM 服务\n360 AVM demo app\n360 AVM demo  应用",
+            "360 AVM Calibration \n360 AVM 标定",
+            "Rtos based Rvc\n基于Rtos 的Rvc",
+            "Android based Rvc\n基于Android Rvc",
+            "Vehicle Multi-Camera DVR\n车载多camera 的DVR",
+            "Vehicle Hal service \n车辆属性Hal 层服务\nCar Service\nCar Framework 层服务"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Terrence Pu",
+      "responsibility": "",
+      "modules": [
+        {
+          "module_owner": "Terrence Pu",
+          "jira_default_owners": [
+            "Terrence Pu"
+          ],
+          "JIRA Component": [
+            "RDK-Amazon",
+            "RDK-3rd Party App"
+          ],
+          "Issues_classification": []
+        }
+      ]
+    },
+    {
+      "name": "Tim Yao",
+      "responsibility": "",
+      "modules": [
+        {
+          "module_owner": "Tim Yao",
+          "jira_default_owners": [
+            "Tim Yao"
+          ],
+          "JIRA Component": [
+            "Architecture-Multimedia",
+            "RDK-Netflix"
+          ],
+          "Issues_classification": []
+        }
+      ]
+    },
+    {
+      "name": "Victor Wan",
+      "responsibility": "数字信号处理器（DSP）架构、稳定性及回溯分析；处理系统稳定性、性能、调度器（大核/小核/CPU调频调控器）、内存、系统内存管理单元（SMMU）、内核兼容性测试套件（Kernel XTS）、内核版本与新特性、CPU/对称多处理（SMP）/热插拔、通用中断控制器（GIC）、中断请求（IRQ）、定时器、通用漏洞披露（CVE）安全、Coverity、性能基准测试（Benchmark）/性能监控单元（PMU）/启动时间、统一密钥（unifykey）；承担内核解复用器（demux）/解扰器（descrampler）/公共接口（CI）/密钥/智能卡驱动、libdvr、CAS-HAL、Verimatrix DVB客户端、CI+（个人录像）、个人录像（PVR）/时移（Timeshift）、快速切换（FCC）/画中画（PIP）；负责实时操作系统（RTOS）内核（调度/内存/稳定性/性能）；承担安全操作系统（Secure OS）、TDK/可信执行环境（TEE）驱动/TEE Supplicant、安全配置（Secure Provision）、系统可信应用（System TA）、签名服务（Signing Service）、配置服务（Provisioning Service）、CAS Verimatrix/Irdeto/Nagra/VO/GS；负责USB/快速外设互连（PCIE）/以太网（Ethernet）；处理电源、热温、挂起（STR）/待机（STD）功能；负责WiFi/蓝牙模块；承担高级/旧安全启动流程、CPU空闲/对称多处理（SMP）、CAPU/静态随机存取存储器（SRAM）/硬件随机数生成器（HWRNG）、fip脚本、多设备树（multi-dtb）、PXP启动、Efuse驱动/映射、BL31/BL2核心/TEE/REE、Jenkins引导程序自动构建、双倍数据速率（DDR）挂起；处理通用输入输出（GPIO）/引脚复用（Pinmux）/GPIO中断（GPIO-IRQ）、串行外设接口（SPICC）、时钟（Clock）、集成电路总线（IIC）、逐次逼近寄存器型模数转换器（SARADC）、联合测试行动组（JTAG）、红外输入/输出（IR in/out）、脉宽调制（PWM）、按键（KEY）、嵌入式多媒体卡（eMMC）/安全数字输入输出（SDIO）/安全数字卡（SDCard）、重放保护内存块（RPMB）、分区表、NAND/串行NAND/串行NOR、内存技术设备（MTD）/未分配块接口（UBI）/YAFFS",
+      "modules": [
+        {
+          "module_owner": "Dai Qiufang",
+          "jira_default_owners": [
+            "Dai Qiufang"
+          ],
+          "JIRA Component": [
+            "System-DSP"
+          ],
+          "Issues_classification": [
+            "DSP arch, stability, backtrace..."
+          ]
+        },
+        {
+          "module_owner": "Jianxin Pan",
+          "jira_default_owners": [
+            "Jianxin Pan",
+            "Hanjie Lin",
+            "Jianxiong Pan",
+            "Wanwei Jiang",
+            "Yan Wang",
+            "Tuan Zhang"
+          ],
+          "JIRA Component": [
+            "System-Linux kernel"
+          ],
+          "Issues_classification": [
+            "System Stability",
+            "Performance",
+            "Scheduler, biglittle, cpufreq governor",
+            "Memory",
+            "SMMU",
+            "Kernel XTS",
+            "Kernel versions and new features",
+            "CPU/SMP/Hotplug, GIC, IRQ, Timer",
+            "CVE security",
+            "Coverity",
+            "Benchmark，pmu,  bootup time,",
+            "unifykey"
+          ]
+        },
+        {
+          "module_owner": "Ke Gong",
+          "jira_default_owners": [
+            "Ke Gong",
+            "Yan Yan",
+            "Zhiqiang Han"
+          ],
+          "JIRA Component": [
+            "DVB driver",
+            "DVB Stack",
+            "ISDB Stack",
+            "ATSC Stack"
+          ],
+          "Issues_classification": [
+            "kernel demux driver\nkernel descrambler driver\nkernel CI driver\nkernel key driver\nkernel smartcard driver\nlibdvr\ncas-hal\nVerimatrix DVB client",
+            "CI+（PVR）",
+            "PVR/Timeshift",
+            "FCC/PIP"
+          ]
+        },
+        {
+          "module_owner": "Kelvin Zhang",
+          "jira_default_owners": [
+            "Kelvin Zhang"
+          ],
+          "JIRA Component": [
+            "System-RTOS Core"
+          ],
+          "Issues_classification": [
+            "RTOS kernel, including scheduling, memory, stability, performance"
+          ]
+        },
+        {
+          "module_owner": "Peifu Jiang",
+          "jira_default_owners": [
+            "Peifu Jiang",
+            "Pengguang Zhu",
+            "Liqiang Jin",
+            "Pengfei Liu",
+            "Alex Jing",
+            "Matthew"
+          ],
+          "JIRA Component": [
+            "Security-Secure OS",
+            "Security-Secure Provision",
+            "Security-System TA",
+            "Security-Secure Service",
+            "Security-CAS"
+          ],
+          "Issues_classification": [
+            "Secure OS",
+            "TDK/TEE Driver/TEE Supplicant",
+            "Secure Provision",
+            "System TA",
+            "Signing Service",
+            "Provisioning Service",
+            "CAS Verimatrix",
+            "CAS Irdeto",
+            "CAS Nagra",
+            "CAS VO",
+            "CAS GS"
+          ]
+        },
+        {
+          "module_owner": "Qi Duan",
+          "jira_default_owners": [
+            "Qi Duan"
+          ],
+          "JIRA Component": [
+            "Driver-USB/PCIE/Eth"
+          ],
+          "Issues_classification": [
+            "USB/PCIE/Ethernet"
+          ]
+        },
+        {
+          "module_owner": "Qiufang Dai",
+          "jira_default_owners": [
+            "Qiufang Dai"
+          ],
+          "JIRA Component": [
+            "System-Power"
+          ],
+          "Issues_classification": [
+            "Power, thermal, STR/STD function"
+          ]
+        },
+        {
+          "module_owner": "Rongjun Chen",
+          "jira_default_owners": [
+            "Rongjun Chen"
+          ],
+          "JIRA Component": [
+            "Driver-WiFi/BT"
+          ],
+          "Issues_classification": [
+            "WiFi/Bluetooth module"
+          ]
+        },
+        {
+          "module_owner": "Tao Zeng",
+          "jira_default_owners": [
+            "Tao Zeng",
+            "Xia Jin",
+            "Zhongfu Luo",
+            "Bo Lv",
+            "Benlong Zhou"
+          ],
+          "JIRA Component": [
+            "System-Bootloader"
+          ],
+          "Issues_classification": [
+            "1, Advanced/old secure boot flow",
+            "2, CPU idle/SMP",
+            "3, CAPU/SRAM/HWRNG",
+            "4, fip scripts",
+            "5, multi-dtb",
+            "6, PXP bring up",
+            "7, Efuse driver/map",
+            "8, BL31/BL2 core/TEE/REE",
+            "9, Jenkins auto-build of bootload binary",
+            "10, DDR suspend"
+          ]
+        },
+        {
+          "module_owner": "Victor Wan",
+          "jira_default_owners": [
+            "Victor Wan"
+          ],
+          "JIRA Component": [],
+          "Issues_classification": []
+        },
+        {
+          "module_owner": "Yonghui Yu",
+          "jira_default_owners": [
+            "Yonghui Yu",
+            "Qianggui Song",
+            "Sunny Luo",
+            "Jian Hu",
+            "Zelong Dong",
+            "Jiayi Zhou",
+            "Jiayi Zou",
+            "Long Yu",
+            "Liang Yang"
+          ],
+          "JIRA Component": [
+            "Driver-Peripheral",
+            "Driver-Storage"
+          ],
+          "Issues_classification": [
+            "GPIO/Pinmux/GPIO-IRQ",
+            "SPICC",
+            "Clock",
+            "IIC",
+            "SARADC",
+            "JTAG",
+            "IR in/IR out",
+            "PWM",
+            "KEY",
+            "eMMC/SDIO/SDCard",
+            "RPMB",
+            "Partition table",
+            "NAND/SPINAND/SPINor",
+            "MTD/UBI/YAFFS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zhi Zhou",
+      "responsibility": "Linux GStreamer 相关问题（YouTube、奈飞认证测试（NTS）、Prime Video、本地流媒体）、视频解码器（Video Decoder）及 V4L2 解码器启动（Decoder Bringup）、网络协议（IPv4/IPv6）、虚拟局域网（VLAN）及网络配置；处理安卓 NuPlayer 播放问题（本地文件/HTTP/HLS/UDP）、资源冲突、Amtsplayer 相关问题（音画同步（AVSYNC）/画中画（PIP）/快速切换（FCC））、播放/快速切换（FCC）/音画同步（AVSYNC）；承担安卓安卓电视（Android ATV）相关问题（YouTube/Netflix）、OMX 相关缺陷与特性开发、Codec2 相关缺陷与特性开发、媒体供应商测试套件（Media VTS）/兼容性测试套件（CTS）/通用测试套件（GTS）、YouTube 认证、安卓电视测试套件（TVTS）认证、安卓奈飞认证测试（NTS）认证；负责广域防拷（WV）/Playready/Miracast 高带宽数字内容保护（HDCP）、WV/Playready/Nagra DASH/Airplay 等、媒体条件接收系统版本二（Media CAS v2）（支持 Verimatrix/Nagra 等）、HLS/IPTV 的 Drmplayer。",
+      "modules": [
+        {
+          "module_owner": "Bo Xiao",
+          "jira_default_owners": [
+            "Bo Xiao"
+          ],
+          "JIRA Component": [
+            "Linux Media",
+            "RDK AAMP player"
+          ],
+          "Issues_classification": [
+            "Linux Gstreamer related issue，Youtube，NTS，Prime video， loacal streaming"
+          ]
+        },
+        {
+          "module_owner": "Hui Zhang",
+          "jira_default_owners": [
+            "Hui Zhang"
+          ],
+          "JIRA Component": [
+            "Video-Decoder"
+          ],
+          "Issues_classification": [
+            "Video Decoder,V4l2. Decoder Bringup"
+          ]
+        },
+        {
+          "module_owner": "Kejun Gao",
+          "jira_default_owners": [
+            "Kejun Gao"
+          ],
+          "JIRA Component": [
+            "Network Stack"
+          ],
+          "Issues_classification": [
+            "IPV4/IPV6， VLAN，network configure"
+          ]
+        },
+        {
+          "module_owner": "Lifeng Cao",
+          "jira_default_owners": [
+            "Lifeng Cao",
+            "Zhao Yi",
+            "Joy Rao",
+            "Yunmin Chen",
+            "Jiabin Zhu"
+          ],
+          "JIRA Component": [
+            "Android  Media Player",
+            "Resource Manager",
+            "AmTsplayer",
+            "CSB-Playback"
+          ],
+          "Issues_classification": [
+            "Android amnuplayer lolay related issues, Include Local File/HTTP/HLS/UDP issues.",
+            "Resource conflicts",
+            "Amtsplayer based issues, AVSYNC, PIP，FCC",
+            "Playback/FCC/AVSYNC"
+          ]
+        },
+        {
+          "module_owner": "Peng Wu",
+          "jira_default_owners": [
+            "Peng Wu",
+            "Jian Wang",
+            "Peter",
+            "Shanshan Li",
+            "Shuanglong Wang"
+          ],
+          "JIRA Component": [
+            "Android-Media-framework",
+            "Video-OMX",
+            "Video-Codec2",
+            "Media VTS/CTS/GTS",
+            "Android Media Youtube Cert",
+            "Android TVTS",
+            "Android Video NTS"
+          ],
+          "Issues_classification": [
+            "Android ATV related issues, Youtube/Netlix,",
+            "OMX related bugs. feature develop",
+            "Codec2 related bugs. feature develop",
+            "Media VTS/CTS/GTS",
+            "Youube Cert",
+            "Android TVTS Cert",
+            "Android NTS Cert"
+          ]
+        },
+        {
+          "module_owner": "Tao Guo",
+          "jira_default_owners": [
+            "Tao Guo",
+            "Shipeng Sun",
+            "Yanting Zhou"
+          ],
+          "JIRA Component": [
+            "Android DRM",
+            "Linux DRM",
+            "Media CAS V2",
+            "VMX CAS(IPTV/HLS/)"
+          ],
+          "Issues_classification": [
+            "WV/Playready/Miracast HDCP/",
+            "WV/Playready/Nagra DASH/Airplay/...",
+            "Media CAS v2 for VMX/Nagra/...",
+            "HLS/IPTV - Drmplayer"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zhiheng Cao",
+      "responsibility": "IPTV 多实例 AmuMediaPlayer 问题、中国电信 IPTV 的 CTC 模块问题、中国移动 IPTV 的 Player 模块问题以及 IPTV 的 LibPlayer 模块问题。",
+      "modules": [
+        {
+          "module_owner": "Chuanqi Wang",
+          "jira_default_owners": [
+            "Chuanqi Wang"
+          ],
+          "JIRA Component": [
+            "Video-AmPlayer"
+          ],
+          "Issues_classification": [
+            "IPTV MultiInstance AmuMediaPlayer issues"
+          ]
+        },
+        {
+          "module_owner": "Jiwei Sun",
+          "jira_default_owners": [
+            "Jiwei Sun"
+          ],
+          "JIRA Component": [
+            "Video-CTCPlayer",
+            "Video-CMCCPlayer",
+            "Video-Libplayer"
+          ],
+          "Issues_classification": [
+            "IPTV China Telecom CTC Module issues",
+            "IPTV China Mobile Player Module issues",
+            "IPTV LibPlayer Module issues"
+          ]
+        }
+      ]
+    }
+  ]
+}

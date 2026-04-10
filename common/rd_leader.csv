@@ -1,0 +1,302 @@
+JIRA Component,Issues classification,RD Manager, Module Owner,"JIRA default owner
+JIRA default owner 需要和Component owner 保证一致"
+Display-PQ,"SDR PQ模块的效果类问题 SDR PQ Effect issues
+HDR的效果问题（非逻辑处理）问题 HDR Effect Issues (Not logical)",Simon Zheng,Mingliang.Dong,Mingliang.Dong
+Driver-HDMI RX（TV）输入,"TV芯片HDMI RX相关问题
+HDMI RX Issue with TV Chipset",Simon Zheng,Lei.Yang,Lei.Yang
+Driver-HDMI TX（盒子）输出,"HDMI TX相关问题
+HDMI TX Issues with STB Chipset",Simon Zheng,sky.zhou,sky.zhou
+Display-Video in,"CVBS input相关的驱动问题；Driver issues with CVBS input
+CVBS input，Vchip/teletext 相关的驱动问题 Driver issues related to Vchip/teletext via CVBS input signal",Simon Zheng,Lei.Yang,Lei.Yang
+Audio- Smart Engine,"Audio Front End(AEC, NS, AGC), WWE
+3rd party voice assistant integration ",Frank.Chen,Frank.Chen,Frank.Chen
+System-Linux framework,Yocto TV/OTT product line,Guofeng Tang,jun.zhang,Guofeng Tang
+,IPCproduct line,Guofeng Tang,xuequan.feng,
+,RDK Feature Related,Guofeng Tang,zhengyu.gao,
+,SmartHome Product line,Guofeng Tang,guoping.Li,
+Architecture-System,,Jerry Cao,Jerry Cao,Jerry Cao
+Security-Secure OS,Secure OS,Victor Wan,Peifu Jiang,Pengguang Zhu
+,TDK/TEE Driver/TEE Supplicant,Victor Wan,Peifu Jiang,Pengguang Zhu
+Security-Secure Provision,Secure Provision,Victor Wan,Peifu Jiang,Liqiang Jin
+Security-System TA,System TA,Victor Wan,Peifu Jiang,Pengguang Zhu
+Security-Secure Service,Signing Service,Victor Wan,Peifu Jiang,Pengguang Zhu
+,Provisioning Service,Victor Wan,Peifu Jiang,Pengguang Zhu
+Security-CAS,CAS Verimatrix,Victor Wan,Peifu.Jiang,Pengfei Liu
+,CAS Irdeto,Victor Wan,Peifu.Jiang,Pengfei Liu
+,CAS Nagra,Victor Wan,Peifu.Jiang,Alex Jing
+,CAS VO,Victor Wan,Peifu.Jiang,Matthew
+,CAS GS,Victor Wan,Peifu.Jiang,Matthew
+Audio- framework,1.平台xGTS相关问题 reference platform xGTS issues,Jian Xu,Yujie.wu,chuntian.miao
+,2.平台输出/输入音频设备策略相关 Audio device input/output policy issue on reference platform,,shuai.li,shuai.li
+,android Tunnel frameowork (CBS) function,,zhe.wang,lianlian.zhu
+,Android Audio UI  setting and audio UI display (显示相关),,zhe.wang,Zhe wang 
+Audio-decoder,1.Dolby MS12 认证相关，行为相关 Issues with Dolby MS12 cert and behavior,Jian Xu,Yujie.wu,xiushan.lu
+,2.DD+ 播放，认证 Issues with DD+ playback and cert,,Yujie.wu,xiushan.lu
+,"3.DTS 2.0 解码 透传，认证相关 Issues for DTS2.0 decoder, pass-through and cert",,Yujie.wu,sijia.lin
+,"4.DTS-HD/DTSX 解码，透传，认证相关 Issues for DTS-HD/DTSX decoder, pass-through and cert",,Yujie.wu,sijia.lin
+,"6.非Dolby/DTS解码播放，兼容性相关 Issues for non-dolby decoder and playback, audio compatibility issues",,Yujie.wu,yujie.wu
+,7.NTS认证audio相关问题 Audio issues related to Netflix NTS cert,,Yujie.wu,zeming.huang
+,8.Youtube/Netflix/HBO.. 播放问题 Playback audio issues with Youtube/Netflix/HBO..,,Yujie.wu,Yujie.wu
+,9.  Movieplayer本地播放同步，兼容性相关 Audio issue & AV sync with Movieplayer local playback and AV container compatibility issues.,,Yujie.wu,Yujie.wu
+,10.SoundBar 产品所有音频相关 Audio issues related to SoundBar product,,Yujie.wu,sijia.lin
+,11.TV audio-DTV Audio ,,zhe.wang,lianlian.zhu
+,12. gstreamer Audio 播放相关 Audio issues with stream,,wei.du,wei.du
+Audio-platform,1.TV audio-HDMI in Audio,Jian Xu,zhe.wang,zhe.wang
+,2.TV audio-ATV/AV in audio,,zhe.wang,zhe.wang
+,3.USB/PDM mic 录音相关，包括远场语音 Audio issue with USB/PDM MIC Recorder including far-field related issues,,shuai.li,shuai.li
+,4.平台TDM in/out 相关需求 TDMP in/out on reference platform,,shuai.li,shuai.li
+,5.SPDIF in/out播放相关需求 SPDIF in/out on reference platform,,shuai.li,shuai.li
+,6.eARC/ARC 功能相关  eARC/ARC function related,,shuai.li,jian.zhou
+,7.USB  karaoke相关 USB karaoke related,,shuai.li,shuai.li
+,"8.蓝牙语音，远场语音 Bluetooth Audio, Far Field Voice",,shuai.li,shuai.li
+,9.a2dp 播放相关 a2dp playback issues,,shuai.li,Jian Xu
+Audio-AQ,"1.音效相关，UI,工具（AVL,EQ，。。。）Tools for Audio effect, UI settings (AVL, EQ, ....)",Jian Xu,zhe.wang,zhe.wang
+,"2.平台SoC音效，AQ tuning相关 Audio Effect for platform SOC, issues with QA tuning",,zhe.wang,zhe.wang
+Audio-Driver,1. Audio 驱动所有相关 Audio Driver Related Issues,Jian Xu,LiShuai,shuai.li
+Audio DSP,1.HiFi DSP相关音频需求 HiFi DSP Related Audio Issues,Jian Xu,shuai.li,yang.liu
+Audio_Linux/RDK ,Linux 平台所有相关音频问题，以及需求对口 Audio Issues & requirements on Linux/RDK platform,  Jian Xu ,wei.du,wei.du
+Audio_IPTV,IPTV 项目相关问题和需求Audio Issues and Requirements from IPTV,   Jian Xu ,jian.xu,jian.xu
+Display-Camera,"Android/linux camera kernel driver/HAL driver相关需求
+ISP IQ 相关需求",Simon Zheng,Xiaoxin.Cao,Xiaoxin.Cao
+Display-NN," 1. NN  驱动/工具/SDK/Framework相关需求 NN Driver/Tools/SDK/Framwork
+  2. NN 算法相关需求. NN private Algorithms",Simon Zheng,"NN DDK: xingwei.zhou
+NN Algorithm: jinhong.zhang","NN DDK: xingwei.zhou
+NN Algorithm: jinhong.zhang"
+Display-Video Pipeline," 1. OSD/VPP/DI/HDR/DV/Video合成等相关底层显示Pipeline需求 Pipeline components for OSD/VPP/DI/HDR/DV/Video Composite etc..
+ 2. DV IDK/SDK 以及HDR认证需求 DV IKD/SDK and HDR Cert
+ 2. GE2D/Dewarp 等2D driver接口以及截屏/旋转需求 2D Driver interface of GE2D/Dewarp, screen capture, screen rotation",Simon Zheng,Brian.Zhu,Brian.Zhu
+Display-Graphics," 1. Linux graphic , drm/kms
+ 2. Android graphic, SurfaceFlinger/hwc , video tunnel对接 ,hotplug ,active mode , keystone, dual display等相关需求
+ 3. GPU 等相关需求",Simon Zheng,Sky.Zhou,Sky.Zhou
+Display-HDR," HDR Pipeline逻辑相关需求， HDR认证 requirements of HDR pipeline, HDR Cert",Simon Zheng,Brian.Zhu,Brian.Zhu
+Driver- Analog demod,ATV通道下信号相关问题的分析，处理 Analog signal analysis and process in Analog TV pipeline ,Tao Dong,Lei.Qian,Lei.Qian
+System-Peformance,"1, 开机速度，STR 速度 分析 boot-up time/STR analysis
+2，内存优化 Memory Optimization
+3，带宽profile Memory bandwidth profiling",Tao Dong,Sandy Luo,Yuehu Mi
+System-STR/Shutdown,"1，STR/Power on-off process and bug fix
+2, boot video",Tao Dong,Sandy Luo,Yuehu Mi
+System-Stability,"1, Coverity bug 
+2, Kasan bug 
+3,Asan bug 
+4, Leak bug
+5,Stability bug",Tao Dong,Sandy Luo,Sandy Luo
+System-Network,"1, Network related bug fix(frameworks and application)",Tao Dong,Sandy Luo,Lijun Meng
+System-BSP,"1, Ref project BSP maintain
+2, Socket board BSP maintain",Tao Dong,Sandy Luo,Sandy Luo
+System-Tools,"1, PC production tools",Tao Dong,Yihui.Wu,Yihui.Wu
+,"2, PC key tools",Tao Dong,Yihui.Wu,Pei Pei
+,"3, PQ tuning tools",Tao Dong,Yihui Wu,Tai Fu
+,"4, ISP tuning tools",Tao Dong,Yihui Wu,Tai Fu
+,"5, Tcon tuning tools",Tao Dong,Yihui Wu,Tai Fu
+,"6, Other PC tools, like custimization, PCBA tools and so on",Tao Dong,Yihui Wu,Yihui Wu
+System-Upgrade,"1,Android OTA/Recovery bug fix
+2,Buildroot/yacto linux SWupdate bug fix",Tao Dong,Yihui.Wu,Zhigang Yu
+System-Android(SZ),System issues,Tao Dong,Tao Dong,Tao Dong
+System-Display,PQ tuning,Tao Dong,Zhe Huang,Zhe Huang
+,PQ server ,Tao Dong,Zhe Huang,Jianhua Yi
+,"Display server - system control, HDMI/Panel logic control and bug fix",Tao Dong,Zhe Huang,Kaifu Hu
+Android-GTVS,"1, xTS of TV/OTT AOSP/ATV bug fix",Tao Dong,Shen Liu,Lijun Zou
+Android-NTS,"1, NTS bug
+2, Ninja integration
+3, Ninja feature development
+4, NTS cert",Tao Dong,Shen Liu,Shen Liu
+Multi-Media application,Multi-decoder APK,Tao Dong,Shen Liu,Yingwei Long
+,"screen capture, Screen record",Tao Dong,Shen Liu,Zhewen Luo
+,"Streaming APK bug analyze , like youtube/hbogo/google movie",Tao Dong,Shen Liu,Zhewen Luo
+ATVS,Amazon Primevideo function and cert,Tao Dong,Wenbiao Zhang,Wenbiao Zhang
+Cloud Gaming,Cloud gaming bug fix - Tencent game and stadia,Tao Dong,Wenbiao Zhang,Wenbiao Zhang
+Display-Video in,ATV  input,Tao.dong,nengwen.chen,nengwen.chen
+System-Network,"1, Network related bug fix(frameworks and application)",Tellen Yu,jia.wen,junlu.jiang
+System-Android(SH),,Tellen Yu,Shuide Chen,Shuide Chen
+Automation-test,"autotest framework(AATS) develop and maintain
+autotest environment and devices maintain
+Testing case develop and maintain",Tellen Yu,Haisha Ning,Haisha Ning
+Automation-CI,"Jenkins jobs develop and maintain
+build server managerment
+autobuild/patchbuild/CIBuild/LicenseBuild/CASBuild develop and maintian
+OpenGrok etc. SCM tools maintain",Tellen Yu,Haisha Ning,Haisha Ning
+Automation-web,"1.web system develop and maintain,such as weekly report system,so release web system,aats web etc.",Tellen Yu,Haisha Ning,Haisha Ning
+Automation-codescan,"1.codescan related,such as legal scan ,gpl scan,typo scan,coverity scan etc.",Tellen Yu,Haisha Ning,Haisha Ning
+Smoking Test(ATV&GTV),"ATV/GTV smoking test issues fixing and waiver request
+whitelist",Tellen Yu,Liang Ji,Jie Yuan
+xTS-CTS/CTS-on-GSI,"Android CTS and CTS on GSI
+whitelist and waive list",Tellen Yu,Liang Ji,Pengfei Zhao
+xTS-GTS/STS,Android GTS and STS,Tellen Yu,Liang Ji,Bin Yang
+xTS-VTS,Android VTS,Tellen Yu,Songqiang Lu,Weifang Liu
+xTS-TVTS,Android TVTS,Tellen Yu,Shuide Chen,Gang Yang
+GTV CUJs,GTV CUJs,Tellen Yu,Shuide Chen,Chang Qi
+Android-TIF,"TV App(LiveTv)
+InputService(ATV/DTV/Spdif/HDMI in/CVBS in)
+tv input hal
+tvserver",Tellen Yu,Kieth.Liu,Kieth.Liu
+Linux-tv input,"Linux platform tvinput
+LInux platform  tvserver",Tellen Yu,Kieth.Liu,Kieth.Liu
+tunerHAL,"tuner hal section filter
+frontend integration",Tellen Yu,Kieth.Liu,Kieth.Liu
+Subtitle,"inline and external subtitle  parser, decoder, display
+DVB subtitle (CC: sarnoff, Teletext) and certification
+Linux and Android platform",Tellen Yu,kieth.liu,hongliang.zheng
+CEC/ARC,CEC/ARC TX/RX ,Tellen Yu,Kieth Liu,An.xi
+ART,ART,Tellen Yu,Shuide Chen,Wei Wang
+CBS,"LinuxDVB based CBS  
+tuner framework based CBS 
+co-work with Google CBS team",Tellen Yu,Kieth Liu,Junchao Yuan
+Picture-decoder,Android/Linux picture soft decoder and display,Tellen Yu,Shuide Chen,Ting Li
+Android-Upgrade,"Android platform recovery and A/B update
+fastboot(bootloader/fastbootd)",Tellen Yu,Shuide Chen,Xingdong Xu
+Android-Buildsystem,"Android build system
+standalone build and clang toolchain
+Android bringup",Tellen Yu,Shuide Chen,Xingdong Xu
+Android-Framework,"Android framework services(AMS/WMS/PMS etc)
+system_server/zygote bootup speed and optimization",Tellen Yu,Shuide Chen,Shuide Chen
+1P device  ,1.first partner device (Adt3/Adt4) maintain,Tellen Yu,Songqiang Lu,Lele Liu
+Exoplayer,"certification based on exoplayer
+exoplayer upgrade",Tellen Yu,Shuide Chen,Qiujuan Liang
+Miracast/DLNA,Miracast and DLNA,Tellen Yu,Shuide Chen,Junlu Jiang
+DLNA,DLNA,Tellen Yu,Shuide Chen,lixue.gao
+EVS,"Vehicle Camera Hal and demo App
+Vehicle 摄像头和demo 应用 ",Tellen Yu,Yongzhi Gao,Wei Wang
+SV-Render,"360 AVM Service
+360 AVM 服务
+360 AVM demo app
+360 AVM demo  应用",Tellen Yu,Yongzhi Gao,Zhijun Xu
+SV-Calibration,"360 AVM Calibration 
+360 AVM 标定",Tellen Yu,Yongzhi Gao,Biao Zhang
+FastRvc,"Rtos based Rvc
+基于Rtos 的Rvc ",Tellen Yu,Yongzhi Gao,Wenxiang Qian
+Android-Rvc,"Android based Rvc
+基于Android Rvc",Tellen Yu,Yongzhi Gao,Zhixian Peng
+DVR,"Vehicle Multi-Camera DVR
+车载多camera 的DVR",Tellen Yu,Yongzhi Gao,Feng Zhang
+VHAL,"Vehicle Hal service 
+车辆属性Hal 层服务
+Car Service
+Car Framework 层服务",Tellen Yu,Yongzhi Gao,Feng Zhang
+Architecture-Multimedia,,Tim Yao,Tim Yao,Tim Yao
+System-Linux kernel,System Stability,Victor Wan,Jianxin.Pan,hanjie.lin
+,Performance,Victor Wan,Jianxin.Pan,hanjie.lin
+,"Scheduler, biglittle, cpufreq governor",Victor Wan,Jianxin.Pan,hanjie.lin
+,Memory,Victor Wan,Jianxin.pan,jianxiong.pan
+,SMMU,Victor Wan,Jianxin.pan,jianxiong.pan
+,Kernel XTS,Victor Wan,Jianxin.pan,jianxiong.pan
+,Kernel versions and new features ,Victor Wan,Jianxin.pan,wanwei.jiang
+,"CPU/SMP/Hotplug, GIC, IRQ, Timer",Victor Wan,Jianxin.pan,Yan.wang
+,CVE security,Victor Wan,Jianxin.pan,Tuan.zhang
+,Coverity,Victor Wan,Jianxin.pan,Tuan.zhang
+,"Benchmark，pmu,  bootup time,",Victor Wan,Jianxin.pan,Tuan.zhang
+,unifykey,Victor Wan,Jianxin.pan,Tuan.zhang
+------,,Victor Wan,Victor Wan,Victor Wan
+System-Power,"Power, thermal, STR/STD function",Victor Wan,Qiufang.Dai,Qiufang.Dai
+System-RTOS Core,"RTOS kernel, including scheduling, memory, stability, performance",Victor Wan,Kelvin Zhang,Kelvin.Zhang
+System-DSP,"DSP arch, stability, backtrace...",Victor Wan,Dai Qiufang,Dai Qiufang
+DVB driver,"kernel demux driver
+kernel descrambler driver
+kernel CI driver
+kernel key driver
+kernel smartcard driver
+libdvr
+cas-hal
+Verimatrix DVB client",Victor Wan,Ke.Gong,Ke.Gong
+Driver-WiFi/BT, WiFi/Bluetooth module,Victor Wan,Rongjun Chen,Rongjun Chen
+Driver-Peripheral,GPIO/Pinmux/GPIO-IRQ,Victor Wan,Yonghui Yu,Qianggui Song
+,SPICC,Victor Wan,Yonghui Yu,Sunny Luo
+,Clock,Victor Wan,Yonghui Yu,Jian Hu
+,IIC,Victor Wan,Yonghui Yu,Jian Hu
+,SARADC,Victor Wan,Yonghui Yu,Zelong Dong
+,JTAG,Victor Wan,Yonghui Yu,Zelong Dong
+,IR in/IR out,Victor Wan,Yonghui Yu,Jiayi Zhou
+,PWM,Victor Wan,Yonghui Yu,Jiayi Zou
+,KEY,Victor Wan,Yonghui Yu,Zelong Dong
+System-Bootloader,"1, Advanced/old secure boot flow",Victor Wan,Tao Zeng ,Tao.Zeng
+,"2, CPU idle/SMP",,,Xia.Jin
+,"3, CAPU/SRAM/HWRNG",,,Xia.Jin
+,"4, fip scripts",,,Zhongfu.Luo
+,"5, multi-dtb",,,Bo.Lv
+,"6, PXP bring up",,,Benlong.Zhou
+,"7, Efuse driver/map",,,Zhongfu.Luo
+,"8, BL31/BL2 core/TEE/REE",,,Tao Zeng
+,"9, Jenkins auto-build of bootload binary",,,Bo.Lv
+,"10, DDR suspend",,,Bo.Lv
+Driver-Storage,eMMC/SDIO/SDCard,Victor Wan,"Yonghui Yu
+Long Yu",Long Yu
+,RPMB,Victor Wan,"Yonghui Yu
+Long Yu",Long Yu
+,Partition table,Victor Wan,"Yonghui Yu
+Long Yu",Long Yu
+,NAND/SPINAND/SPINor,Victor Wan,"Yonghui Yu
+Liang Yang",Liang Yang
+,MTD/UBI/YAFFS,Victor Wan,"Yonghui Yu
+Liang Yang",Liang Yang
+Driver-USB/PCIE/Eth,USB/PCIE/Ethernet ,Victor Wan,Qi.Duan,Qi.Duan
+Video-Decoder,"Video Decoder,V4l2. Decoder Bringup",Zhi Zhou,Hui.Zhang,Hui.Zhang
+Android DRM,WV/Playready/Miracast HDCP/,Zhi Zhou,Tao.Guo,Shipeng Sun
+Linux DRM,WV/Playready/Nagra DASH/Airplay/...,Zhi Zhou,Tao.Guo,Tao.Guo
+Media CAS V2,Media CAS v2 for VMX/Nagra/...,Zhi Zhou,Tao.Guo,Tao.Guo
+VMX CAS(IPTV/HLS/),HLS/IPTV - Drmplayer,Zhi Zhou,Tao.Guo,Yanting
+Android-Media-framework,"Android ATV related issues, Youtube/Netlix,",Zhi Zhou,Peng.Wu,Jian.wang
+Video-OMX,OMX related bugs. feature develop,Zhi Zhou,Peng.Wu,Jian.wang
+Video-Codec2,Codec2 related bugs. feature develop,Zhi Zhou,Peng.Wu,Jian.wang
+Media VTS/CTS/GTS,Media VTS/CTS/GTS,Zhi Zhou,Peng.Wu,Peter
+Android Media Youtube Cert,Youube Cert,Zhi Zhou,Peng.Wu,Shanshan.li
+Android TVTS,Android TVTS Cert,Zhi Zhou,Peng.Wu,Shanshan.li
+Android Video NTS,Android NTS Cert,Zhi Zhou,Peng.Wu,Shuanglong wang
+Android  Media Player,"Android amnuplayer lolay related issues, Include Local File/HTTP/HLS/UDP issues.",Zhi Zhou,Lifeng.Cao,Zhao.yi
+Resource Manager,Resource conflicts,Zhi Zhou,Lifeng.Cao,Joy.Rao
+AmTsplayer,"Amtsplayer based issues, AVSYNC, PIP，FCC",Zhi Zhou,Lifeng.cao,yunmin
+CSB-Playback,Playback/FCC/AVSYNC,Zhi Zhou,Lifeng.cao,jiabin.zhu
+Linux Media,Linux Gstreamer related issue，Youtube，NTS，Prime video， loacal streaming,Zhi Zhou,Bo.xiao,Bo.xiao
+Network Stack,IPV4/IPV6， VLAN，network configure,Zhi Zhou,Kejun.Gao,Kejun.Gao
+Video-Encoder,"Encoder用户层mediecodec/omx/codec2等接口需求，android CTS   User interface requirements from mediacodec/omx/codec2 for Encoder, android CTS related to Encoder user interface.
+encoder 驱动和encoder 算法由guofeng.tang team负责 video encoder driver and algorithms",Guofeng Tang,yang.su,yang.su
+Video-AmPlayer,IPTV MultiInstance AmuMediaPlayer issues,Zhiheng.Cao,Chuanqi.Wang,Chuanqi.Wang
+Video-CTCPlayer,IPTV China Telecom CTC Module issues,Zhiheng.Cao,Jiwei.Sun,Jiwei.Sun
+Video-CMCCPlayer,IPTV China Mobile Player Module issues,Zhiheng.Cao,Jiwei.Sun,Jiwei.Sun
+Video-Libplayer,IPTV LibPlayer Module issues,Zhiheng.Cao,Jiwei.Sun,Jiwei.Sun
+DVB Stack,DVBS frontend：LNB、Satellite、Transponder、Diseqc and Satellite scan flow,lei.li,bin.luo,haobin.chen
+,DVBT scan flow,lei.li,bin.luo,jianlin.liu
+,DVBC scan flow,lei.li,bin.luo,jianlin.liu
+,"Channel tuning, channel information",lei.li,hujian.zheng,rongsheng.jiang
+,"Network update: service addition/removal, etc.",lei.li,hujian.zheng,liyang.huang
+,EPG,tao.dong,lei.qian,xiaorong.wang
+,DTV time,lei.li,hujian.zheng,rongsheng.jiang
+,Parental rating,lei.li,hujian.zheng,rongsheng.jiang
+,DTV configuration,lei.li,bin.luo,jianlin.liu
+,CI+（None-PVR）,lei.li,hujian.zheng,hujian.zheng
+,CI+（PVR）,victor.wan,ke.gong,yan.yan
+,DTV audio language,lei.li,hujian.zheng,rongsheng.jiang
+,DTV OAD,tao.dong,lei.qian,xiaorong.wang
+,HBBTV,lei.li,bing.feng,bing.feng
+,Freely,lei.li,bing.feng,gengxin.li
+,PVR/Timeshift,victor.wan,ke.gong,zhiqiang.han
+,FCC/PIP,victor.wan,ke.gong,zhiqiang.han
+ISDB Stack,Scan,lei.li,bin.luo,liangjun.wang
+,"Channel tuning, channel information",lei.li,hujian.zheng,rongsheng.jiang
+,"Network update: service addition/removal, etc.",lei.li,hujian.zheng,liyang.huang
+,EPG,tao.dong,lei.qian,xiaorong.wang
+,DTV time,lei.li,hujian.zheng,rongsheng.jiang
+,Parental rating,lei.li,hujian.zheng,rongsheng.jiang
+,DTV audio language,lei.li,hujian.zheng,rongsheng.jiang
+,PVR/Timeshift,victor.wan,ke.gong,zhiqiang.han
+,EWS/EWBS,tao.dong,lei.qian,xiaorong.wang
+ATSC Stack,Scan,lei.li,bin.luo,zhiwei.jiang
+,"Channel tuning, channel information",lei.li,hujian.zheng,rongsheng.jiang
+,"Network update: service addition/removal, etc.",lei.li,hujian.zheng,liyang.huang
+,EPG,lei.li,bing.feng,suxiang.hao
+,DTV time,lei.li,hujian.zheng,rongsheng.jiang
+,Parental rating,lei.li,hujian.zheng,rongsheng.jiang
+,DTV audio language,lei.li,hujian.zheng,rongsheng.jiang
+,PVR/Timeshift,victor.wan,ke.gong,zhiqiang.han
+,EWS/EWBS,tao.dong,lei.qian,xiaorong.wang
+RDK SDK,,　Pradeep Sriram,Pradeep Sriram,Pradeep Sriram
+RDK-Netflix,,Tim Yao,Tim Yao,Tim Yao
+RDK-Youtube,,Guofeng Tang,Guofeng Tang,Guofeng Tang
+RDK-Amazon,,Terrence Pu,Terrence Pu,Terrence Pu
+RDK-3rd Party App,,Terrence Pu,Terrence Pu,Terrence Pu
+RDK AAMP  player,,Zhi.zhou ,bo.xiao,bo.xiao
+RDK UI,To track issues of RDK Residence App,Pradeep Sriram,Pradeep Sriram,Pradeep Sriram
+Fuchsia-Zircon,Fuchsia kernel and kernel drivers,Frank Chen,Frank Chen,Frank Chen
+Fuchsia-Drivers,Fuchsia userland drivers,Frank Chen,Manliang Tang,Manliang Tang
+Fuchsia-System,Fuchsia system ,Frank Chen,Frank Chen,Frank Chen
+Driver-DTV demod,"TV/OTT芯片内置DTV Dedmod驱动相关问题
+DTV Demod on both TV & OTT Chip",Tao.dong,nengwen.chen,nengwen.chen
+Zapper App (Arka),Zapper Application ,Ashok Patil,Sasi Sibyala,Sasi Sibyala

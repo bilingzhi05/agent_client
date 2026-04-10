@@ -1,0 +1,8 @@
+agno
+ollama
+openai
+sqlalchemy
+jinja2
+json5
+urllib3
+jira

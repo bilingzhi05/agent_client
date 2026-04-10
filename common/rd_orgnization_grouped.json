@@ -1,0 +1,521 @@
+[
+  {
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Mingliang Dong",
+    "JIRA default owner": [
+      "Mingliang Dong"
+    ]
+  },
+  {
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Lei Yang",
+    "JIRA default owner": [
+      "Lei Yang"
+    ]
+  },
+  {
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Sky Zhou",
+    "JIRA default owner": [
+      "Sky Zhou"
+    ]
+  },
+  {
+    "RD Manager": "Frank Chen",
+    "Module Owner": "Frank Chen",
+    "JIRA default owner": [
+      "Frank Chen"
+    ]
+  },
+  {
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Jun Zhang",
+    "JIRA default owner": [
+      "Jun Zhang",
+      "Guofeng Tang"
+    ]
+  },
+  {
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Xuequan Feng",
+    "JIRA default owner": [
+      "Xuequan Feng"
+    ]
+  },
+  {
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Zhengyu Gao",
+    "JIRA default owner": [
+      "Zhengyu Gao"
+    ]
+  },
+  {
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Guoping Li",
+    "JIRA default owner": [
+      "Guoping Li"
+    ]
+  },
+  {
+    "RD Manager": "Jerry Cao",
+    "Module Owner": "Jerry Cao",
+    "JIRA default owner": [
+      "Jerry Cao"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Peifu Jiang",
+    "JIRA default owner": [
+      "Peifu Jiang",
+      "Pengguang Zhu",
+      "Liqiang Jin",
+      "Pengfei Liu",
+      "Alex Jing",
+      "Matthew"
+    ]
+  },
+  {
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Yujie Wu",
+    "JIRA default owner": [
+      "Yujie Wu",
+      "Chuntian Miao",
+      "Xiushan Lu",
+      "Sijia Lin",
+      "Zeming Huang"
+    ]
+  },
+  {
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Shuai Li",
+    "JIRA default owner": [
+      "Shuai Li",
+      "Jian Zhou",
+      "Jian Xu",
+      "Yang Liu"
+    ]
+  },
+  {
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Zhe Wang",
+    "JIRA default owner": [
+      "Zhe Wang",
+      "Lianlian Zhu"
+    ]
+  },
+  {
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Wei Du",
+    "JIRA default owner": [
+      "Wei Du"
+    ]
+  },
+  {
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Jian Xu",
+    "JIRA default owner": [
+      "Jian Xu"
+    ]
+  },
+  {
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Xiaoxin Cao",
+    "JIRA default owner": [
+      "Xiaoxin Cao"
+    ]
+  },
+  {
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Xingwei Zhou",
+    "JIRA default owner": [
+      "Xingwei Zhou"
+    ]
+  },
+  {
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Jinhong Zhang",
+    "JIRA default owner": [
+      "Jinhong Zhang"
+    ]
+  },
+  {
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Brian Zhu",
+    "JIRA default owner": [
+      "Brian Zhu"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Lei Qian",
+    "JIRA default owner": [
+      "Lei Qian",
+      "Xiaorong Wang"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Sandy Luo",
+    "JIRA default owner": [
+      "Sandy Luo",
+      "Yuehu Mi",
+      "Lijun Meng"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Yihui Wu",
+    "JIRA default owner": [
+      "Yihui Wu",
+      "Pei Pei",
+      "Tai Fu",
+      "Zhigang Yu"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Tao Dong",
+    "JIRA default owner": [
+      "Tao Dong"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Zhe Huang",
+    "JIRA default owner": [
+      "Zhe Huang",
+      "Jianhua Yi",
+      "Kaifu Hu"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Shen Liu",
+    "JIRA default owner": [
+      "Shen Liu",
+      "Lijun Zou",
+      "Yingwei Long",
+      "Zhewen Luo"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Wenbiao Zhang",
+    "JIRA default owner": [
+      "Wenbiao Zhang"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Nengwen Chen",
+    "JIRA default owner": [
+      "Nengwen Chen"
+    ]
+  },
+  {
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Jia Wen",
+    "JIRA default owner": [
+      "Jia Wen",
+      "Junlu Jiang"
+    ]
+  },
+  {
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Shuide Chen",
+    "JIRA default owner": [
+      "Shuide Chen",
+      "Gang Yang",
+      "Chang Qi",
+      "Wei Wang",
+      "Ting Li",
+      "Xingdong Xu",
+      "Qiujuan Liang",
+      "Junlu Jiang",
+      "Lixue Gao"
+    ]
+  },
+  {
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Haisha Ning",
+    "JIRA default owner": [
+      "Haisha Ning"
+    ]
+  },
+  {
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Liang Ji",
+    "JIRA default owner": [
+      "Liang Ji",
+      "Jie Yuan",
+      "Pengfei Zhao",
+      "Bin Yang"
+    ]
+  },
+  {
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Songqiang Lu",
+    "JIRA default owner": [
+      "Songqiang Lu",
+      "Weifang Liu",
+      "Lele Liu"
+    ]
+  },
+  {
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Kieth Liu",
+    "JIRA default owner": [
+      "Kieth Liu",
+      "Hongliang Zheng",
+      "An Xi",
+      "Junchao Yuan"
+    ]
+  },
+  {
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Yongzhi Gao",
+    "JIRA default owner": [
+      "Yongzhi Gao",
+      "Wei Wang",
+      "Zhijun Xu",
+      "Biao Zhang",
+      "Wenxiang Qian",
+      "Zhixian Peng",
+      "Feng Zhang"
+    ]
+  },
+  {
+    "RD Manager": "Tim Yao",
+    "Module Owner": "Tim Yao",
+    "JIRA default owner": [
+      "Tim Yao"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Jianxin Pan",
+    "JIRA default owner": [
+      "Jianxin Pan",
+      "Hanjie Lin",
+      "Jianxiong Pan",
+      "Wanwei Jiang",
+      "Yan Wang",
+      "Tuan Zhang"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Victor Wan",
+    "JIRA default owner": [
+      "Victor Wan"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Qiufang Dai",
+    "JIRA default owner": [
+      "Qiufang Dai"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Kelvin Zhang",
+    "JIRA default owner": [
+      "Kelvin Zhang"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Dai Qiufang",
+    "JIRA default owner": [
+      "Dai Qiufang"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Ke Gong",
+    "JIRA default owner": [
+      "Ke Gong",
+      "Yan Yan",
+      "Zhiqiang Han"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Rongjun Chen",
+    "JIRA default owner": [
+      "Rongjun Chen"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA default owner": [
+      "Yonghui Yu",
+      "Qianggui Song",
+      "Sunny Luo",
+      "Jian Hu",
+      "Zelong Dong",
+      "Jiayi Zhou",
+      "Jiayi Zou",
+      "Long Yu",
+      "Liang Yang"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Tao Zeng",
+    "JIRA default owner": [
+      "Tao Zeng",
+      "Xia Jin",
+      "Zhongfu Luo",
+      "Bo Lv",
+      "Benlong Zhou"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Qi Duan",
+    "JIRA default owner": [
+      "Qi Duan"
+    ]
+  },
+  {
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Hui Zhang",
+    "JIRA default owner": [
+      "Hui Zhang"
+    ]
+  },
+  {
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Tao Guo",
+    "JIRA default owner": [
+      "Tao Guo",
+      "Shipeng Sun",
+      "Yanting Zhou"
+    ]
+  },
+  {
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Peng Wu",
+    "JIRA default owner": [
+      "Peng Wu",
+      "Jian Wang",
+      "Peter",
+      "Shanshan Li",
+      "Shuanglong Wang"
+    ]
+  },
+  {
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Lifeng Cao",
+    "JIRA default owner": [
+      "Lifeng Cao",
+      "Zhao Yi",
+      "Joy Rao",
+      "Yunmin Chen",
+      "Jiabin Zhu"
+    ]
+  },
+  {
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Bo Xiao",
+    "JIRA default owner": [
+      "Bo Xiao"
+    ]
+  },
+  {
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Kejun Gao",
+    "JIRA default owner": [
+      "Kejun Gao"
+    ]
+  },
+  {
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Yang Su",
+    "JIRA default owner": [
+      "Yang Su"
+    ]
+  },
+  {
+    "RD Manager": "Zhiheng Cao",
+    "Module Owner": "Chuanqi Wang",
+    "JIRA default owner": [
+      "Chuanqi Wang"
+    ]
+  },
+  {
+    "RD Manager": "Zhiheng Cao",
+    "Module Owner": "Jiwei Sun",
+    "JIRA default owner": [
+      "Jiwei Sun"
+    ]
+  },
+  {
+    "RD Manager": "Lei Li",
+    "Module Owner": "Bin Luo",
+    "JIRA default owner": [
+      "Bin Luo",
+      "Haobin Chen",
+      "Jianlin Liu",
+      "Liangjun Wang",
+      "Zhiwei Jiang"
+    ]
+  },
+  {
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": [
+      "Hujian Zheng",
+      "Rongsheng Jiang",
+      "Liyang Huang"
+    ]
+  },
+  {
+    "RD Manager": "Lei Li",
+    "Module Owner": "Bing Feng",
+    "JIRA default owner": [
+      "Bing Feng",
+      "Gengxin Li",
+      "Suxiang Hao"
+    ]
+  },
+  {
+    "RD Manager": "Pradeep Sriram",
+    "Module Owner": "Pradeep Sriram",
+    "JIRA default owner": [
+      "Pradeep Sriram"
+    ]
+  },
+  {
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Guofeng Tang",
+    "JIRA default owner": [
+      "Guofeng Tang"
+    ]
+  },
+  {
+    "RD Manager": "Terrence Pu",
+    "Module Owner": "Terrence Pu",
+    "JIRA default owner": [
+      "Terrence Pu"
+    ]
+  },
+  {
+    "RD Manager": "Frank Chen",
+    "Module Owner": "Manliang Tang",
+    "JIRA default owner": [
+      "Manliang Tang"
+    ]
+  },
+  {
+    "RD Manager": "Ashok Patil",
+    "Module Owner": "Sasi Sibyala",
+    "JIRA default owner": [
+      "Sasi Sibyala"
+    ]
+  }
+]

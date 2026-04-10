@@ -1,0 +1,1598 @@
+[
+  {
+    "JIRA Component": "Display-PQ",
+    "Issues classification": "SDR PQ模块的效果类问题 SDR PQ Effect issues\nHDR的效果问题（非逻辑处理）问题 HDR Effect Issues (Not logical)",
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Mingliang Dong",
+    "JIRA default owner": "Mingliang Dong"
+  },
+  {
+    "JIRA Component": "Driver-HDMI RX（TV）输入",
+    "Issues classification": "TV芯片HDMI RX相关问题\nHDMI RX Issue with TV Chipset",
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Lei Yang",
+    "JIRA default owner": "Lei Yang"
+  },
+  {
+    "JIRA Component": "Driver-HDMI TX（盒子）输出",
+    "Issues classification": "HDMI TX相关问题\nHDMI TX Issues with STB Chipset",
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Sky Zhou",
+    "JIRA default owner": "Sky Zhou"
+  },
+  {
+    "JIRA Component": "Display-Video in",
+    "Issues classification": "CVBS input相关的驱动问题；Driver issues with CVBS input\nCVBS input，Vchip/teletext 相关的驱动问题 Driver issues related to Vchip/teletext via CVBS input signal",
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Lei Yang",
+    "JIRA default owner": "Lei Yang"
+  },
+  {
+    "JIRA Component": "Audio- Smart Engine",
+    "Issues classification": "Audio Front End(AEC, NS, AGC), WWE\n3rd party voice assistant integration",
+    "RD Manager": "Frank Chen",
+    "Module Owner": "Frank Chen",
+    "JIRA default owner": "Frank Chen"
+  },
+  {
+    "JIRA Component": "System-Linux framework",
+    "Issues classification": "Yocto TV/OTT product line",
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Jun Zhang",
+    "JIRA default owner": "Guofeng Tang"
+  },
+  {
+    "JIRA Component": "System-Linux framework",
+    "Issues classification": "IPCproduct line",
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Xuequan Feng",
+    "JIRA default owner": ""
+  },
+  {
+    "JIRA Component": "System-Linux framework",
+    "Issues classification": "RDK Feature Related",
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Zhengyu Gao",
+    "JIRA default owner": ""
+  },
+  {
+    "JIRA Component": "System-Linux framework",
+    "Issues classification": "SmartHome Product line",
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Guoping Li",
+    "JIRA default owner": ""
+  },
+  {
+    "JIRA Component": "Architecture-System",
+    "Issues classification": "",
+    "RD Manager": "Jerry Cao",
+    "Module Owner": "Jerry Cao",
+    "JIRA default owner": "Jerry Cao"
+  },
+  {
+    "JIRA Component": "Security-Secure OS",
+    "Issues classification": "Secure OS",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Peifu Jiang",
+    "JIRA default owner": "Pengguang Zhu"
+  },
+  {
+    "JIRA Component": "Security-Secure OS",
+    "Issues classification": "TDK/TEE Driver/TEE Supplicant",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Peifu Jiang",
+    "JIRA default owner": "Pengguang Zhu"
+  },
+  {
+    "JIRA Component": "Security-Secure Provision",
+    "Issues classification": "Secure Provision",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Peifu Jiang",
+    "JIRA default owner": "Liqiang Jin"
+  },
+  {
+    "JIRA Component": "Security-System TA",
+    "Issues classification": "System TA",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Peifu Jiang",
+    "JIRA default owner": "Pengguang Zhu"
+  },
+  {
+    "JIRA Component": "Security-Secure Service",
+    "Issues classification": "Signing Service",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Peifu Jiang",
+    "JIRA default owner": "Pengguang Zhu"
+  },
+  {
+    "JIRA Component": "Security-Secure Service",
+    "Issues classification": "Provisioning Service",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Peifu Jiang",
+    "JIRA default owner": "Pengguang Zhu"
+  },
+  {
+    "JIRA Component": "Security-CAS",
+    "Issues classification": "CAS Verimatrix",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Peifu Jiang",
+    "JIRA default owner": "Pengfei Liu"
+  },
+  {
+    "JIRA Component": "Security-CAS",
+    "Issues classification": "CAS Irdeto",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Peifu Jiang",
+    "JIRA default owner": "Pengfei Liu"
+  },
+  {
+    "JIRA Component": "Security-CAS",
+    "Issues classification": "CAS Nagra",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Peifu Jiang",
+    "JIRA default owner": "Alex Jing"
+  },
+  {
+    "JIRA Component": "Security-CAS",
+    "Issues classification": "CAS VO",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Peifu Jiang",
+    "JIRA default owner": "Matthew"
+  },
+  {
+    "JIRA Component": "Security-CAS",
+    "Issues classification": "CAS GS",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Peifu Jiang",
+    "JIRA default owner": "Matthew"
+  },
+  {
+    "JIRA Component": "Audio-framework",
+    "Issues classification": "1.平台xGTS相关问题 reference platform xGTS issues",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Yujie Wu",
+    "JIRA default owner": "Chuntian Miao"
+  },
+  {
+    "JIRA Component": "Audio-framework",
+    "Issues classification": "2.平台输出/输入音频设备策略相关 Audio device input/output policy issue on reference platform",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Shuai Li",
+    "JIRA default owner": "Shuai Li"
+  },
+  {
+    "JIRA Component": "Audio-framework",
+    "Issues classification": "android Tunnel frameowork (CBS) function",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Zhe Wang",
+    "JIRA default owner": "Lianlian Zhu"
+  },
+  {
+    "JIRA Component": "Audio-framework",
+    "Issues classification": "Android Audio UI  setting and audio UI display (显示相关)",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Zhe Wang",
+    "JIRA default owner": "Zhe Wang"
+  },
+  {
+    "JIRA Component": "Audio-decoder",
+    "Issues classification": "1.Dolby MS12 认证相关，行为相关 Issues with Dolby MS12 cert and behavior",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Yujie Wu",
+    "JIRA default owner": "Xiushan Lu"
+  },
+  {
+    "JIRA Component": "Audio-decoder",
+    "Issues classification": "2.DD+ 播放，认证 Issues with DD+ playback and cert",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Yujie Wu",
+    "JIRA default owner": "Xiushan Lu"
+  },
+  {
+    "JIRA Component": "Audio-decoder",
+    "Issues classification": "3.DTS 2.0 解码 透传，认证相关 Issues for DTS2.0 decoder, pass-through and cert",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Yujie Wu",
+    "JIRA default owner": "Sijia Lin"
+  },
+  {
+    "JIRA Component": "Audio-decoder",
+    "Issues classification": "4.DTS-HD/DTSX 解码，透传，认证相关 Issues for DTS-HD/DTSX decoder, pass-through and cert",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Yujie Wu",
+    "JIRA default owner": "Sijia Lin"
+  },
+  {
+    "JIRA Component": "Audio-decoder",
+    "Issues classification": "6.非Dolby/DTS解码播放，兼容性相关 Issues for non-dolby decoder and playback, audio compatibility issues",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Yujie Wu",
+    "JIRA default owner": "Yujie Wu"
+  },
+  {
+    "JIRA Component": "Audio-decoder",
+    "Issues classification": "7.NTS认证audio相关问题 Audio issues related to Netflix NTS cert",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Yujie Wu",
+    "JIRA default owner": "Zeming Huang"
+  },
+  {
+    "JIRA Component": "Audio-decoder",
+    "Issues classification": "8.Youtube/Netflix/HBO.. 播放问题 Playback audio issues with Youtube/Netflix/HBO..",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Yujie Wu",
+    "JIRA default owner": "Yujie Wu"
+  },
+  {
+    "JIRA Component": "Audio-decoder",
+    "Issues classification": "9.  Movieplayer本地播放同步，兼容性相关 Audio issue & AV sync with Movieplayer local playback and AV container compatibility issues.",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Yujie Wu",
+    "JIRA default owner": "Yujie Wu"
+  },
+  {
+    "JIRA Component": "Audio-decoder",
+    "Issues classification": "10.SoundBar 产品所有音频相关 Audio issues related to SoundBar product",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Yujie Wu",
+    "JIRA default owner": "Sijia Lin"
+  },
+  {
+    "JIRA Component": "Audio-decoder",
+    "Issues classification": "11.TV audio-DTV Audio",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Zhe Wang",
+    "JIRA default owner": "Lianlian Zhu"
+  },
+  {
+    "JIRA Component": "Audio-decoder",
+    "Issues classification": "12. gstreamer Audio 播放相关 Audio issues with stream",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Wei Du",
+    "JIRA default owner": "Wei Du"
+  },
+  {
+    "JIRA Component": "Audio-platform",
+    "Issues classification": "1.TV audio-HDMI in Audio",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Zhe Wang",
+    "JIRA default owner": "Zhe Wang"
+  },
+  {
+    "JIRA Component": "Audio-platform",
+    "Issues classification": "2.TV audio-ATV/AV in audio",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Zhe Wang",
+    "JIRA default owner": "Zhe Wang"
+  },
+  {
+    "JIRA Component": "Audio-platform",
+    "Issues classification": "3.USB/PDM mic 录音相关，包括远场语音 Audio issue with USB/PDM MIC Recorder including far-field related issues",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Shuai Li",
+    "JIRA default owner": "Shuai Li"
+  },
+  {
+    "JIRA Component": "Audio-platform",
+    "Issues classification": "4.平台TDM in/out 相关需求 TDMP in/out on reference platform",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Shuai Li",
+    "JIRA default owner": "Shuai Li"
+  },
+  {
+    "JIRA Component": "Audio-platform",
+    "Issues classification": "5.SPDIF in/out播放相关需求 SPDIF in/out on reference platform",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Shuai Li",
+    "JIRA default owner": "Shuai Li"
+  },
+  {
+    "JIRA Component": "Audio-platform",
+    "Issues classification": "6.eARC/ARC 功能相关  eARC/ARC function related",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Shuai Li",
+    "JIRA default owner": "Jian Zhou"
+  },
+  {
+    "JIRA Component": "Audio-platform",
+    "Issues classification": "7.USB  karaoke相关 USB karaoke related",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Shuai Li",
+    "JIRA default owner": "Shuai Li"
+  },
+  {
+    "JIRA Component": "Audio-platform",
+    "Issues classification": "8.蓝牙语音，远场语音 Bluetooth Audio, Far Field Voice",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Shuai Li",
+    "JIRA default owner": "Shuai Li"
+  },
+  {
+    "JIRA Component": "Audio-platform",
+    "Issues classification": "9.a2dp 播放相关 a2dp playback issues",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Shuai Li",
+    "JIRA default owner": "Jian Xu"
+  },
+  {
+    "JIRA Component": "Audio-AQ",
+    "Issues classification": "1.音效相关，UI,工具（AVL,EQ，。。。）Tools for Audio effect, UI settings (AVL, EQ, ....)",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Zhe Wang",
+    "JIRA default owner": "Zhe Wang"
+  },
+  {
+    "JIRA Component": "Audio-AQ",
+    "Issues classification": "2.平台SoC音效，AQ tuning相关 Audio Effect for platform SOC, issues with QA tuning",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Zhe Wang",
+    "JIRA default owner": "Zhe Wang"
+  },
+  {
+    "JIRA Component": "Audio-Driver",
+    "Issues classification": "1. Audio 驱动所有相关 Audio Driver Related Issues",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Shuai Li",
+    "JIRA default owner": "Shuai Li"
+  },
+  {
+    "JIRA Component": "Audio DSP",
+    "Issues classification": "1.HiFi DSP相关音频需求 HiFi DSP Related Audio Issues",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Shuai Li",
+    "JIRA default owner": "Yang Liu"
+  },
+  {
+    "JIRA Component": "Audio_Linux/RDK",
+    "Issues classification": "Linux 平台所有相关音频问题，以及需求对口 Audio Issues & requirements on Linux/RDK platform",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Wei Du",
+    "JIRA default owner": "Wei Du"
+  },
+  {
+    "JIRA Component": "Audio_IPTV",
+    "Issues classification": "IPTV 项目相关问题和需求Audio Issues and Requirements from IPTV",
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Jian Xu",
+    "JIRA default owner": "Jian Xu"
+  },
+  {
+    "JIRA Component": "Display-Camera",
+    "Issues classification": "Android/linux camera kernel driver/HAL driver相关需求\nISP IQ 相关需求",
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Xiaoxin Cao",
+    "JIRA default owner": "Xiaoxin Cao"
+  },
+  {
+    "JIRA Component": "Display-NN",
+    "Issues classification": "1. NN  驱动/工具/SDK/Framework相关需求 NN Driver/Tools/SDK/Framwork\n2. NN 算法相关需求. NN private Algorithms",
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Xingwei Zhou",
+    "JIRA default owner": "Xingwei Zhou"
+  },
+  {
+    "JIRA Component": "Display-Video Pipeline",
+    "Issues classification": "1. OSD/VPP/DI/HDR/DV/Video合成等相关底层显示Pipeline需求 Pipeline components for OSD/VPP/DI/HDR/DV/Video Composite etc..\n2. DV IDK/SDK 以及HDR认证需求 DV IKD/SDK and HDR Cert\n2. GE2D/Dewarp 等2D driver接口以及截屏/旋转需求 2D Driver interface of GE2D/Dewarp, screen capture, screen rotation",
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Brian Zhu",
+    "JIRA default owner": "Brian Zhu"
+  },
+  {
+    "JIRA Component": "Display-Graphics",
+    "Issues classification": "1. Linux graphic , drm/kms\n2. Android graphic, SurfaceFlinger/hwc , video tunnel对接 ,hotplug ,active mode , keystone, dual display等相关需求\n3. GPU 等相关需求",
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Sky Zhou",
+    "JIRA default owner": "Sky Zhou"
+  },
+  {
+    "JIRA Component": "Display-HDR",
+    "Issues classification": "HDR Pipeline逻辑相关需求， HDR认证 requirements of HDR pipeline, HDR Cert",
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Brian Zhu",
+    "JIRA default owner": "Brian Zhu"
+  },
+  {
+    "JIRA Component": "Driver- Analog demod",
+    "Issues classification": "ATV通道下信号相关问题的分析，处理 Analog signal analysis and process in Analog TV pipeline",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Lei Qian",
+    "JIRA default owner": "Lei Qian"
+  },
+  {
+    "JIRA Component": "System-Peformance",
+    "Issues classification": "1, 开机速度，STR 速度 分析 boot-up time/STR analysis\n2，内存优化 Memory Optimization\n3，带宽profile Memory bandwidth profiling",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Sandy Luo",
+    "JIRA default owner": "Yuehu Mi"
+  },
+  {
+    "JIRA Component": "System-STR/Shutdown",
+    "Issues classification": "1，STR/Power on-off process and bug fix\n2, boot video",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Sandy Luo",
+    "JIRA default owner": "Yuehu Mi"
+  },
+  {
+    "JIRA Component": "System-Stability",
+    "Issues classification": "1, Coverity bug \n2, Kasan bug \n3,Asan bug \n4, Leak bug\n5,Stability bug",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Sandy Luo",
+    "JIRA default owner": "Sandy Luo"
+  },
+  {
+    "JIRA Component": "System-Network",
+    "Issues classification": "1, Network related bug fix(frameworks and application)",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Sandy Luo",
+    "JIRA default owner": "Lijun Meng"
+  },
+  {
+    "JIRA Component": "System-BSP",
+    "Issues classification": "1, Ref project BSP maintain\n2, Socket board BSP maintain",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Sandy Luo",
+    "JIRA default owner": "Sandy Luo"
+  },
+  {
+    "JIRA Component": "System-Tools",
+    "Issues classification": "1, PC production tools",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Yihui Wu",
+    "JIRA default owner": "Yihui Wu"
+  },
+  {
+    "JIRA Component": "System-Tools",
+    "Issues classification": "2, PC key tools",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Yihui Wu",
+    "JIRA default owner": "Pei Pei"
+  },
+  {
+    "JIRA Component": "System-Tools",
+    "Issues classification": "3, PQ tuning tools",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Yihui Wu",
+    "JIRA default owner": "Tai Fu"
+  },
+  {
+    "JIRA Component": "System-Tools",
+    "Issues classification": "4, ISP tuning tools",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Yihui Wu",
+    "JIRA default owner": "Tai Fu"
+  },
+  {
+    "JIRA Component": "System-Tools",
+    "Issues classification": "5, Tcon tuning tools",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Yihui Wu",
+    "JIRA default owner": "Tai Fu"
+  },
+  {
+    "JIRA Component": "System-Tools",
+    "Issues classification": "6, Other PC tools, like custimization, PCBA tools and so on",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Yihui Wu",
+    "JIRA default owner": "Yihui Wu"
+  },
+  {
+    "JIRA Component": "System-Upgrade",
+    "Issues classification": "1,Android OTA/Recovery bug fix\n2,Buildroot/yacto linux SWupdate bug fix",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Yihui Wu",
+    "JIRA default owner": "Zhigang Yu"
+  },
+  {
+    "JIRA Component": "System-Android(SZ)",
+    "Issues classification": "System issues",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Tao Dong",
+    "JIRA default owner": "Tao Dong"
+  },
+  {
+    "JIRA Component": "System-Display",
+    "Issues classification": "PQ tuning",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Zhe Huang",
+    "JIRA default owner": "Zhe Huang"
+  },
+  {
+    "JIRA Component": "System-Display",
+    "Issues classification": "PQ server",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Zhe Huang",
+    "JIRA default owner": "Jianhua Yi"
+  },
+  {
+    "JIRA Component": "System-Display",
+    "Issues classification": "Display server - system control, HDMI/Panel logic control and bug fix",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Zhe Huang",
+    "JIRA default owner": "Kaifu Hu"
+  },
+  {
+    "JIRA Component": "Android-GTVS",
+    "Issues classification": "1, xTS of TV/OTT AOSP/ATV bug fix",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Shen Liu",
+    "JIRA default owner": "Lijun Zou"
+  },
+  {
+    "JIRA Component": "Android-NTS",
+    "Issues classification": "1, NTS bug\n2, Ninja integration\n3, Ninja feature development\n4, NTS cert",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Shen Liu",
+    "JIRA default owner": "Shen Liu"
+  },
+  {
+    "JIRA Component": "Multi-Media application",
+    "Issues classification": "Multi-decoder APK",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Shen Liu",
+    "JIRA default owner": "Yingwei Long"
+  },
+  {
+    "JIRA Component": "Multi-Media application",
+    "Issues classification": "screen capture, Screen record",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Shen Liu",
+    "JIRA default owner": "Zhewen Luo"
+  },
+  {
+    "JIRA Component": "Multi-Media application",
+    "Issues classification": "Streaming APK bug analyze , like youtube/hbogo/google movie",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Shen Liu",
+    "JIRA default owner": "Zhewen Luo"
+  },
+  {
+    "JIRA Component": "ATVS",
+    "Issues classification": "Amazon Primevideo function and cert",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Wenbiao Zhang",
+    "JIRA default owner": "Wenbiao Zhang"
+  },
+  {
+    "JIRA Component": "Cloud Gaming",
+    "Issues classification": "Cloud gaming bug fix - Tencent game and stadia",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Wenbiao Zhang",
+    "JIRA default owner": "Wenbiao Zhang"
+  },
+  {
+    "JIRA Component": "Display-Video in",
+    "Issues classification": "ATV input",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Nengwen Chen",
+    "JIRA default owner": "Nengwen Chen"
+  },
+  {
+    "JIRA Component": "System-Network",
+    "Issues classification": "1, Network related bug fix(frameworks and application)",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Jia Wen",
+    "JIRA default owner": "Junlu Jiang"
+  },
+  {
+    "JIRA Component": "System-Android(SH)",
+    "Issues classification": "",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Shuide Chen",
+    "JIRA default owner": "Shuide Chen"
+  },
+  {
+    "JIRA Component": "Automation-test",
+    "Issues classification": "autotest framework(AATS) develop and maintain\nautotest environment and devices maintain\nTesting case develop and maintain",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Haisha Ning",
+    "JIRA default owner": "Haisha Ning"
+  },
+  {
+    "JIRA Component": "Automation-CI",
+    "Issues classification": "Jenkins jobs develop and maintain\nbuild server managerment\nautobuild/patchbuild/CIBuild/LicenseBuild/CASBuild develop and maintian\nOpenGrok etc. SCM tools maintain",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Haisha Ning",
+    "JIRA default owner": "Haisha Ning"
+  },
+  {
+    "JIRA Component": "Automation-web",
+    "Issues classification": "1.web system develop and maintain,such as weekly report system,so release web system,aats web etc.",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Haisha Ning",
+    "JIRA default owner": "Haisha Ning"
+  },
+  {
+    "JIRA Component": "Automation-codescan",
+    "Issues classification": "1.codescan related,such as legal scan ,gpl scan,typo scan,coverity scan etc.",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Haisha Ning",
+    "JIRA default owner": "Haisha Ning"
+  },
+  {
+    "JIRA Component": "Smoking Test(ATV&GTV)",
+    "Issues classification": "ATV/GTV smoking test issues fixing and waiver request\nwhitelist",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Liang Ji",
+    "JIRA default owner": "Jie Yuan"
+  },
+  {
+    "JIRA Component": "xTS-CTS/CTS-on-GSI",
+    "Issues classification": "Android CTS and CTS on GSI\nwhitelist and waive list",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Liang Ji",
+    "JIRA default owner": "Pengfei Zhao"
+  },
+  {
+    "JIRA Component": "xTS-GTS/STS",
+    "Issues classification": "Android GTS and STS",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Liang Ji",
+    "JIRA default owner": "Bin Yang"
+  },
+  {
+    "JIRA Component": "xTS-VTS",
+    "Issues classification": "Android VTS",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Songqiang Lu",
+    "JIRA default owner": "Weifang Liu"
+  },
+  {
+    "JIRA Component": "xTS-TVTS",
+    "Issues classification": "Android TVTS",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Shuide Chen",
+    "JIRA default owner": "Gang Yang"
+  },
+  {
+    "JIRA Component": "GTV CUJs",
+    "Issues classification": "GTV CUJs",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Shuide Chen",
+    "JIRA default owner": "Chang Qi"
+  },
+  {
+    "JIRA Component": "Android-TIF",
+    "Issues classification": "TV App(LiveTv)\nInputService(ATV/DTV/Spdif/HDMI in/CVBS in)\ntv input hal\ntvserver",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Kieth Liu",
+    "JIRA default owner": "Kieth Liu"
+  },
+  {
+    "JIRA Component": "Linux-tv input",
+    "Issues classification": "Linux platform tvinput\nLInux platform  tvserver",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Kieth Liu",
+    "JIRA default owner": "Kieth Liu"
+  },
+  {
+    "JIRA Component": "tunerHAL",
+    "Issues classification": "tuner hal section filter\nfrontend integration",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Kieth Liu",
+    "JIRA default owner": "Kieth Liu"
+  },
+  {
+    "JIRA Component": "Subtitle",
+    "Issues classification": "inline and external subtitle  parser, decoder, display\nDVB subtitle (CC: sarnoff, Teletext) and certification\nLinux and Android platform",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Kieth Liu",
+    "JIRA default owner": "Hongliang Zheng"
+  },
+  {
+    "JIRA Component": "CEC/ARC",
+    "Issues classification": "CEC/ARC TX/RX",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Kieth Liu",
+    "JIRA default owner": "An Xi"
+  },
+  {
+    "JIRA Component": "ART",
+    "Issues classification": "ART",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Shuide Chen",
+    "JIRA default owner": "Wei Wang"
+  },
+  {
+    "JIRA Component": "CBS",
+    "Issues classification": "LinuxDVB based CBS  \ntuner framework based CBS \nco-work with Google CBS team",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Kieth Liu",
+    "JIRA default owner": "Junchao Yuan"
+  },
+  {
+    "JIRA Component": "Picture-decoder",
+    "Issues classification": "Android/Linux picture soft decoder and display",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Shuide Chen",
+    "JIRA default owner": "Ting Li"
+  },
+  {
+    "JIRA Component": "Android-Upgrade",
+    "Issues classification": "Android platform recovery and A/B update\nfastboot(bootloader/fastbootd)",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Shuide Chen",
+    "JIRA default owner": "Xingdong Xu"
+  },
+  {
+    "JIRA Component": "Android-Buildsystem",
+    "Issues classification": "Android build system\nstandalone build and clang toolchain\nAndroid bringup",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Shuide Chen",
+    "JIRA default owner": "Xingdong Xu"
+  },
+  {
+    "JIRA Component": "Android-Framework",
+    "Issues classification": "Android framework services(AMS/WMS/PMS etc)\nsystem_server/zygote bootup speed and optimization",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Shuide Chen",
+    "JIRA default owner": "Shuide Chen"
+  },
+  {
+    "JIRA Component": "1P device",
+    "Issues classification": "1.first partner device (Adt3/Adt4) maintain",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Songqiang Lu",
+    "JIRA default owner": "Lele Liu"
+  },
+  {
+    "JIRA Component": "Exoplayer",
+    "Issues classification": "certification based on exoplayer\nexoplayer upgrade",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Shuide Chen",
+    "JIRA default owner": "Qiujuan Liang"
+  },
+  {
+    "JIRA Component": "Miracast/DLNA",
+    "Issues classification": "Miracast and DLNA",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Shuide Chen",
+    "JIRA default owner": "Junlu Jiang"
+  },
+  {
+    "JIRA Component": "DLNA",
+    "Issues classification": "DLNA",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Shuide Chen",
+    "JIRA default owner": "Lixue Gao"
+  },
+  {
+    "JIRA Component": "EVS",
+    "Issues classification": "Vehicle Camera Hal and demo App\nVehicle 摄像头和demo 应用",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Yongzhi Gao",
+    "JIRA default owner": "Wei Wang"
+  },
+  {
+    "JIRA Component": "SV-Render",
+    "Issues classification": "360 AVM Service\n360 AVM 服务\n360 AVM demo app\n360 AVM demo  应用",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Yongzhi Gao",
+    "JIRA default owner": "Zhijun Xu"
+  },
+  {
+    "JIRA Component": "SV-Calibration",
+    "Issues classification": "360 AVM Calibration \n360 AVM 标定",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Yongzhi Gao",
+    "JIRA default owner": "Biao Zhang"
+  },
+  {
+    "JIRA Component": "FastRvc",
+    "Issues classification": "Rtos based Rvc\n基于Rtos 的Rvc",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Yongzhi Gao",
+    "JIRA default owner": "Wenxiang Qian"
+  },
+  {
+    "JIRA Component": "Android-Rvc",
+    "Issues classification": "Android based Rvc\n基于Android Rvc",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Yongzhi Gao",
+    "JIRA default owner": "Zhixian Peng"
+  },
+  {
+    "JIRA Component": "DVR",
+    "Issues classification": "Vehicle Multi-Camera DVR\n车载多camera 的DVR",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Yongzhi Gao",
+    "JIRA default owner": "Feng Zhang"
+  },
+  {
+    "JIRA Component": "VHAL",
+    "Issues classification": "Vehicle Hal service \n车辆属性Hal 层服务\nCar Service\nCar Framework 层服务",
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Yongzhi Gao",
+    "JIRA default owner": "Feng Zhang"
+  },
+  {
+    "JIRA Component": "Architecture-Multimedia",
+    "Issues classification": "",
+    "RD Manager": "Tim Yao",
+    "Module Owner": "Tim Yao",
+    "JIRA default owner": "Tim Yao"
+  },
+  {
+    "JIRA Component": "System-Linux kernel",
+    "Issues classification": "System Stability",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Jianxin Pan",
+    "JIRA default owner": "Hanjie Lin"
+  },
+  {
+    "JIRA Component": "System-Linux kernel",
+    "Issues classification": "Performance",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Jianxin Pan",
+    "JIRA default owner": "Hanjie Lin"
+  },
+  {
+    "JIRA Component": "System-Linux kernel",
+    "Issues classification": "Scheduler, biglittle, cpufreq governor",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Jianxin Pan",
+    "JIRA default owner": "Hanjie Lin"
+  },
+  {
+    "JIRA Component": "System-Linux kernel",
+    "Issues classification": "Memory",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Jianxin Pan",
+    "JIRA default owner": "Jianxiong Pan"
+  },
+  {
+    "JIRA Component": "System-Linux kernel",
+    "Issues classification": "SMMU",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Jianxin Pan",
+    "JIRA default owner": "Jianxiong Pan"
+  },
+  {
+    "JIRA Component": "System-Linux kernel",
+    "Issues classification": "Kernel XTS",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Jianxin Pan",
+    "JIRA default owner": "Jianxiong Pan"
+  },
+  {
+    "JIRA Component": "System-Linux kernel",
+    "Issues classification": "Kernel versions and new features",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Jianxin Pan",
+    "JIRA default owner": "Wanwei Jiang"
+  },
+  {
+    "JIRA Component": "System-Linux kernel",
+    "Issues classification": "CPU/SMP/Hotplug, GIC, IRQ, Timer",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Jianxin Pan",
+    "JIRA default owner": "Yan Wang"
+  },
+  {
+    "JIRA Component": "System-Linux kernel",
+    "Issues classification": "CVE security",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Jianxin Pan",
+    "JIRA default owner": "Tuan Zhang"
+  },
+  {
+    "JIRA Component": "System-Linux kernel",
+    "Issues classification": "Coverity",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Jianxin Pan",
+    "JIRA default owner": "Tuan Zhang"
+  },
+  {
+    "JIRA Component": "System-Linux kernel",
+    "Issues classification": "Benchmark，pmu,  bootup time,",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Jianxin Pan",
+    "JIRA default owner": "Tuan Zhang"
+  },
+  {
+    "JIRA Component": "System-Linux kernel",
+    "Issues classification": "unifykey",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Jianxin Pan",
+    "JIRA default owner": "Tuan Zhang"
+  },
+  {
+    "JIRA Component": "System-Power",
+    "Issues classification": "Power, thermal, STR/STD function",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Qiufang Dai",
+    "JIRA default owner": "Qiufang Dai"
+  },
+  {
+    "JIRA Component": "System-RTOS Core",
+    "Issues classification": "RTOS kernel, including scheduling, memory, stability, performance",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Kelvin Zhang",
+    "JIRA default owner": "Kelvin Zhang"
+  },
+  {
+    "JIRA Component": "System-DSP",
+    "Issues classification": "DSP arch, stability, backtrace...",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Dai Qiufang",
+    "JIRA default owner": "Dai Qiufang"
+  },
+  {
+    "JIRA Component": "DVB driver",
+    "Issues classification": "kernel demux driver\nkernel descrambler driver\nkernel CI driver\nkernel key driver\nkernel smartcard driver\nlibdvr\ncas-hal\nVerimatrix DVB client",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Ke Gong",
+    "JIRA default owner": "Ke Gong"
+  },
+  {
+    "JIRA Component": "Driver-WiFi/BT",
+    "Issues classification": "WiFi/Bluetooth module",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Rongjun Chen",
+    "JIRA default owner": "Rongjun Chen"
+  },
+  {
+    "JIRA Component": "Driver-Peripheral",
+    "Issues classification": "GPIO/Pinmux/GPIO-IRQ",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA default owner": "Qianggui Song"
+  },
+  {
+    "JIRA Component": "Driver-Peripheral",
+    "Issues classification": "SPICC",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA default owner": "Sunny Luo"
+  },
+  {
+    "JIRA Component": "Driver-Peripheral",
+    "Issues classification": "Clock",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA default owner": "Jian Hu"
+  },
+  {
+    "JIRA Component": "Driver-Peripheral",
+    "Issues classification": "IIC",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA default owner": "Jian Hu"
+  },
+  {
+    "JIRA Component": "Driver-Peripheral",
+    "Issues classification": "SARADC",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA default owner": "Zelong Dong"
+  },
+  {
+    "JIRA Component": "Driver-Peripheral",
+    "Issues classification": "JTAG",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA default owner": "Zelong Dong"
+  },
+  {
+    "JIRA Component": "Driver-Peripheral",
+    "Issues classification": "IR in/IR out",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA default owner": "Jiayi Zhou"
+  },
+  {
+    "JIRA Component": "Driver-Peripheral",
+    "Issues classification": "PWM",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA default owner": "Jiayi Zou"
+  },
+  {
+    "JIRA Component": "Driver-Peripheral",
+    "Issues classification": "KEY",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA default owner": "Zelong Dong"
+  },
+  {
+    "JIRA Component": "System-Bootloader",
+    "Issues classification": "1, Advanced/old secure boot flow",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Tao Zeng",
+    "JIRA default owner": "Tao Zeng"
+  },
+  {
+    "JIRA Component": "System-Bootloader",
+    "Issues classification": "2, CPU idle/SMP",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Tao Zeng",
+    "JIRA default owner": "Xia Jin"
+  },
+  {
+    "JIRA Component": "System-Bootloader",
+    "Issues classification": "3, CAPU/SRAM/HWRNG",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Tao Zeng",
+    "JIRA default owner": "Xia Jin"
+  },
+  {
+    "JIRA Component": "System-Bootloader",
+    "Issues classification": "4, fip scripts",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Tao Zeng",
+    "JIRA default owner": "Zhongfu Luo"
+  },
+  {
+    "JIRA Component": "System-Bootloader",
+    "Issues classification": "5, multi-dtb",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Tao Zeng",
+    "JIRA default owner": "Bo Lv"
+  },
+  {
+    "JIRA Component": "System-Bootloader",
+    "Issues classification": "6, PXP bring up",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Tao Zeng",
+    "JIRA default owner": "Benlong Zhou"
+  },
+  {
+    "JIRA Component": "System-Bootloader",
+    "Issues classification": "7, Efuse driver/map",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Tao Zeng",
+    "JIRA default owner": "Zhongfu Luo"
+  },
+  {
+    "JIRA Component": "System-Bootloader",
+    "Issues classification": "8, BL31/BL2 core/TEE/REE",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Tao Zeng",
+    "JIRA default owner": "Tao Zeng"
+  },
+  {
+    "JIRA Component": "System-Bootloader",
+    "Issues classification": "9, Jenkins auto-build of bootload binary",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Tao Zeng",
+    "JIRA default owner": "Bo Lv"
+  },
+  {
+    "JIRA Component": "System-Bootloader",
+    "Issues classification": "10, DDR suspend",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Tao Zeng",
+    "JIRA default owner": "Bo Lv"
+  },
+  {
+    "JIRA Component": "Driver-Storage",
+    "Issues classification": "eMMC/SDIO/SDCard",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA default owner": "Long Yu"
+  },
+  {
+    "JIRA Component": "Driver-Storage",
+    "Issues classification": "RPMB",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA default owner": "Long Yu"
+  },
+  {
+    "JIRA Component": "Driver-Storage",
+    "Issues classification": "Partition table",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA default owner": "Long Yu"
+  },
+  {
+    "JIRA Component": "Driver-Storage",
+    "Issues classification": "NAND/SPINAND/SPINor",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA default owner": "Liang Yang"
+  },
+  {
+    "JIRA Component": "Driver-Storage",
+    "Issues classification": "MTD/UBI/YAFFS",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA default owner": "Liang Yang"
+  },
+  {
+    "JIRA Component": "Driver-USB/PCIE/Eth",
+    "Issues classification": "USB/PCIE/Ethernet",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Qi Duan",
+    "JIRA default owner": "Qi Duan"
+  },
+  {
+    "JIRA Component": "Video-Decoder",
+    "Issues classification": "Video Decoder,V4l2. Decoder Bringup",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Hui Zhang",
+    "JIRA default owner": "Hui Zhang"
+  },
+  {
+    "JIRA Component": "Android DRM",
+    "Issues classification": "WV/Playready/Miracast HDCP/",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Tao Guo",
+    "JIRA default owner": "Shipeng Sun"
+  },
+  {
+    "JIRA Component": "Linux DRM",
+    "Issues classification": "WV/Playready/Nagra DASH/Airplay/...",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Tao Guo",
+    "JIRA default owner": "Tao Guo"
+  },
+  {
+    "JIRA Component": "Media CAS V2",
+    "Issues classification": "Media CAS v2 for VMX/Nagra/...",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Tao Guo",
+    "JIRA default owner": "Tao Guo"
+  },
+  {
+    "JIRA Component": "VMX CAS(IPTV/HLS/)",
+    "Issues classification": "HLS/IPTV - Drmplayer",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Tao Guo",
+    "JIRA default owner": "Yanting Zhou"
+  },
+  {
+    "JIRA Component": "Android-Media-framework",
+    "Issues classification": "Android ATV related issues, Youtube/Netlix,",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Peng Wu",
+    "JIRA default owner": "Jian Wang"
+  },
+  {
+    "JIRA Component": "Video-OMX",
+    "Issues classification": "OMX related bugs. feature develop",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Peng Wu",
+    "JIRA default owner": "Jian Wang"
+  },
+  {
+    "JIRA Component": "Video-Codec2",
+    "Issues classification": "Codec2 related bugs. feature develop",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Peng Wu",
+    "JIRA default owner": "Jian Wang"
+  },
+  {
+    "JIRA Component": "Media VTS/CTS/GTS",
+    "Issues classification": "Media VTS/CTS/GTS",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Peng Wu",
+    "JIRA default owner": "Peter"
+  },
+  {
+    "JIRA Component": "Android Media Youtube Cert",
+    "Issues classification": "Youube Cert",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Peng Wu",
+    "JIRA default owner": "Shanshan Li"
+  },
+  {
+    "JIRA Component": "Android TVTS",
+    "Issues classification": "Android TVTS Cert",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Peng Wu",
+    "JIRA default owner": "Shanshan Li"
+  },
+  {
+    "JIRA Component": "Android Video NTS",
+    "Issues classification": "Android NTS Cert",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Peng Wu",
+    "JIRA default owner": "Shuanglong Wang"
+  },
+  {
+    "JIRA Component": "Android  Media Player",
+    "Issues classification": "Android amnuplayer lolay related issues, Include Local File/HTTP/HLS/UDP issues.",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Lifeng Cao",
+    "JIRA default owner": "Zhao Yi"
+  },
+  {
+    "JIRA Component": "Resource Manager",
+    "Issues classification": "Resource conflicts",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Lifeng Cao",
+    "JIRA default owner": "Joy Rao"
+  },
+  {
+    "JIRA Component": "AmTsplayer",
+    "Issues classification": "Amtsplayer based issues, AVSYNC, PIP，FCC",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Lifeng Cao",
+    "JIRA default owner": "Yunmin Chen"
+  },
+  {
+    "JIRA Component": "CSB-Playback",
+    "Issues classification": "Playback/FCC/AVSYNC",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Lifeng Cao",
+    "JIRA default owner": "Jiabin Zhu"
+  },
+  {
+    "JIRA Component": "Linux Media",
+    "Issues classification": "Linux Gstreamer related issue，Youtube，NTS，Prime video， loacal streaming",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Bo Xiao",
+    "JIRA default owner": "Bo Xiao"
+  },
+  {
+    "JIRA Component": "Network Stack",
+    "Issues classification": "IPV4/IPV6， VLAN，network configure",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Kejun Gao",
+    "JIRA default owner": "Kejun Gao"
+  },
+  {
+    "JIRA Component": "Video-Encoder",
+    "Issues classification": "Encoder用户层mediecodec/omx/codec2等接口需求，android CTS   User interface requirements from mediacodec/omx/codec2 for Encoder, android CTS related to Encoder user interface.\nencoder 驱动和encoder 算法由guofeng.tang team负责 video encoder driver and algorithms",
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Yang Su",
+    "JIRA default owner": "Yang Su"
+  },
+  {
+    "JIRA Component": "Video-AmPlayer",
+    "Issues classification": "IPTV MultiInstance AmuMediaPlayer issues",
+    "RD Manager": "Zhiheng Cao",
+    "Module Owner": "Chuanqi Wang",
+    "JIRA default owner": "Chuanqi Wang"
+  },
+  {
+    "JIRA Component": "Video-CTCPlayer",
+    "Issues classification": "IPTV China Telecom CTC Module issues",
+    "RD Manager": "Zhiheng Cao",
+    "Module Owner": "Jiwei Sun",
+    "JIRA default owner": "Jiwei Sun"
+  },
+  {
+    "JIRA Component": "Video-CMCCPlayer",
+    "Issues classification": "IPTV China Mobile Player Module issues",
+    "RD Manager": "Zhiheng Cao",
+    "Module Owner": "Jiwei Sun",
+    "JIRA default owner": "Jiwei Sun"
+  },
+  {
+    "JIRA Component": "Video-Libplayer",
+    "Issues classification": "IPTV LibPlayer Module issues",
+    "RD Manager": "Zhiheng Cao",
+    "Module Owner": "Jiwei Sun",
+    "JIRA default owner": "Jiwei Sun"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "DVBS frontend：LNB、Satellite、Transponder、Diseqc and Satellite scan flow",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Bin Luo",
+    "JIRA default owner": "Haobin Chen"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "DVBT scan flow",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Bin Luo",
+    "JIRA default owner": "Jianlin Liu"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "DVBC scan flow",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Bin Luo",
+    "JIRA default owner": "Jianlin Liu"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "Channel tuning, channel information",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Rongsheng Jiang"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "Network update: service addition/removal, etc.",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Liyang Huang"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "EPG",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Lei Qian",
+    "JIRA default owner": "Xiaorong Wang"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "DTV time",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Rongsheng Jiang"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "Parental rating",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Rongsheng Jiang"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "DTV configuration",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Bin Luo",
+    "JIRA default owner": "Jianlin Liu"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "CI+（None-PVR）",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Hujian Zheng"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "CI+（PVR）",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Ke Gong",
+    "JIRA default owner": "Yan Yan"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "DTV audio language",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Rongsheng Jiang"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "DTV OAD",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Lei Qian",
+    "JIRA default owner": "Xiaorong Wang"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "HBBTV",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Bing Feng",
+    "JIRA default owner": "Bing Feng"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "Freely",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Bing Feng",
+    "JIRA default owner": "Gengxin Li"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "PVR/Timeshift",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Ke Gong",
+    "JIRA default owner": "Zhiqiang Han"
+  },
+  {
+    "JIRA Component": "DVB Stack",
+    "Issues classification": "FCC/PIP",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Ke Gong",
+    "JIRA default owner": "Zhiqiang Han"
+  },
+  {
+    "JIRA Component": "ISDB Stack",
+    "Issues classification": "Scan",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Bin Luo",
+    "JIRA default owner": "Liangjun Wang"
+  },
+  {
+    "JIRA Component": "ISDB Stack",
+    "Issues classification": "Channel tuning, channel information",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Rongsheng Jiang"
+  },
+  {
+    "JIRA Component": "ISDB Stack",
+    "Issues classification": "Network update: service addition/removal, etc.",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Liyang Huang"
+  },
+  {
+    "JIRA Component": "ISDB Stack",
+    "Issues classification": "EPG",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Lei Qian",
+    "JIRA default owner": "Xiaorong Wang"
+  },
+  {
+    "JIRA Component": "ISDB Stack",
+    "Issues classification": "DTV time",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Rongsheng Jiang"
+  },
+  {
+    "JIRA Component": "ISDB Stack",
+    "Issues classification": "Parental rating",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Rongsheng Jiang"
+  },
+  {
+    "JIRA Component": "ISDB Stack",
+    "Issues classification": "DTV audio language",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Rongsheng Jiang"
+  },
+  {
+    "JIRA Component": "ISDB Stack",
+    "Issues classification": "PVR/Timeshift",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Ke Gong",
+    "JIRA default owner": "Zhiqiang Han"
+  },
+  {
+    "JIRA Component": "ISDB Stack",
+    "Issues classification": "EWS/EWBS",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Lei Qian",
+    "JIRA default owner": "Xiaorong Wang"
+  },
+  {
+    "JIRA Component": "ATSC Stack",
+    "Issues classification": "Scan",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Bin Luo",
+    "JIRA default owner": "Zhiwei Jiang"
+  },
+  {
+    "JIRA Component": "ATSC Stack",
+    "Issues classification": "Channel tuning, channel information",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Rongsheng Jiang"
+  },
+  {
+    "JIRA Component": "ATSC Stack",
+    "Issues classification": "Network update: service addition/removal, etc.",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Liyang Huang"
+  },
+  {
+    "JIRA Component": "ATSC Stack",
+    "Issues classification": "EPG",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Bing Feng",
+    "JIRA default owner": "Suxiang Hao"
+  },
+  {
+    "JIRA Component": "ATSC Stack",
+    "Issues classification": "DTV time",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Rongsheng Jiang"
+  },
+  {
+    "JIRA Component": "ATSC Stack",
+    "Issues classification": "Parental rating",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Rongsheng Jiang"
+  },
+  {
+    "JIRA Component": "ATSC Stack",
+    "Issues classification": "DTV audio language",
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA default owner": "Rongsheng Jiang"
+  },
+  {
+    "JIRA Component": "ATSC Stack",
+    "Issues classification": "PVR/Timeshift",
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Ke Gong",
+    "JIRA default owner": "Zhiqiang Han"
+  },
+  {
+    "JIRA Component": "ATSC Stack",
+    "Issues classification": "EWS/EWBS",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Lei Qian",
+    "JIRA default owner": "Xiaorong Wang"
+  },
+  {
+    "JIRA Component": "RDK SDK",
+    "Issues classification": "",
+    "RD Manager": "Pradeep Sriram",
+    "Module Owner": "Pradeep Sriram",
+    "JIRA default owner": "Pradeep Sriram"
+  },
+  {
+    "JIRA Component": "RDK-Netflix",
+    "Issues classification": "",
+    "RD Manager": "Tim Yao",
+    "Module Owner": "Tim Yao",
+    "JIRA default owner": "Tim Yao"
+  },
+  {
+    "JIRA Component": "RDK-Youtube",
+    "Issues classification": "",
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Guofeng Tang",
+    "JIRA default owner": "Guofeng Tang"
+  },
+  {
+    "JIRA Component": "RDK-Amazon",
+    "Issues classification": "",
+    "RD Manager": "Terrence Pu",
+    "Module Owner": "Terrence Pu",
+    "JIRA default owner": "Terrence Pu"
+  },
+  {
+    "JIRA Component": "RDK-3rd Party App",
+    "Issues classification": "",
+    "RD Manager": "Terrence Pu",
+    "Module Owner": "Terrence Pu",
+    "JIRA default owner": "Terrence Pu"
+  },
+  {
+    "JIRA Component": "RDK AAMP player",
+    "Issues classification": "",
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Bo Xiao",
+    "JIRA default owner": "Bo Xiao"
+  },
+  {
+    "JIRA Component": "RDK UI",
+    "Issues classification": "To track issues of RDK Residence App",
+    "RD Manager": "Pradeep Sriram",
+    "Module Owner": "Pradeep Sriram",
+    "JIRA default owner": "Pradeep Sriram"
+  },
+  {
+    "JIRA Component": "Fuchsia-Zircon",
+    "Issues classification": "Fuchsia kernel and kernel drivers",
+    "RD Manager": "Frank Chen",
+    "Module Owner": "Frank Chen",
+    "JIRA default owner": "Frank Chen"
+  },
+  {
+    "JIRA Component": "Fuchsia-Drivers",
+    "Issues classification": "Fuchsia userland drivers",
+    "RD Manager": "Frank Chen",
+    "Module Owner": "Manliang Tang",
+    "JIRA default owner": "Manliang Tang"
+  },
+  {
+    "JIRA Component": "Fuchsia-System",
+    "Issues classification": "Fuchsia system",
+    "RD Manager": "Frank Chen",
+    "Module Owner": "Frank Chen",
+    "JIRA default owner": "Frank Chen"
+  },
+  {
+    "JIRA Component": "Driver-DTV demod",
+    "Issues classification": "TV/OTT芯片内置DTV Dedmod驱动相关问题\nDTV Demod on both TV & OTT Chip",
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Nengwen Chen",
+    "JIRA default owner": "Nengwen Chen"
+  },
+  {
+    "JIRA Component": "Zapper App (Arka)",
+    "Issues classification": "Zapper Application",
+    "RD Manager": "Ashok Patil",
+    "Module Owner": "Sasi Sibyala",
+    "JIRA default owner": "Sasi Sibyala"
+  }
+]

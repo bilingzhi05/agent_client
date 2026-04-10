@@ -1,0 +1,825 @@
+[
+  {
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Mingliang Dong",
+    "JIRA Component": [
+      "Display-PQ"
+    ],
+    "Issues classification": [
+      "SDR PQ模块的效果类问题 SDR PQ Effect issues\nHDR的效果问题（非逻辑处理）问题 HDR Effect Issues (Not logical)"
+    ]
+  },
+  {
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Lei Yang",
+    "JIRA Component": [
+      "Driver-HDMI RX（TV）输入",
+      "Display-Video in"
+    ],
+    "Issues classification": [
+      "TV芯片HDMI RX相关问题\nHDMI RX Issue with TV Chipset",
+      "CVBS input相关的驱动问题；Driver issues with CVBS input\nCVBS input，Vchip/teletext 相关的驱动问题 Driver issues related to Vchip/teletext via CVBS input signal"
+    ]
+  },
+  {
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Sky Zhou",
+    "JIRA Component": [
+      "Driver-HDMI TX（盒子）输出",
+      "Display-Graphics"
+    ],
+    "Issues classification": [
+      "HDMI TX相关问题\nHDMI TX Issues with STB Chipset",
+      "1. Linux graphic , drm/kms\n2. Android graphic, SurfaceFlinger/hwc , video tunnel对接 ,hotplug ,active mode , keystone, dual display等相关需求\n3. GPU 等相关需求"
+    ]
+  },
+  {
+    "RD Manager": "Frank Chen",
+    "Module Owner": "Frank Chen",
+    "JIRA Component": [
+      "Audio- Smart Engine",
+      "Fuchsia-Zircon",
+      "Fuchsia-System"
+    ],
+    "Issues classification": [
+      "Audio Front End(AEC, NS, AGC), WWE\n3rd party voice assistant integration",
+      "Fuchsia kernel and kernel drivers",
+      "Fuchsia system"
+    ]
+  },
+  {
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Jun Zhang",
+    "JIRA Component": [
+      "System-Linux framework"
+    ],
+    "Issues classification": [
+      "Yocto TV/OTT product line"
+    ]
+  },
+  {
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Xuequan Feng",
+    "JIRA Component": [
+      "System-Linux framework"
+    ],
+    "Issues classification": [
+      "IPCproduct line"
+    ]
+  },
+  {
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Zhengyu Gao",
+    "JIRA Component": [
+      "System-Linux framework"
+    ],
+    "Issues classification": [
+      "RDK Feature Related"
+    ]
+  },
+  {
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Guoping Li",
+    "JIRA Component": [
+      "System-Linux framework"
+    ],
+    "Issues classification": [
+      "SmartHome Product line"
+    ]
+  },
+  {
+    "RD Manager": "Jerry Cao",
+    "Module Owner": "Jerry Cao",
+    "JIRA Component": [
+      "Architecture-System"
+    ],
+    "Issues classification": []
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Peifu Jiang",
+    "JIRA Component": [
+      "Security-Secure OS",
+      "Security-Secure Provision",
+      "Security-System TA",
+      "Security-Secure Service",
+      "Security-CAS"
+    ],
+    "Issues classification": [
+      "Secure OS",
+      "TDK/TEE Driver/TEE Supplicant",
+      "Secure Provision",
+      "System TA",
+      "Signing Service",
+      "Provisioning Service",
+      "CAS Verimatrix",
+      "CAS Irdeto",
+      "CAS Nagra",
+      "CAS VO",
+      "CAS GS"
+    ]
+  },
+  {
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Yujie Wu",
+    "JIRA Component": [
+      "Audio-framework",
+      "Audio-decoder"
+    ],
+    "Issues classification": [
+      "1.平台xGTS相关问题 reference platform xGTS issues",
+      "1.Dolby MS12 认证相关，行为相关 Issues with Dolby MS12 cert and behavior",
+      "2.DD+ 播放，认证 Issues with DD+ playback and cert",
+      "3.DTS 2.0 解码 透传，认证相关 Issues for DTS2.0 decoder, pass-through and cert",
+      "4.DTS-HD/DTSX 解码，透传，认证相关 Issues for DTS-HD/DTSX decoder, pass-through and cert",
+      "6.非Dolby/DTS解码播放，兼容性相关 Issues for non-dolby decoder and playback, audio compatibility issues",
+      "7.NTS认证audio相关问题 Audio issues related to Netflix NTS cert",
+      "8.Youtube/Netflix/HBO.. 播放问题 Playback audio issues with Youtube/Netflix/HBO..",
+      "9.  Movieplayer本地播放同步，兼容性相关 Audio issue & AV sync with Movieplayer local playback and AV container compatibility issues.",
+      "10.SoundBar 产品所有音频相关 Audio issues related to SoundBar product"
+    ]
+  },
+  {
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Shuai Li",
+    "JIRA Component": [
+      "Audio-framework",
+      "Audio-platform",
+      "Audio-Driver",
+      "Audio DSP"
+    ],
+    "Issues classification": [
+      "2.平台输出/输入音频设备策略相关 Audio device input/output policy issue on reference platform",
+      "3.USB/PDM mic 录音相关，包括远场语音 Audio issue with USB/PDM MIC Recorder including far-field related issues",
+      "4.平台TDM in/out 相关需求 TDMP in/out on reference platform",
+      "5.SPDIF in/out播放相关需求 SPDIF in/out on reference platform",
+      "6.eARC/ARC 功能相关  eARC/ARC function related",
+      "7.USB  karaoke相关 USB karaoke related",
+      "8.蓝牙语音，远场语音 Bluetooth Audio, Far Field Voice",
+      "9.a2dp 播放相关 a2dp playback issues",
+      "1. Audio 驱动所有相关 Audio Driver Related Issues",
+      "1.HiFi DSP相关音频需求 HiFi DSP Related Audio Issues"
+    ]
+  },
+  {
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Zhe Wang",
+    "JIRA Component": [
+      "Audio-framework",
+      "Audio-decoder",
+      "Audio-platform",
+      "Audio-AQ"
+    ],
+    "Issues classification": [
+      "android Tunnel frameowork (CBS) function",
+      "Android Audio UI  setting and audio UI display (显示相关)",
+      "11.TV audio-DTV Audio",
+      "1.TV audio-HDMI in Audio",
+      "2.TV audio-ATV/AV in audio",
+      "1.音效相关，UI,工具（AVL,EQ，。。。）Tools for Audio effect, UI settings (AVL, EQ, ....)",
+      "2.平台SoC音效，AQ tuning相关 Audio Effect for platform SOC, issues with QA tuning"
+    ]
+  },
+  {
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Wei Du",
+    "JIRA Component": [
+      "Audio-decoder",
+      "Audio_Linux/RDK"
+    ],
+    "Issues classification": [
+      "12. gstreamer Audio 播放相关 Audio issues with stream",
+      "Linux 平台所有相关音频问题，以及需求对口 Audio Issues & requirements on Linux/RDK platform"
+    ]
+  },
+  {
+    "RD Manager": "Jian Xu",
+    "Module Owner": "Jian Xu",
+    "JIRA Component": [
+      "Audio_IPTV"
+    ],
+    "Issues classification": [
+      "IPTV 项目相关问题和需求Audio Issues and Requirements from IPTV"
+    ]
+  },
+  {
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Xiaoxin Cao",
+    "JIRA Component": [
+      "Display-Camera"
+    ],
+    "Issues classification": [
+      "Android/linux camera kernel driver/HAL driver相关需求\nISP IQ 相关需求"
+    ]
+  },
+  {
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Xingwei Zhou",
+    "JIRA Component": [
+      "Display-NN"
+    ],
+    "Issues classification": [
+      "1. NN  驱动/工具/SDK/Framework相关需求 NN Driver/Tools/SDK/Framwork\n2. NN 算法相关需求. NN private Algorithms"
+    ]
+  },
+  {
+    "RD Manager": "Simon Zheng",
+    "Module Owner": "Brian Zhu",
+    "JIRA Component": [
+      "Display-Video Pipeline",
+      "Display-HDR"
+    ],
+    "Issues classification": [
+      "1. OSD/VPP/DI/HDR/DV/Video合成等相关底层显示Pipeline需求 Pipeline components for OSD/VPP/DI/HDR/DV/Video Composite etc..\n2. DV IDK/SDK 以及HDR认证需求 DV IKD/SDK and HDR Cert\n2. GE2D/Dewarp 等2D driver接口以及截屏/旋转需求 2D Driver interface of GE2D/Dewarp, screen capture, screen rotation",
+      "HDR Pipeline逻辑相关需求， HDR认证 requirements of HDR pipeline, HDR Cert"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Lei Qian",
+    "JIRA Component": [
+      "Driver- Analog demod",
+      "DVB Stack",
+      "ISDB Stack",
+      "ATSC Stack"
+    ],
+    "Issues classification": [
+      "ATV通道下信号相关问题的分析，处理 Analog signal analysis and process in Analog TV pipeline",
+      "EPG",
+      "DTV OAD",
+      "EWS/EWBS"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Sandy Luo",
+    "JIRA Component": [
+      "System-Peformance",
+      "System-STR/Shutdown",
+      "System-Stability",
+      "System-Network",
+      "System-BSP"
+    ],
+    "Issues classification": [
+      "1, 开机速度，STR 速度 分析 boot-up time/STR analysis\n2，内存优化 Memory Optimization\n3，带宽profile Memory bandwidth profiling",
+      "1，STR/Power on-off process and bug fix\n2, boot video",
+      "1, Coverity bug \n2, Kasan bug \n3,Asan bug \n4, Leak bug\n5,Stability bug",
+      "1, Network related bug fix(frameworks and application)",
+      "1, Ref project BSP maintain\n2, Socket board BSP maintain"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Yihui Wu",
+    "JIRA Component": [
+      "System-Tools",
+      "System-Upgrade"
+    ],
+    "Issues classification": [
+      "1, PC production tools",
+      "2, PC key tools",
+      "3, PQ tuning tools",
+      "4, ISP tuning tools",
+      "5, Tcon tuning tools",
+      "6, Other PC tools, like custimization, PCBA tools and so on",
+      "1,Android OTA/Recovery bug fix\n2,Buildroot/yacto linux SWupdate bug fix"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Tao Dong",
+    "JIRA Component": [
+      "System-Android(SZ)"
+    ],
+    "Issues classification": [
+      "System issues"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Zhe Huang",
+    "JIRA Component": [
+      "System-Display"
+    ],
+    "Issues classification": [
+      "PQ tuning",
+      "PQ server",
+      "Display server - system control, HDMI/Panel logic control and bug fix"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Shen Liu",
+    "JIRA Component": [
+      "Android-GTVS",
+      "Android-NTS",
+      "Multi-Media application"
+    ],
+    "Issues classification": [
+      "1, xTS of TV/OTT AOSP/ATV bug fix",
+      "1, NTS bug\n2, Ninja integration\n3, Ninja feature development\n4, NTS cert",
+      "Multi-decoder APK",
+      "screen capture, Screen record",
+      "Streaming APK bug analyze , like youtube/hbogo/google movie"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Wenbiao Zhang",
+    "JIRA Component": [
+      "ATVS",
+      "Cloud Gaming"
+    ],
+    "Issues classification": [
+      "Amazon Primevideo function and cert",
+      "Cloud gaming bug fix - Tencent game and stadia"
+    ]
+  },
+  {
+    "RD Manager": "Tao Dong",
+    "Module Owner": "Nengwen Chen",
+    "JIRA Component": [
+      "Display-Video in",
+      "Driver-DTV demod"
+    ],
+    "Issues classification": [
+      "ATV input",
+      "TV/OTT芯片内置DTV Dedmod驱动相关问题\nDTV Demod on both TV & OTT Chip"
+    ]
+  },
+  {
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Jia Wen",
+    "JIRA Component": [
+      "System-Network"
+    ],
+    "Issues classification": [
+      "1, Network related bug fix(frameworks and application)"
+    ]
+  },
+  {
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Shuide Chen",
+    "JIRA Component": [
+      "System-Android(SH)",
+      "xTS-TVTS",
+      "GTV CUJs",
+      "ART",
+      "Picture-decoder",
+      "Android-Upgrade",
+      "Android-Buildsystem",
+      "Android-Framework",
+      "Exoplayer",
+      "Miracast/DLNA",
+      "DLNA"
+    ],
+    "Issues classification": [
+      "Android TVTS",
+      "GTV CUJs",
+      "ART",
+      "Android/Linux picture soft decoder and display",
+      "Android platform recovery and A/B update\nfastboot(bootloader/fastbootd)",
+      "Android build system\nstandalone build and clang toolchain\nAndroid bringup",
+      "Android framework services(AMS/WMS/PMS etc)\nsystem_server/zygote bootup speed and optimization",
+      "certification based on exoplayer\nexoplayer upgrade",
+      "Miracast and DLNA",
+      "DLNA"
+    ]
+  },
+  {
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Haisha Ning",
+    "JIRA Component": [
+      "Automation-test",
+      "Automation-CI",
+      "Automation-web",
+      "Automation-codescan"
+    ],
+    "Issues classification": [
+      "autotest framework(AATS) develop and maintain\nautotest environment and devices maintain\nTesting case develop and maintain",
+      "Jenkins jobs develop and maintain\nbuild server managerment\nautobuild/patchbuild/CIBuild/LicenseBuild/CASBuild develop and maintian\nOpenGrok etc. SCM tools maintain",
+      "1.web system develop and maintain,such as weekly report system,so release web system,aats web etc.",
+      "1.codescan related,such as legal scan ,gpl scan,typo scan,coverity scan etc."
+    ]
+  },
+  {
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Liang Ji",
+    "JIRA Component": [
+      "Smoking Test(ATV&GTV)",
+      "xTS-CTS/CTS-on-GSI",
+      "xTS-GTS/STS"
+    ],
+    "Issues classification": [
+      "ATV/GTV smoking test issues fixing and waiver request\nwhitelist",
+      "Android CTS and CTS on GSI\nwhitelist and waive list",
+      "Android GTS and STS"
+    ]
+  },
+  {
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Songqiang Lu",
+    "JIRA Component": [
+      "xTS-VTS",
+      "1P device"
+    ],
+    "Issues classification": [
+      "Android VTS",
+      "1.first partner device (Adt3/Adt4) maintain"
+    ]
+  },
+  {
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Kieth Liu",
+    "JIRA Component": [
+      "Android-TIF",
+      "Linux-tv input",
+      "tunerHAL",
+      "Subtitle",
+      "CEC/ARC",
+      "CBS"
+    ],
+    "Issues classification": [
+      "TV App(LiveTv)\nInputService(ATV/DTV/Spdif/HDMI in/CVBS in)\ntv input hal\ntvserver",
+      "Linux platform tvinput\nLInux platform  tvserver",
+      "tuner hal section filter\nfrontend integration",
+      "inline and external subtitle  parser, decoder, display\nDVB subtitle (CC: sarnoff, Teletext) and certification\nLinux and Android platform",
+      "CEC/ARC TX/RX",
+      "LinuxDVB based CBS  \ntuner framework based CBS \nco-work with Google CBS team"
+    ]
+  },
+  {
+    "RD Manager": "Tellen Yu",
+    "Module Owner": "Yongzhi Gao",
+    "JIRA Component": [
+      "EVS",
+      "SV-Render",
+      "SV-Calibration",
+      "FastRvc",
+      "Android-Rvc",
+      "DVR",
+      "VHAL"
+    ],
+    "Issues classification": [
+      "Vehicle Camera Hal and demo App\nVehicle 摄像头和demo 应用",
+      "360 AVM Service\n360 AVM 服务\n360 AVM demo app\n360 AVM demo  应用",
+      "360 AVM Calibration \n360 AVM 标定",
+      "Rtos based Rvc\n基于Rtos 的Rvc",
+      "Android based Rvc\n基于Android Rvc",
+      "Vehicle Multi-Camera DVR\n车载多camera 的DVR",
+      "Vehicle Hal service \n车辆属性Hal 层服务\nCar Service\nCar Framework 层服务"
+    ]
+  },
+  {
+    "RD Manager": "Tim Yao",
+    "Module Owner": "Tim Yao",
+    "JIRA Component": [
+      "Architecture-Multimedia",
+      "RDK-Netflix"
+    ],
+    "Issues classification": []
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Jianxin Pan",
+    "JIRA Component": [
+      "System-Linux kernel"
+    ],
+    "Issues classification": [
+      "System Stability",
+      "Performance",
+      "Scheduler, biglittle, cpufreq governor",
+      "Memory",
+      "SMMU",
+      "Kernel XTS",
+      "Kernel versions and new features",
+      "CPU/SMP/Hotplug, GIC, IRQ, Timer",
+      "CVE security",
+      "Coverity",
+      "Benchmark，pmu,  bootup time,",
+      "unifykey"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Qiufang Dai",
+    "JIRA Component": [
+      "System-Power"
+    ],
+    "Issues classification": [
+      "Power, thermal, STR/STD function"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Kelvin Zhang",
+    "JIRA Component": [
+      "System-RTOS Core"
+    ],
+    "Issues classification": [
+      "RTOS kernel, including scheduling, memory, stability, performance"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Dai Qiufang",
+    "JIRA Component": [
+      "System-DSP"
+    ],
+    "Issues classification": [
+      "DSP arch, stability, backtrace..."
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Ke Gong",
+    "JIRA Component": [
+      "DVB driver",
+      "DVB Stack",
+      "ISDB Stack",
+      "ATSC Stack"
+    ],
+    "Issues classification": [
+      "kernel demux driver\nkernel descrambler driver\nkernel CI driver\nkernel key driver\nkernel smartcard driver\nlibdvr\ncas-hal\nVerimatrix DVB client",
+      "CI+（PVR）",
+      "PVR/Timeshift",
+      "FCC/PIP"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Rongjun Chen",
+    "JIRA Component": [
+      "Driver-WiFi/BT"
+    ],
+    "Issues classification": [
+      "WiFi/Bluetooth module"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Yonghui Yu",
+    "JIRA Component": [
+      "Driver-Peripheral",
+      "Driver-Storage"
+    ],
+    "Issues classification": [
+      "GPIO/Pinmux/GPIO-IRQ",
+      "SPICC",
+      "Clock",
+      "IIC",
+      "SARADC",
+      "JTAG",
+      "IR in/IR out",
+      "PWM",
+      "KEY",
+      "eMMC/SDIO/SDCard",
+      "RPMB",
+      "Partition table",
+      "NAND/SPINAND/SPINor",
+      "MTD/UBI/YAFFS"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Tao Zeng",
+    "JIRA Component": [
+      "System-Bootloader"
+    ],
+    "Issues classification": [
+      "1, Advanced/old secure boot flow",
+      "2, CPU idle/SMP",
+      "3, CAPU/SRAM/HWRNG",
+      "4, fip scripts",
+      "5, multi-dtb",
+      "6, PXP bring up",
+      "7, Efuse driver/map",
+      "8, BL31/BL2 core/TEE/REE",
+      "9, Jenkins auto-build of bootload binary",
+      "10, DDR suspend"
+    ]
+  },
+  {
+    "RD Manager": "Victor Wan",
+    "Module Owner": "Qi Duan",
+    "JIRA Component": [
+      "Driver-USB/PCIE/Eth"
+    ],
+    "Issues classification": [
+      "USB/PCIE/Ethernet"
+    ]
+  },
+  {
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Hui Zhang",
+    "JIRA Component": [
+      "Video-Decoder"
+    ],
+    "Issues classification": [
+      "Video Decoder,V4l2. Decoder Bringup"
+    ]
+  },
+  {
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Tao Guo",
+    "JIRA Component": [
+      "Android DRM",
+      "Linux DRM",
+      "Media CAS V2",
+      "VMX CAS(IPTV/HLS/)"
+    ],
+    "Issues classification": [
+      "WV/Playready/Miracast HDCP/",
+      "WV/Playready/Nagra DASH/Airplay/...",
+      "Media CAS v2 for VMX/Nagra/...",
+      "HLS/IPTV - Drmplayer"
+    ]
+  },
+  {
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Peng Wu",
+    "JIRA Component": [
+      "Android-Media-framework",
+      "Video-OMX",
+      "Video-Codec2",
+      "Media VTS/CTS/GTS",
+      "Android Media Youtube Cert",
+      "Android TVTS",
+      "Android Video NTS"
+    ],
+    "Issues classification": [
+      "Android ATV related issues, Youtube/Netlix,",
+      "OMX related bugs. feature develop",
+      "Codec2 related bugs. feature develop",
+      "Media VTS/CTS/GTS",
+      "Youube Cert",
+      "Android TVTS Cert",
+      "Android NTS Cert"
+    ]
+  },
+  {
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Lifeng Cao",
+    "JIRA Component": [
+      "Android  Media Player",
+      "Resource Manager",
+      "AmTsplayer",
+      "CSB-Playback"
+    ],
+    "Issues classification": [
+      "Android amnuplayer lolay related issues, Include Local File/HTTP/HLS/UDP issues.",
+      "Resource conflicts",
+      "Amtsplayer based issues, AVSYNC, PIP，FCC",
+      "Playback/FCC/AVSYNC"
+    ]
+  },
+  {
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Bo Xiao",
+    "JIRA Component": [
+      "Linux Media",
+      "RDK AAMP player"
+    ],
+    "Issues classification": [
+      "Linux Gstreamer related issue，Youtube，NTS，Prime video， loacal streaming"
+    ]
+  },
+  {
+    "RD Manager": "Zhi Zhou",
+    "Module Owner": "Kejun Gao",
+    "JIRA Component": [
+      "Network Stack"
+    ],
+    "Issues classification": [
+      "IPV4/IPV6， VLAN，network configure"
+    ]
+  },
+  {
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Yang Su",
+    "JIRA Component": [
+      "Video-Encoder"
+    ],
+    "Issues classification": [
+      "Encoder用户层mediecodec/omx/codec2等接口需求，android CTS   User interface requirements from mediacodec/omx/codec2 for Encoder, android CTS related to Encoder user interface.\nencoder 驱动和encoder 算法由guofeng.tang team负责 video encoder driver and algorithms"
+    ]
+  },
+  {
+    "RD Manager": "Zhiheng Cao",
+    "Module Owner": "Chuanqi Wang",
+    "JIRA Component": [
+      "Video-AmPlayer"
+    ],
+    "Issues classification": [
+      "IPTV MultiInstance AmuMediaPlayer issues"
+    ]
+  },
+  {
+    "RD Manager": "Zhiheng Cao",
+    "Module Owner": "Jiwei Sun",
+    "JIRA Component": [
+      "Video-CTCPlayer",
+      "Video-CMCCPlayer",
+      "Video-Libplayer"
+    ],
+    "Issues classification": [
+      "IPTV China Telecom CTC Module issues",
+      "IPTV China Mobile Player Module issues",
+      "IPTV LibPlayer Module issues"
+    ]
+  },
+  {
+    "RD Manager": "Lei Li",
+    "Module Owner": "Bin Luo",
+    "JIRA Component": [
+      "DVB Stack",
+      "ISDB Stack",
+      "ATSC Stack"
+    ],
+    "Issues classification": [
+      "DVBS frontend：LNB、Satellite、Transponder、Diseqc and Satellite scan flow",
+      "DVBT scan flow",
+      "DVBC scan flow",
+      "DTV configuration",
+      "Scan"
+    ]
+  },
+  {
+    "RD Manager": "Lei Li",
+    "Module Owner": "Hujian Zheng",
+    "JIRA Component": [
+      "DVB Stack",
+      "ISDB Stack",
+      "ATSC Stack"
+    ],
+    "Issues classification": [
+      "Channel tuning, channel information",
+      "Network update: service addition/removal, etc.",
+      "DTV time",
+      "Parental rating",
+      "CI+（None-PVR）",
+      "DTV audio language"
+    ]
+  },
+  {
+    "RD Manager": "Lei Li",
+    "Module Owner": "Bing Feng",
+    "JIRA Component": [
+      "DVB Stack",
+      "ATSC Stack"
+    ],
+    "Issues classification": [
+      "HBBTV",
+      "Freely",
+      "EPG"
+    ]
+  },
+  {
+    "RD Manager": "Pradeep Sriram",
+    "Module Owner": "Pradeep Sriram",
+    "JIRA Component": [
+      "RDK SDK",
+      "RDK UI"
+    ],
+    "Issues classification": [
+      "To track issues of RDK Residence App"
+    ]
+  },
+  {
+    "RD Manager": "Guofeng Tang",
+    "Module Owner": "Guofeng Tang",
+    "JIRA Component": [
+      "RDK-Youtube"
+    ],
+    "Issues classification": []
+  },
+  {
+    "RD Manager": "Terrence Pu",
+    "Module Owner": "Terrence Pu",
+    "JIRA Component": [
+      "RDK-Amazon",
+      "RDK-3rd Party App"
+    ],
+    "Issues classification": []
+  },
+  {
+    "RD Manager": "Frank Chen",
+    "Module Owner": "Manliang Tang",
+    "JIRA Component": [
+      "Fuchsia-Drivers"
+    ],
+    "Issues classification": [
+      "Fuchsia userland drivers"
+    ]
+  },
+  {
+    "RD Manager": "Ashok Patil",
+    "Module Owner": "Sasi Sibyala",
+    "JIRA Component": [
+      "Zapper App (Arka)"
+    ],
+    "Issues classification": [
+      "Zapper Application"
+    ]
+  }
+]
