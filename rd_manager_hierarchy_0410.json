@@ -780,18 +780,6 @@
       "responsibility": "数字信号处理器（DSP）架构、稳定性及回溯分析；处理系统稳定性、性能、调度器（大核/小核/CPU调频调控器）、内存、系统内存管理单元（SMMU）、内核兼容性测试套件（Kernel XTS）、内核版本与新特性、CPU/对称多处理（SMP）/热插拔、通用中断控制器（GIC）、中断请求（IRQ）、定时器、通用漏洞披露（CVE）安全、Coverity、性能基准测试（Benchmark）/性能监控单元（PMU）/启动时间、统一密钥（unifykey）；承担内核解复用器（demux）/解扰器（descrampler）/公共接口（CI）/密钥/智能卡驱动、libdvr、CAS-HAL、Verimatrix DVB客户端、CI+（个人录像）、个人录像（PVR）/时移（Timeshift）、快速切换（FCC）/画中画（PIP）；负责实时操作系统（RTOS）内核（调度/内存/稳定性/性能）；承担安全操作系统（Secure OS）、TDK/可信执行环境（TEE）驱动/TEE Supplicant、安全配置（Secure Provision）、系统可信应用（System TA）、签名服务（Signing Service）、配置服务（Provisioning Service）、CAS Verimatrix/Irdeto/Nagra/VO/GS；负责USB/快速外设互连（PCIE）/以太网（Ethernet）；处理电源、热温、挂起（STR）/待机（STD）功能；负责WiFi/蓝牙模块；承担高级/旧安全启动流程、CPU空闲/对称多处理（SMP）、CAPU/静态随机存取存储器（SRAM）/硬件随机数生成器（HWRNG）、fip脚本、多设备树（multi-dtb）、PXP启动、Efuse驱动/映射、BL31/BL2核心/TEE/REE、Jenkins引导程序自动构建、双倍数据速率（DDR）挂起；处理通用输入输出（GPIO）/引脚复用（Pinmux）/GPIO中断（GPIO-IRQ）、串行外设接口（SPICC）、时钟（Clock）、集成电路总线（IIC）、逐次逼近寄存器型模数转换器（SARADC）、联合测试行动组（JTAG）、红外输入/输出（IR in/out）、脉宽调制（PWM）、按键（KEY）、嵌入式多媒体卡（eMMC）/安全数字输入输出（SDIO）/安全数字卡（SDCard）、重放保护内存块（RPMB）、分区表、NAND/串行NAND/串行NOR、内存技术设备（MTD）/未分配块接口（UBI）/YAFFS",
       "modules": [
         {
-          "module_owner": "Dai Qiufang",
-          "jira_default_owners": [
-            "Dai Qiufang"
-          ],
-          "JIRA Component": [
-            "System-DSP"
-          ],
-          "Issues_classification": [
-            "DSP arch, stability, backtrace..."
-          ]
-        },
-        {
           "module_owner": "Jianxin Pan",
           "jira_default_owners": [
             "Jianxin Pan",
@@ -900,10 +888,12 @@
             "Qiufang Dai"
           ],
           "JIRA Component": [
-            "System-Power"
+            "System-Power",
+            "System-DSP"
           ],
           "Issues_classification": [
-            "Power, thermal, STR/STD function"
+            "Power, thermal, STR/STD function",
+            "DSP arch, stability, backtrace..."
           ]
         },
         {
@@ -960,7 +950,6 @@
             "Jian Hu",
             "Zelong Dong",
             "Jiayi Zhou",
-            "Jiayi Zou",
             "Long Yu",
             "Liang Yang"
           ],

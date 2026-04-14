@@ -21,7 +21,7 @@ class MyJira:
         :param issue_key: JIRA issue key
         :return: 评论内容列表
         """
-        issue = self.mJira.issue(issue_key, expand="comments")
+        issue = self._issue_with_retry(issue_key, expand="comments")
         comments = getattr(getattr(issue, "fields", None), "comment", None)
         if not comments or not getattr(comments, "comments", None):
             return []

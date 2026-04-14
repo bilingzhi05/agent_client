@@ -221,6 +221,32 @@ jira_macro_identify_instructions2 = '''
    - 在完成“候选池筛选”前，禁止进行最终类型判断
    - 必须严格执行下方 Decision Process
 ---
+# Pre-Decision Evidence Prioritization（判定前证据分级，极关键）
+
+在进入 Decision Process 之前，必须先对输入内容中的“证据类型”进行分级识别。
+
+证据分为两类，且权重完全不同：
+
+【一级证据：模块/驱动/组件名（最高优先级）】
+指明确的模块名、驱动名、handler名、播放器名、子系统名，例如但不限于：
+hdmitx / hdmirx / vpp / osd / di / hdr / dv / drm / kms / gpu / isp / camera / ge2d / dewarp
+amnuplayer / mediaplayer / exoplayer / codec2 / omx / v4l2
+tvserver / tvinput / inputservice
+tee / bl31 / rpm / smmu / scheduler 等
+
+只要出现一级证据，后续分类**必须优先依据该模块归属**。
+
+【二级证据：现象/结果类描述（低优先级）】
+例如：
+black screen / freeze / reboot / bootup / watchdog / crash / interrupt / cpu lockup / 卡死 / 黑屏 / 无显示 / 性能问题
+
+二级证据**只能用于辅助判断**，禁止主导类型选择。
+
+强制规则：
+若同时出现一级证据和二级证据，
+必须忽略二级证据的指向性，优先按照一级证据进行溯源判定。
+
+---
 
 # Decision Process（必须严格执行，属于内部思维步骤）
 
@@ -524,9 +550,6 @@ def identify_rd(jira_key: str = "OTT-93265", with_comments: bool = True) -> dict
 
     macro_candidates = _build_macro_candidates(macro_map_data)
     round1_input = _build_user_input(content, macro_candidates)
-    # round1_input += "\n**模块责任人选择方法：**\n先看是否是这三位中的问题（Simon Zheng，Tellen Yu，Jian Xu，Zhi Zhou）\n"
-    # round1_input += "如果不是，再看是否是这二位的问题（Tao Dong，Victor Wan）。\n"
-    # round1_input += "如果不是，最后再看看是否是剩下人的问题。\n"
     mylog(f"round1_input:{round1_input}")
     # round1_agent = SimpleImpAgent(
     round1_agent = SimpleAgent(
@@ -594,18 +617,18 @@ if __name__ == "__main__":
     # jql = "project = \"OTT projects\" AND labels = se-a and createdDate >= 2022-1-1"
     # jql = "project = \"OTT projects\" AND text ~ AI智能分析 and Manager not in (zh.cao,shawn.wu) ORDER BY created DESC"
     # jql = "project = \"OTT projects\" AND text ~ AI智能分析 and Manager not in (zh.cao,shawn.wu) and createdDate >= 2026-3-1 and createdDate <= 2026-3-5 order BY created DESC"
-    # jqls.append("project = \"OTT projects\" and priority in (High,Highest) and type = Bug and createdDate >= 2025-12-25 and Manager not in (zh.cao,shawn.wu) ORDER BY created DESC") 
+    jqls.append("project = \"OTT projects\" and priority in (High,Highest) and type = Bug and createdDate >= 2025-12-25 and createdDate <= 2026-3-25 and Manager not in (zh.cao,shawn.wu) ORDER BY created DESC") 
     # jqls.append("project = \"OTT projects\" AND text ~ AI智能分析 and Manager not in (zh.cao,shawn.wu) and createdDate >= 2026-3-26 and createdDate <= 2026-3-28 order BY created DESC")
-    # jqls.append("key = OTT-93227")
+    # jqls.append("key = OTT-93239")
 
-    jqls.append("""key in (
-        OTT-93520, OTT-93515, OTT-93458, OTT-93430, OTT-93402,
-        OTT-93339, OTT-93295, OTT-93290, OTT-93270, OTT-93265,
-        OTT-93263, OTT-93262, OTT-93260, OTT-93257, OTT-93252,
-        OTT-93248, OTT-93247, OTT-93245, OTT-93240, OTT-93239,
-        OTT-93238, OTT-93236, OTT-93235, OTT-93228, OTT-93227,
-        OTT-93224, OTT-93223, OTT-93222, OTT-93205, OTT-93202
-        )""") 
+    # jqls.append("""key in (
+    #     OTT-93520, OTT-93515, OTT-93458, OTT-93430, OTT-93402,
+    #     OTT-93339, OTT-93295, OTT-93290, OTT-93270, OTT-93265,
+    #     OTT-93263, OTT-93262, OTT-93260, OTT-93257, OTT-93252,
+    #     OTT-93248, OTT-93247, OTT-93245, OTT-93240, OTT-93239,
+    #     OTT-93238, OTT-93236, OTT-93235, OTT-93228, OTT-93227,
+    #     OTT-93224, OTT-93223, OTT-93222, OTT-93205, OTT-93202
+    #     )""") 
     timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
     for jql in jqls:
         issues = jira_client.search_issues(jql)
@@ -623,29 +646,29 @@ if __name__ == "__main__":
             file_handle.flush()
         file_handle.close()
     
-    # jql = "project = \"OTT projects\" AND text ~ AI智能分析 and Manager not in (zh.cao,shawn.wu) and createdDate >= 2026-3-26 and createdDate <= 2026-3-28 order BY created DESC"
-    jql = """key in (
-        OTT-93520, OTT-93515, OTT-93458, OTT-93430, OTT-93402,
-        OTT-93339, OTT-93295, OTT-93290, OTT-93270, OTT-93265,
-        OTT-93263, OTT-93262, OTT-93260, OTT-93257, OTT-93252,
-        OTT-93248, OTT-93247, OTT-93245, OTT-93240, OTT-93239,
-        OTT-93238, OTT-93236, OTT-93235, OTT-93228, OTT-93227,
-        OTT-93224, OTT-93223, OTT-93222, OTT-93205, OTT-93202
-        )"""
-    issues = jira_client.search_issues(jql)
-    len_issues = len(issues)
-    writer = None
-    timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
-    file_handle = open(f"rd_owner_result_aicomments_{len_issues}_{timestamp}.csv", "w", encoding="utf-8", newline="")
-    for issue in issues:
-        jira_id = issue.key
-        # result = recognize_manager_owner(jira_id,"AI智能分析")
-        _,result = identify_rd(jira_id, with_comments=True)
-        # mylog(f"output:{result}")
-        if writer is None:
-            writer = csv.DictWriter(file_handle, fieldnames=list(result.keys()))
-            writer.writeheader()
-        writer.writerow(result)
-        file_handle.flush()
-    file_handle.close()
+    # # jql = "project = \"OTT projects\" AND text ~ AI智能分析 and Manager not in (zh.cao,shawn.wu) and createdDate >= 2026-3-26 and createdDate <= 2026-3-28 order BY created DESC"
+    # jql = """key in (
+    #     OTT-93520, OTT-93515, OTT-93458, OTT-93430, OTT-93402,
+    #     OTT-93339, OTT-93295, OTT-93290, OTT-93270, OTT-93265,
+    #     OTT-93263, OTT-93262, OTT-93260, OTT-93257, OTT-93252,
+    #     OTT-93248, OTT-93247, OTT-93245, OTT-93240, OTT-93239,
+    #     OTT-93238, OTT-93236, OTT-93235, OTT-93228, OTT-93227,
+    #     OTT-93224, OTT-93223, OTT-93222, OTT-93205, OTT-93202
+    #     )"""
+    # issues = jira_client.search_issues(jql)
+    # len_issues = len(issues)
+    # writer = None
+    # timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    # file_handle = open(f"rd_owner_result_aicomments_{len_issues}_{timestamp}.csv", "w", encoding="utf-8", newline="")
+    # for issue in issues:
+    #     jira_id = issue.key
+    #     # result = recognize_manager_owner(jira_id,"AI智能分析")
+    #     _,result = identify_rd(jira_id, with_comments=True)
+    #     # mylog(f"output:{result}")
+    #     if writer is None:
+    #         writer = csv.DictWriter(file_handle, fieldnames=list(result.keys()))
+    #         writer.writeheader()
+    #     writer.writerow(result)
+    #     file_handle.flush()
+    # file_handle.close()
 

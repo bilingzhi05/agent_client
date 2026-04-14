@@ -76,7 +76,7 @@
       "components": [
         {
           "component": "Audio-Smart Engine",
-          "owner": "Frank.Chen（边界：音频前端算法、语音助手接入）",
+          "owner": "Frank Chen（边界：音频前端算法、语音助手接入）",
           "issues_classification": "AEC/NS/AGC/WWE；3rd-party voice assistant integration"
         },
         {
@@ -255,7 +255,7 @@
         },
         {
           "component": "Driver-Peripheral",
-          "owner": "Jiayi Zou（边界：PWM）",
+          "owner": "Jiayi Zhou（边界：PWM）",
           "issues_classification": "PWM"
         },
         {
@@ -811,7 +811,7 @@
         },
         {
           "component": "Media VTS/CTS/GTS",
-          "owner": "Peter（边界：Media VTS/CTS/GTS）",
+          "owner": "Peter Wang（边界：Media VTS/CTS/GTS）",
           "issues_classification": "Media VTS/CTS/GTS"
         },
         {
@@ -887,7 +887,7 @@
       ]
     },
     {
-      "macro_type": "Zhiheng.Cao（IPTV播放器线）",
+      "macro_type": "Zhiheng Cao（IPTV播放器线）",
       "aliases": [],
       "components": [
         {
@@ -919,97 +919,97 @@
       ]
     },
     {
-      "macro_type": "lei.li / tao dong / victor Wan（DVB/ISDB/ATSC广播栈）",
+      "macro_type": "Lei Li / Tao Dong / Victor Wan（DVB/ISDB/ATSC广播栈）",
       "aliases": [],
       "components": [
         {
           "component": "DVB Stack",
-          "owner": "haobin.chen（边界：DVB-DVBS scan flow）",
+          "owner": "Haobin Chen（边界：DVB-DVBS scan flow）",
           "issues_classification": "DVBS frontend：LNB/Satellite/Transponder/Diseqc and Satellite scan flow"
         },
         {
           "component": "DVB Stack",
-          "owner": "jianlin.liu（边界：DVB-DVBT/DVBC scan与DTV configuration）",
+          "owner": "Jianlin Liu（边界：DVB-DVBT/DVBC scan与DTV configuration）",
           "issues_classification": "DVBT scan flow；DVBC scan flow；DTV configuration"
         },
         {
           "component": "DVB Stack",
-          "owner": "rongsheng.jiang（边界：DVB/ISDB/ATSC 调台时钟分级语言）",
+          "owner": "Rongsheng Jiang（边界：DVB/ISDB/ATSC 调台时钟分级语言）",
           "issues_classification": "Channel tuning/channel information；DTV time；Parental rating；DTV audio language"
         },
         {
           "component": "ISDB Stack",
-          "owner": "rongsheng.jiang（边界：DVB/ISDB/ATSC 调台时钟分级语言）",
+          "owner": "Rongsheng Jiang（边界：DVB/ISDB/ATSC 调台时钟分级语言）",
           "issues_classification": "Channel tuning/channel information；DTV time；Parental rating；DTV audio language"
         },
         {
           "component": "ATSC Stack",
-          "owner": "rongsheng.jiang（边界：DVB/ISDB/ATSC 调台时钟分级语言）",
+          "owner": "Rongsheng Jiang（边界：DVB/ISDB/ATSC 调台时钟分级语言）",
           "issues_classification": "Channel tuning/channel information；DTV time；Parental rating；DTV audio language"
         },
         {
           "component": "DVB Stack",
-          "owner": "liyang.huang（边界：DVB/ISDB/ATSC Network update）",
+          "owner": "Liyang Huang（边界：DVB/ISDB/ATSC Network update）",
           "issues_classification": "Network update: service addition/removal, etc."
         },
         {
           "component": "ISDB Stack",
-          "owner": "liyang.huang（边界：DVB/ISDB/ATSC Network update）",
+          "owner": "Liyang Huang（边界：DVB/ISDB/ATSC Network update）",
           "issues_classification": "Network update: service addition/removal, etc."
         },
         {
           "component": "ATSC Stack",
-          "owner": "liyang.huang（边界：DVB/ISDB/ATSC Network update）",
+          "owner": "Liyang Huang（边界：DVB/ISDB/ATSC Network update）",
           "issues_classification": "Network update: service addition/removal, etc."
         },
         {
           "component": "DVB Stack",
-          "owner": "xiaorong.wang（边界：DVB/ISDB EPG与OAD/EWS）",
+            "owner": "Xiaorong Wang（边界：DVB/ISDB EPG与OAD/EWS）",
           "issues_classification": "EPG；DTV OAD"
         },
         {
           "component": "ISDB Stack",
-          "owner": "xiaorong.wang（边界：DVB/ISDB EPG与OAD/EWS）",
+          "owner": "Xiaorong Wang（边界：DVB/ISDB EPG与OAD/EWS）",
           "issues_classification": "EPG；EWS/EWBS"
         },
         {
           "component": "DVB Stack",
-          "owner": "bing.feng（边界：DVB HBBTV）",
+          "owner": "Bing Feng（边界：DVB HBBTV）",
           "issues_classification": "HBBTV"
         },
         {
           "component": "DVB Stack",
-          "owner": "gengxin.li（边界：DVB Freely）",
+          "owner": "Gengxin Li（边界：DVB Freely）",
           "issues_classification": "Freely"
         },
         {
           "component": "DVB Stack",
-          "owner": "zhiqiang.han（边界：DVB/ISDB/ATSC PVR/Timeshift 与 DVB FCC/PIP）",
+          "owner": "Zhiqiang Han（边界：DVB/ISDB/ATSC PVR/Timeshift 与 DVB FCC/PIP）",
           "issues_classification": "PVR/Timeshift；FCC/PIP"
         },
         {
           "component": "ISDB Stack",
-          "owner": "zhiqiang.han（边界：DVB/ISDB/ATSC PVR/Timeshift 与 DVB FCC/PIP）",
+            "owner": "Zhiqiang Han（边界：DVB/ISDB/ATSC PVR/Timeshift 与 DVB FCC/PIP）",
           "issues_classification": "PVR/Timeshift"
         },
         {
           "component": "ATSC Stack",
-          "owner": "zhiqiang.han（边界：DVB/ISDB/ATSC PVR/Timeshift 与 DVB FCC/PIP）",
+              "owner": "Zhiqiang Han（边界：DVB/ISDB/ATSC PVR/Timeshift 与 DVB FCC/PIP）",
           "issues_classification": "PVR/Timeshift"
         },
         {
           "component": "ATSC Stack",
-          "owner": "zhiwei.jiang（边界：ATSC Scan）",
+          "owner": "Zhiwei Jiang（边界：ATSC Scan）",
           "issues_classification": "Scan"
         },
         {
           "component": "ATSC Stack",
-          "owner": "suxiang.hao（边界：ATSC EPG）",
+          "owner": "Suxiang Hao（边界：ATSC EPG）",
           "issues_classification": "EPG"
         },
         {
           "component": "DVB Stack",
-          "owner": "yan.yan（边界：DVB CI+（PVR））",
+          "owner": "Yan Yan（边界：DVB CI+（PVR））",
           "issues_classification": "CI+（PVR）"
         }
       ],
@@ -1079,10 +1079,10 @@
     "Display-Video Pipeline": "Simon Zheng（显示与输入链路）",
     "Display-HDR": "Simon Zheng（显示与输入链路）",
     "Display-Graphics": "Simon Zheng（显示与输入链路）",
-    "Audio-Smart Engine": "Frank.Chen / Frank Chen（音频前端与Fuchsia）",
-    "Fuchsia-Zircon": "Frank.Chen / Frank Chen（音频前端与Fuchsia）",
-    "Fuchsia-System": "Frank.Chen / Frank Chen（音频前端与Fuchsia）",
-    "Fuchsia-Drivers": "Frank.Chen / Frank Chen（音频前端与Fuchsia）",
+    "Audio-Smart Engine": "Frank Chen（音频前端与Fuchsia）",
+    "Fuchsia-Zircon": "Frank Chen（音频前端与Fuchsia）",
+    "Fuchsia-System": "Frank Chen（音频前端与Fuchsia）",
+    "Fuchsia-Drivers": "Frank Chen（音频前端与Fuchsia）",
     "System-Linux framework": "Guofeng Tang（Linux/RDK产品线与Video Encoder）",
     "Video-Encoder": "Guofeng Tang（Linux/RDK产品线与Video Encoder）",
     "RDK-Youtube": "Guofeng Tang（Linux/RDK产品线与Video Encoder）",
@@ -1243,7 +1243,7 @@
       "非逻辑处理",
       "驱动问题"
     ],
-    "Frank.Chen / Frank Chen（音频前端与Fuchsia）": [
+    "Frank Chen（音频前端与Fuchsia）": [
       "3rd-party",
       "aec",
       "agc",
