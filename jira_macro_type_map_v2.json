@@ -1,0 +1,1100 @@
+{
+  "version": "2.0",
+  "description": "L1 tags (RD Manager) as macro Jira categories for LLM classification",
+  "macro_categories": [
+    {
+      "macro_type": "Simon Zheng（显示与输入链路）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "Display-PQ",
+          "owner": "Mingliang Dong（边界：SDR/HDR PQ效果质量问题，不含HDR逻辑处理）",
+          "issues_classification": "SDR PQ模块效果类问题；HDR效果问题（非逻辑处理）"
+        },
+        {
+          "component": "Driver-HDMI RX（TV）输入",
+          "owner": "Lei Yang（边界：TV输入驱动链路，HDMI RX/CVBS/Vchip/Teletext）",
+          "issues_classification": "TV芯片 HDMI RX 相关问题"
+        },
+        {
+          "component": "Display-Video in",
+          "owner": "Lei Yang（边界：TV输入驱动链路，HDMI RX/CVBS/Vchip/Teletext）",
+          "issues_classification": "CVBS input 驱动问题；Vchip/teletext 相关驱动问题"
+        },
+        {
+          "component": "Driver-HDMI TX（盒子）输出",
+          "owner": "Sky Zhou（边界：盒子端 HDMI TX 输出）",
+          "issues_classification": "HDMI TX with STB chipset"
+        },
+        {
+          "component": "Display-Camera",
+          "owner": "Xiaoxin Cao（边界：Camera 驱动/HAL 与 ISP IQ）",
+          "issues_classification": "Android/Linux camera kernel driver/HAL driver；ISP IQ 相关需求"
+        },
+        {
+          "component": "Display-NN",
+          "owner": "Xingwei Zhou（边界：NN DDK/驱动/工具/SDK/Framework）",
+          "issues_classification": "NN驱动/工具/SDK/Framework相关需求"
+        },
+        {
+          "component": "Display-NN",
+          "owner": "Jinhong Zhang（边界：NN私有算法）",
+          "issues_classification": "NN算法相关需求（private algorithms）"
+        },
+        {
+          "component": "Display-Video Pipeline",
+          "owner": "Brian Zhu（边界：显示视频Pipeline、HDR/DV认证与GE2D/Dewarp）",
+          "issues_classification": "OSD/VPP/DI/HDR/DV/Video合成；DV IDK/SDK 与 HDR认证；GE2D/Dewarp 截屏/旋转接口"
+        },
+        {
+          "component": "Display-HDR",
+          "owner": "Brian Zhu（边界：显示视频Pipeline、HDR/DV认证与GE2D/Dewarp）",
+          "issues_classification": "HDR Pipeline 逻辑与 HDR 认证"
+        },
+        {
+          "component": "Display-Graphics",
+          "owner": "Sky Zhou（边界：Graphics/DRM/KMS/SurfaceFlinger/HWC/GPU）",
+          "issues_classification": "Linux graphic(drm/kms)；Android graphic(SF/HWC/video tunnel/hotplug等)；GPU相关"
+        }
+      ],
+      "classification_hints": [
+        "SDR PQ模块效果类问题；HDR效果问题（非逻辑处理）",
+        "TV芯片 HDMI RX 相关问题",
+        "CVBS input 驱动问题；Vchip/teletext 相关驱动问题",
+        "HDMI TX with STB chipset",
+        "Android/Linux camera kernel driver/HAL driver；ISP IQ 相关需求",
+        "NN驱动/工具/SDK/Framework相关需求",
+        "NN算法相关需求（private algorithms）",
+        "OSD/VPP/DI/HDR/DV/Video合成；DV IDK/SDK 与 HDR认证；GE2D/Dewarp 截屏/旋转接口",
+        "HDR Pipeline 逻辑与 HDR 认证",
+        "Linux graphic(drm/kms)；Android graphic(SF/HWC/video tunnel/hotplug等)；GPU相关"
+      ]
+    },
+    {
+      "macro_type": "Frank Chen（音频前端与Fuchsia）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "Audio-Smart Engine",
+          "owner": "Frank Chen（边界：音频前端算法、语音助手接入）",
+          "issues_classification": "AEC/NS/AGC/WWE；3rd-party voice assistant integration"
+        },
+        {
+          "component": "Fuchsia-Zircon",
+          "owner": "Frank Chen（边界：Fuchsia内核与系统）",
+          "issues_classification": "Fuchsia kernel and kernel drivers"
+        },
+        {
+          "component": "Fuchsia-System",
+          "owner": "Frank Chen（边界：Fuchsia内核与系统）",
+          "issues_classification": "Fuchsia system"
+        },
+        {
+          "component": "Fuchsia-Drivers",
+          "owner": "Manliang Tang（边界：Fuchsia userland drivers）",
+          "issues_classification": "Fuchsia userland drivers"
+        }
+      ],
+      "classification_hints": [
+        "AEC/NS/AGC/WWE；3rd-party voice assistant integration",
+        "Fuchsia kernel and kernel drivers",
+        "Fuchsia system",
+        "Fuchsia userland drivers"
+      ]
+    },
+    {
+      "macro_type": "Guofeng Tang（Linux/RDK产品线与Video Encoder）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "System-Linux framework",
+          "owner": "Guofeng Tang（边界：Yocto TV/OTT、RDK特性、SmartHome）",
+          "issues_classification": "Yocto TV/OTT product line；IPC product line；RDK Feature Related；SmartHome product line"
+        },
+        {
+          "component": "Video-Encoder",
+          "owner": "yang.su（边界：Video Encoder用户层接口需求）",
+          "issues_classification": "mediacodec/omx/codec2 接口需求与CTS相关（驱动/算法由 Guofeng Tang 团队负责）"
+        },
+        {
+          "component": "RDK-Youtube",
+          "owner": "Guofeng Tang（边界：RDK Youtube）",
+          "issues_classification": "（未填写）"
+        }
+      ],
+      "classification_hints": [
+        "Yocto TV/OTT product line；IPC product line；RDK Feature Related；SmartHome product line",
+        "mediacodec/omx/codec2 接口需求与CTS相关（驱动/算法由 Guofeng Tang 团队负责）"
+      ]
+    },
+    {
+      "macro_type": "Jerry Cao（系统架构）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "Architecture-System",
+          "owner": "Jerry Cao（边界：系统级架构）",
+          "issues_classification": "（未填写）"
+        }
+      ],
+      "classification_hints": []
+    },
+    {
+      "macro_type": "Victor Wan（Security/Kernel/Power/Boot/Driver基础设施）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "Security-Secure OS",
+          "owner": "Pengguang Zhu（边界：Secure OS/System TA/Secure Service）",
+          "issues_classification": "Secure OS；TDK/TEE Driver/TEE Supplicant"
+        },
+        {
+          "component": "Security-System TA",
+          "owner": "Pengguang Zhu（边界：Secure OS/System TA/Secure Service）",
+          "issues_classification": "System TA"
+        },
+        {
+          "component": "Security-Secure Service",
+          "owner": "Pengguang Zhu（边界：Secure OS/System TA/Secure Service）",
+          "issues_classification": "Signing Service；Provisioning Service"
+        },
+        {
+          "component": "Security-Secure Provision",
+          "owner": "Liqiang Jin（边界：Secure Provision）",
+          "issues_classification": "Secure Provision"
+        },
+        {
+          "component": "Security-CAS",
+          "owner": "Pengfei Liu（边界：CAS Verimatrix/Irdeto）",
+          "issues_classification": "CAS Verimatrix；CAS Irdeto"
+        },
+        {
+          "component": "Security-CAS",
+          "owner": "Alex Jing（边界：CAS Nagra）",
+          "issues_classification": "CAS Nagra"
+        },
+        {
+          "component": "Security-CAS",
+          "owner": "Matthew（边界：CAS VO/GS）",
+          "issues_classification": "CAS VO；CAS GS"
+        },
+        {
+          "component": "System-Linux kernel",
+          "owner": "Hanjie Lin（边界：Stability/Performance/Scheduler/biglittle/cpufreq governor）",
+          "issues_classification": "System Stability；Performance；Scheduler, biglittle, cpufreq governor"
+        },
+        {
+          "component": "System-Linux kernel",
+          "owner": "Jianxiong Pan（边界：Memory/SMMU/Kernel XTS）",
+          "issues_classification": "Memory；SMMU；Kernel XTS"
+        },
+        {
+          "component": "System-Linux kernel",
+          "owner": "Wanwei Jiang（边界：Kernel versions/new features）",
+          "issues_classification": "Kernel versions and new features"
+        },
+        {
+          "component": "System-Linux kernel",
+          "owner": "Yan Wang（边界：CPU/SMP/Hotplug/GIC/IRQ/Timer）",
+          "issues_classification": "CPU/SMP/Hotplug, GIC, IRQ, Timer"
+        },
+        {
+          "component": "System-Linux kernel",
+          "owner": "Tuan Zhang（边界：CVE/Coverity/Benchmark/unifykey）",
+          "issues_classification": "CVE security；Coverity；Benchmark, pmu, bootup time；unifykey"
+        },
+        {
+          "component": "System-Power",
+          "owner": "Qiufang Dai（边界：Power/Thermal/STR/STD）",
+          "issues_classification": "Power, thermal, STR/STD function"
+        },
+        {
+          "component": "System-RTOS Core",
+          "owner": "Kelvin Zhang（边界：RTOS内核）",
+          "issues_classification": "scheduling/memory/stability/performance"
+        },
+        {
+          "component": "System-DSP",
+          "owner": "Dai Qiufang（边界：DSP架构与稳定性）",
+          "issues_classification": "DSP arch, stability, backtrace"
+        },
+        {
+          "component": "DVB driver",
+          "owner": "Ke Gong（边界：DVB kernel驱动栈）",
+          "issues_classification": "demux/descrambler/CI/key/smartcard/libdvr/cas-hal/Verimatrix DVB client"
+        },
+        {
+          "component": "Driver-WiFi/BT",
+          "owner": "Rongjun Chen（边界：WiFi/BT）",
+          "issues_classification": "WiFi/Bluetooth module"
+        },
+        {
+          "component": "Driver-Peripheral",
+          "owner": "Qianggui Song（边界：GPIO/Pinmux/GPIO-IRQ）",
+          "issues_classification": "GPIO/Pinmux/GPIO-IRQ"
+        },
+        {
+          "component": "Driver-Peripheral",
+          "owner": "Sunny Luo（边界：SPICC）",
+          "issues_classification": "SPICC"
+        },
+        {
+          "component": "Driver-Peripheral",
+          "owner": "Jian Hu（边界：Clock/IIC）",
+          "issues_classification": "Clock；IIC"
+        },
+        {
+          "component": "Driver-Peripheral",
+          "owner": "Zelong Dong（边界：SARADC/JTAG/KEY）",
+          "issues_classification": "SARADC；JTAG；KEY"
+        },
+        {
+          "component": "Driver-Peripheral",
+          "owner": "Jiayi Zhou（边界：IR in/IR out）",
+          "issues_classification": "IR in/IR out"
+        },
+        {
+          "component": "Driver-Peripheral",
+          "owner": "Jiayi Zhou（边界：PWM）",
+          "issues_classification": "PWM"
+        },
+        {
+          "component": "System-Bootloader",
+          "owner": "Tao Zeng（边界：secure boot flow / BL31-BL2-TEE-REE core）",
+          "issues_classification": "Advanced/old secure boot flow；BL31/BL2 core/TEE/REE"
+        },
+        {
+          "component": "System-Bootloader",
+          "owner": "Xia Jin（边界：CPU idle/SMP；CAPU/SRAM/HWRNG）",
+          "issues_classification": "CPU idle/SMP；CAPU/SRAM/HWRNG"
+        },
+        {
+          "component": "System-Bootloader",
+          "owner": "Zhongfu Luo（边界：fip scripts；Efuse driver/map）",
+          "issues_classification": "fip scripts；Efuse driver/map"
+        },
+        {
+          "component": "System-Bootloader",
+          "owner": "Bo Lv（边界：multi-dtb；Jenkins auto-build；DDR suspend）",
+          "issues_classification": "multi-dtb；Jenkins auto-build of bootload binary；DDR suspend"
+        },
+        {
+          "component": "System-Bootloader",
+          "owner": "Benlong Zhou（边界：PXP bring up）",
+          "issues_classification": "PXP bring up"
+        },
+        {
+          "component": "Driver-Storage",
+          "owner": "Long Yu（边界：eMMC/SDIO/SDCard/RPMB/Partition table）",
+          "issues_classification": "eMMC/SDIO/SDCard；RPMB；Partition table"
+        },
+        {
+          "component": "Driver-Storage",
+          "owner": "Liang Yang（边界：NAND/SPINAND/SPINor/MTD/UBI/YAFFS）",
+          "issues_classification": "NAND/SPINAND/SPINor；MTD/UBI/YAFFS"
+        },
+        {
+          "component": "Driver-USB/PCIE/Eth",
+          "owner": "Qi Duan（边界：USB/PCIE/Ethernet）",
+          "issues_classification": "USB/PCIE/Ethernet"
+        }
+      ],
+      "classification_hints": [
+        "Secure OS；TDK/TEE Driver/TEE Supplicant",
+        "System TA",
+        "Signing Service；Provisioning Service",
+        "Secure Provision",
+        "CAS Verimatrix；CAS Irdeto",
+        "CAS Nagra",
+        "CAS VO；CAS GS",
+        "Stability/Performance/Scheduler/biglittle/cpufreq/Memory/SMMU/Kernel XTS/Kernel versions/CVE/Coverity/Benchmark/pmu/bootup/unifykey（分子域owner承接）",
+        "Power, thermal, STR/STD function",
+        "scheduling/memory/stability/performance",
+        "DSP arch, stability, backtrace",
+        "demux/descrambler/CI/key/smartcard/libdvr/cas-hal/Verimatrix DVB client",
+        "WiFi/Bluetooth module",
+        "GPIO/Pinmux/GPIO-IRQ、SPICC、Clock、IIC、SARADC、JTAG、IR in/out、PWM、KEY",
+        "secure boot flow、CPU idle/SMP、CAPU/SRAM/HWRNG、fip scripts、multi-dtb、PXP bring up、Efuse、BL31/BL2 core/TEE/REE、Jenkins autobuild、DDR suspend",
+        "eMMC/SDIO/SDCard、RPMB、Partition table、NAND/SPINAND/SPINor、MTD/UBI/YAFFS",
+        "USB/PCIE/Ethernet"
+      ]
+    },
+    {
+      "macro_type": "Jian Xu（音频全栈）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "Audio-framework",
+          "owner": "Chuntian Miao（边界：xGTS）",
+          "issues_classification": "平台 xGTS 相关问题"
+        },
+        {
+          "component": "Audio-framework",
+          "owner": "Shuai Li（边界：平台音频设备策略）",
+          "issues_classification": "平台输出/输入音频设备策略"
+        },
+        {
+          "component": "Audio-framework",
+          "owner": "Lianlian Zhu（边界：android tunnel framework (CBS)）",
+          "issues_classification": "android Tunnel framework (CBS) function"
+        },
+        {
+          "component": "Audio-framework",
+          "owner": "Zhe Wang（边界：Android Audio UI setting/display）",
+          "issues_classification": "Android Audio UI setting and audio UI display"
+        },
+        {
+          "component": "Audio-decoder",
+          "owner": "Xiushan Lu（边界：Dolby MS12/DD+ 认证与行为）",
+          "issues_classification": "Dolby MS12 认证/行为；DD+ 播放与认证"
+        },
+        {
+          "component": "Audio-decoder",
+          "owner": "Sijia Lin（边界：DTS2.0/DTS-HD/DTSX/SoundBar）",
+          "issues_classification": "DTS2.0/DTS-HD/DTSX 解码透传认证；SoundBar 产品音频"
+        },
+        {
+          "component": "Audio-decoder",
+          "owner": "Yujie Wu（边界：非Dolby-DTS、主流流媒体、本地播放同步兼容）",
+          "issues_classification": "非Dolby/DTS 解码播放兼容性；Youtube/Netflix/HBO 播放问题；Movieplayer 本地播放同步兼容性"
+        },
+        {
+          "component": "Audio-decoder",
+          "owner": "Zeming Huang（边界：NTS 认证 audio）",
+          "issues_classification": "NTS 认证 audio 相关问题"
+        },
+        {
+          "component": "Audio-decoder",
+          "owner": "Lianlian Zhu（边界：TV audio-DTV Audio）",
+          "issues_classification": "TV audio-DTV Audio"
+        },
+        {
+          "component": "Audio-decoder",
+          "owner": "Wei Du（边界：gstreamer Audio）",
+          "issues_classification": "gstreamer Audio 播放相关"
+        },
+        {
+          "component": "Audio-platform",
+          "owner": "Zhe Wang（边界：TV audio HDMI in/ATV-AV in）",
+          "issues_classification": "TV audio-HDMI in；TV audio-ATV/AV in"
+        },
+        {
+          "component": "Audio-platform",
+          "owner": "Shuai Li（边界：USB-PDM mic/TDM/SPDIF/USB karaoke/蓝牙语音/a2dp）",
+          "issues_classification": "USB/PDM mic 录音远场；TDM in/out；SPDIF in/out；USB karaoke；蓝牙语音远场；a2dp 播放"
+        },
+        {
+          "component": "Audio-platform",
+          "owner": "Jian Zhou（边界：eARC/ARC）",
+          "issues_classification": "eARC/ARC 功能相关"
+        },
+        {
+          "component": "Audio-AQ",
+          "owner": "Zhe Wang（边界：音效/AQ调优）",
+          "issues_classification": "音效与UI工具（AVL/EQ）；SoC音效与AQ tuning"
+        },
+        {
+          "component": "Audio-Driver",
+          "owner": "Shuai Li（边界：Audio Driver）",
+          "issues_classification": "Audio 驱动所有相关问题"
+        },
+        {
+          "component": "Audio DSP",
+          "owner": "Yang Liu（边界：HiFi DSP音频需求）",
+          "issues_classification": "HiFi DSP related audio issues"
+        },
+        {
+          "component": "Audio_Linux/RDK",
+          "owner": "Wei Du（边界：Linux/RDK音频问题与需求）",
+          "issues_classification": "Linux/RDK 平台音频问题与需求"
+        },
+        {
+          "component": "Audio_IPTV",
+          "owner": "Jian Xu（边界：IPTV音频）",
+          "issues_classification": "IPTV 项目相关音频问题与需求"
+        }
+      ],
+      "classification_hints": [
+        "xGTS；音频输入输出策略；android tunnel framework(CBS)；Android Audio UI setting/display",
+        "Dolby MS12/DD+/DTS2.0/DTS-HD/DTSX；非Dolby/DTS兼容性；NTS认证；流媒体播放；Movieplayer本地播放AV sync；SoundBar；TV DTV Audio；gstreamer audio",
+        "HDMI in、ATV/AV in、USB/PDM录音远场、TDM、SPDIF、eARC/ARC、USB karaoke、蓝牙语音、a2dp",
+        "音效与UI工具（AVL/EQ）；SoC音效与AQ tuning",
+        "Audio 驱动所有相关问题",
+        "HiFi DSP related audio issues",
+        "Linux/RDK 平台音频问题与需求",
+        "IPTV 项目相关音频问题与需求"
+      ]
+    },
+    {
+      "macro_type": "Tao Dong（系统稳定性、性能、工具、Android TV生态）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "Driver-Analog demod",
+          "owner": "Lei Qian（边界：模拟电视Demod分析）",
+          "issues_classification": "ATV信号分析与处理"
+        },
+        {
+          "component": "System-Peformance",
+          "owner": "Yuehu Mi（边界：性能与STR流程）",
+          "issues_classification": "开机速度/STR速度分析；内存优化；带宽profile"
+        },
+        {
+          "component": "System-STR/Shutdown",
+          "owner": "Yuehu Mi（边界：性能与STR流程）",
+          "issues_classification": "STR/Power on-off process and bug fix；boot video"
+        },
+        {
+          "component": "System-Stability",
+          "owner": "Sandy Luo（边界：稳定性与BSP维护）",
+          "issues_classification": "Coverity/Kasan/Asan/Leak/Stability bug"
+        },
+        {
+          "component": "System-Network",
+          "owner": "Lijun Meng（边界：系统网络问题）",
+          "issues_classification": "Network related bug fix (frameworks and application)"
+        },
+        {
+          "component": "System-BSP",
+          "owner": "Sandy Luo（边界：稳定性与BSP维护）",
+          "issues_classification": "Ref project BSP maintain；Socket board BSP maintain"
+        },
+        {
+          "component": "System-Tools",
+          "owner": "Yihui.Wu（边界：PC production/other PC tools）",
+          "issues_classification": "PC production tools；Other PC tools (customization/PCBA 等)"
+        },
+        {
+          "component": "System-Tools",
+          "owner": "Pei Pei（边界：PC key tools）",
+          "issues_classification": "PC key tools"
+        },
+        {
+          "component": "System-Tools",
+          "owner": "Tai Fu（边界：PQ/ISP/Tcon tuning tools）",
+          "issues_classification": "PQ tuning tools；ISP tuning tools；Tcon tuning tools"
+        },
+        {
+          "component": "System-Upgrade",
+          "owner": "Zhigang Yu（边界：系统升级）",
+          "issues_classification": "Android OTA/Recovery bug fix；Buildroot/Yocto Linux SWupdate bug fix"
+        },
+        {
+          "component": "System-Android(SZ)",
+          "owner": "Tao Dong（边界：System Android SZ）",
+          "issues_classification": "System issues"
+        },
+        {
+          "component": "System-Display",
+          "owner": "Zhe Huang（边界：PQ tuning）",
+          "issues_classification": "PQ tuning"
+        },
+        {
+          "component": "System-Display",
+          "owner": "Jianhua Yi（边界：PQ server）",
+          "issues_classification": "PQ server"
+        },
+        {
+          "component": "System-Display",
+          "owner": "Kaifu Hu（边界：Display server 系统控制与HDMI/Panel逻辑）",
+          "issues_classification": "Display server - system control, HDMI/Panel logic control and bug fix"
+        },
+        {
+          "component": "Android-GTVS",
+          "owner": "Lijun Zou（边界：Android GTVS）",
+          "issues_classification": "xTS of TV/OTT AOSP/ATV bug fix"
+        },
+        {
+          "component": "Android-NTS",
+          "owner": "Shen Liu（边界：Android NTS）",
+          "issues_classification": "NTS bug；Ninja integration；Ninja feature development；NTS cert"
+        },
+        {
+          "component": "Multi-Media application",
+          "owner": "Yingwei Long（边界：Multi-decoder APK）",
+          "issues_classification": "Multi-decoder APK"
+        },
+        {
+          "component": "Multi-Media application",
+          "owner": "Zhewen Luo（边界：screen capture/record；流媒体APK问题）",
+          "issues_classification": "screen capture/screen record；Streaming APK bug analyze (youtube/hbogo/google movie)"
+        },
+        {
+          "component": "ATVS",
+          "owner": "Wenbiao Zhang（边界：ATVS与Cloud Gaming）",
+          "issues_classification": "Amazon PrimeVideo 功能与认证"
+        },
+        {
+          "component": "Cloud Gaming",
+          "owner": "Wenbiao Zhang（边界：ATVS与Cloud Gaming）",
+          "issues_classification": "腾讯游戏/stadia cloud gaming bug fix"
+        },
+        {
+          "component": "Display-Video in",
+          "owner": "Nengwen Chen（边界：ATV输入与DTV demod驱动）",
+          "issues_classification": "ATV input"
+        },
+        {
+          "component": "Driver-DTV demod",
+          "owner": "Nengwen Chen（边界：ATV输入与DTV demod驱动）",
+          "issues_classification": "TV/OTT芯片内置 DTV demod 驱动问题"
+        }
+      ],
+      "classification_hints": [
+        "ATV信号分析与处理",
+        "开机/STR速度、内存优化、带宽profile",
+        "STR/Power on-off、boot video",
+        "Coverity/Kasan/Asan/Leak/Stability",
+        "framework/application网络问题",
+        "Ref project BSP、Socket board BSP",
+        "production/key/PQ tuning/ISP tuning/Tcon/其他PC工具",
+        "Android OTA/Recovery；Buildroot/Yocto SWupdate",
+        "System issues",
+        "PQ tuning；PQ server；Display server（system control/HDMI/Panel逻辑）",
+        "TV/OTT AOSP/ATV xTS bug fix",
+        "NTS bug、Ninja integration/feature、NTS cert",
+        "Multi-decoder APK；screen capture/record；流媒体APK问题",
+        "Amazon PrimeVideo 功能与认证",
+        "腾讯游戏/stadia cloud gaming bug fix",
+        "ATV input",
+        "TV/OTT芯片内置 DTV demod 驱动问题"
+      ]
+    },
+    {
+      "macro_type": "Tellen Yu（测试自动化、Android系统framework与TV输入/车载）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "System-Network",
+          "owner": "Junlu Jiang（边界：网络与Miracast/DLNA）",
+          "issues_classification": "framework/application网络问题"
+        },
+        {
+          "component": "Miracast/DLNA",
+          "owner": "Junlu Jiang（边界：网络与Miracast/DLNA）",
+          "issues_classification": "Miracast and DLNA"
+        },
+        {
+          "component": "System-Android(SH)",
+          "owner": "Shuide Chen（边界：System-Android(SH)；Android-Framework）",
+          "issues_classification": "（未填写）"
+        },
+        {
+          "component": "xTS-TVTS",
+          "owner": "Gang Yang（边界：xTS-TVTS）",
+          "issues_classification": "Android TVTS"
+        },
+        {
+          "component": "GTV CUJs",
+          "owner": "Chang Qi（边界：GTV CUJs）",
+          "issues_classification": "GTV CUJs"
+        },
+        {
+          "component": "Android-Upgrade",
+          "owner": "Xingdong Xu（边界：Android升级与构建系统）",
+          "issues_classification": "Android platform recovery and A/B update；fastboot (bootloader/fastbootd)"
+        },
+        {
+          "component": "Android-Buildsystem",
+          "owner": "Xingdong Xu（边界：Android升级与构建系统）",
+          "issues_classification": "Android build system；standalone build and clang toolchain；Android bringup"
+        },
+        {
+          "component": "Android-Framework",
+          "owner": "Shuide Chen（边界：System-Android(SH)；Android-Framework）",
+          "issues_classification": "Android framework services (AMS/WMS/PMS etc)；system_server/zygote bootup speed optimization"
+        },
+        {
+          "component": "ART",
+          "owner": "Wei Wang（边界：ART）",
+          "issues_classification": "ART"
+        },
+        {
+          "component": "Picture-decoder",
+          "owner": "Ting Li（边界：Picture decoder）",
+          "issues_classification": "Android/Linux picture soft decoder and display"
+        },
+        {
+          "component": "Exoplayer",
+          "owner": "Qiujuan Liang（边界：Exoplayer）",
+          "issues_classification": "certification based on exoplayer；exoplayer upgrade"
+        },
+        {
+          "component": "Automation-test",
+          "owner": "Haisha Ning（边界：自动化平台）",
+          "issues_classification": "AATS框架、环境设备、测试用例维护"
+        },
+        {
+          "component": "Automation-CI",
+          "owner": "Haisha Ning（边界：自动化平台）",
+          "issues_classification": "Jenkins/build server/autobuild/patchbuild/CI/License/CAS/OpenGrok等"
+        },
+        {
+          "component": "Automation-web",
+          "owner": "Haisha Ning（边界：自动化平台）",
+          "issues_classification": "周报/发布/AATS等web系统"
+        },
+        {
+          "component": "Automation-codescan",
+          "owner": "Haisha Ning（边界：自动化平台）",
+          "issues_classification": "legal/gpl/typo/coverity 等扫描"
+        },
+        {
+          "component": "Smoking Test(ATV&GTV)",
+          "owner": "Jie Yuan（边界：ATV/GTV Smoking）",
+          "issues_classification": "ATV/GTV smoking test issues fixing；waiver request；whitelist"
+        },
+        {
+          "component": "xTS-CTS/CTS-on-GSI",
+          "owner": "Pengfei Zhao（边界：xTS CTS/GSI）",
+          "issues_classification": "Android CTS and CTS on GSI；whitelist and waive list"
+        },
+        {
+          "component": "xTS-GTS/STS",
+          "owner": "Bin Yang（边界：xTS GTS/STS）",
+          "issues_classification": "Android GTS and STS"
+        },
+        {
+          "component": "xTS-VTS",
+          "owner": "Weifang Liu（边界：xTS VTS）",
+          "issues_classification": "Android VTS"
+        },
+        {
+          "component": "Android-TIF",
+          "owner": "Kieth Liu（边界：Android-TIF/Linux-tv input/tunerHAL）",
+          "issues_classification": "TV App(LiveTv)；InputService(ATV/DTV/Spdif/HDMI in/CVBS in)；tv input hal；tvserver"
+        },
+        {
+          "component": "Linux-tv input",
+          "owner": "Kieth Liu（边界：Android-TIF/Linux-tv input/tunerHAL）",
+          "issues_classification": "Linux platform tvinput；Linux platform tvserver"
+        },
+        {
+          "component": "tunerHAL",
+          "owner": "Kieth Liu（边界：Android-TIF/Linux-tv input/tunerHAL）",
+          "issues_classification": "tuner hal section filter；frontend integration"
+        },
+        {
+          "component": "Subtitle",
+          "owner": "Hongliang Zheng（边界：Subtitle）",
+          "issues_classification": "inline/external subtitle parser/decoder/display；DVB subtitle (CC/sarnoff/Teletext) and certification；Linux and Android platform"
+        },
+        {
+          "component": "CEC/ARC",
+          "owner": "An Xi（边界：CEC/ARC）",
+          "issues_classification": "CEC/ARC TX/RX"
+        },
+        {
+          "component": "CBS",
+          "owner": "Junchao Yuan（边界：CBS）",
+          "issues_classification": "LinuxDVB based CBS；tuner framework based CBS；co-work with Google CBS team"
+        },
+        {
+          "component": "EVS",
+          "owner": "Yongzhi Gao 体系（边界：车载视觉）",
+          "issues_classification": "Vehicle Camera HAL and demo App"
+        },
+        {
+          "component": "SV-Render",
+          "owner": "Yongzhi Gao 体系（边界：车载视觉）",
+          "issues_classification": "360 AVM service/demo"
+        },
+        {
+          "component": "SV-Calibration",
+          "owner": "Yongzhi Gao 体系（边界：车载视觉）",
+          "issues_classification": "360 AVM calibration"
+        },
+        {
+          "component": "FastRvc",
+          "owner": "Yongzhi Gao 体系（边界：车载视觉）",
+          "issues_classification": "RTOS based Rvc"
+        },
+        {
+          "component": "Android-Rvc",
+          "owner": "Yongzhi Gao 体系（边界：车载视觉）",
+          "issues_classification": "Android based Rvc"
+        },
+        {
+          "component": "DVR",
+          "owner": "Yongzhi Gao 体系（边界：车载视觉）",
+          "issues_classification": "Vehicle multi-camera DVR"
+        },
+        {
+          "component": "VHAL",
+          "owner": "Yongzhi Gao 体系（边界：车载视觉）",
+          "issues_classification": "Vehicle HAL service/Car Service/Car Framework"
+        }
+      ],
+      "classification_hints": [
+        "framework/application网络问题",
+        "Miracast and DLNA",
+        "Android TVTS",
+        "GTV CUJs",
+        "recovery/A-B update/fastboot",
+        "build system/standalone build/clang/bringup",
+        "AMS/WMS/PMS、system_server/zygote优化",
+        "ART",
+        "Android/Linux picture soft decoder and display",
+        "exoplayer cert/upgrade",
+        "AATS框架、环境设备、测试用例维护",
+        "Jenkins/build server/autobuild/patchbuild/CI/License/CAS/OpenGrok等",
+        "周报/发布/AATS等web系统",
+        "legal/gpl/typo/coverity 等扫描",
+        "Smoking问题修复、waiver、whitelist",
+        "Android CTS/CTS on GSI",
+        "Android GTS/STS",
+        "Android VTS",
+        "LiveTv/InputService/tv input hal/tvserver",
+        "Linux tvinput/tvserver"
+      ]
+    },
+    {
+      "macro_type": "Tim Yao（多媒体架构与RDK Netflix）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "Architecture-Multimedia",
+          "owner": "Tim Yao（边界：多媒体架构/RDK Netflix）",
+          "issues_classification": "（未填写）"
+        },
+        {
+          "component": "RDK-Netflix",
+          "owner": "Tim Yao（边界：多媒体架构/RDK Netflix）",
+          "issues_classification": "（未填写）"
+        }
+      ],
+      "classification_hints": []
+    },
+    {
+      "macro_type": "Zhi Zhou（视频播放与DRM媒体栈）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "Video-Decoder",
+          "owner": "Hui Zhang（边界：Video Decoder）",
+          "issues_classification": "Video Decoder/V4l2/Decoder bringup"
+        },
+        {
+          "component": "Android DRM",
+          "owner": "Shipeng Sun（边界：Android DRM）",
+          "issues_classification": "WV/Playready/Miracast HDCP"
+        },
+        {
+          "component": "Linux DRM",
+          "owner": "Tao Guo（边界：Linux DRM；Media CAS V2）",
+          "issues_classification": "WV/Playready/Nagra DASH/Airplay"
+        },
+        {
+          "component": "Media CAS V2",
+          "owner": "Tao Guo（边界：Linux DRM；Media CAS V2）",
+          "issues_classification": "Media CAS v2 for VMX/Nagra"
+        },
+        {
+          "component": "VMX CAS(IPTV/HLS/)",
+          "owner": "Yanting Zhou（边界：VMX CAS IPTV/HLS）",
+          "issues_classification": "HLS/IPTV - Drmplayer"
+        },
+        {
+          "component": "Android-Media-framework",
+          "owner": "Peng Wu（边界：Android media framework/OMX/Codec2）",
+          "issues_classification": "Android ATV related issues, Youtube/Netflix"
+        },
+        {
+          "component": "Video-OMX",
+          "owner": "Peng Wu（边界：Android media framework/OMX/Codec2）",
+          "issues_classification": "OMX related bugs and feature develop"
+        },
+        {
+          "component": "Video-Codec2",
+          "owner": "Peng Wu（边界：Android media framework/OMX/Codec2）",
+          "issues_classification": "Codec2 related bugs and feature develop"
+        },
+        {
+          "component": "Media VTS/CTS/GTS",
+          "owner": "Peter Wang（边界：Media VTS/CTS/GTS）",
+          "issues_classification": "Media VTS/CTS/GTS"
+        },
+        {
+          "component": "Android Media Youtube Cert",
+          "owner": "Shanshan Li（边界：Youtube cert/TVTS cert）",
+          "issues_classification": "Youtube Cert"
+        },
+        {
+          "component": "Android TVTS",
+          "owner": "Shanshan Li（边界：Youtube cert/TVTS cert）",
+          "issues_classification": "Android TVTS Cert"
+        },
+        {
+          "component": "Android Video NTS",
+          "owner": "Shuanglong Wang（边界：Android Video NTS）",
+          "issues_classification": "Android NTS Cert"
+        },
+        {
+          "component": "Android Media Player",
+          "owner": "Zhao Yi（边界：Android Media Player）",
+          "issues_classification": "Android amnuplayer local/HTTP/HLS/UDP related issues"
+        },
+        {
+          "component": "Resource Manager",
+          "owner": "Joy Rao（边界：Resource Manager）",
+          "issues_classification": "Resource conflicts"
+        },
+        {
+          "component": "AmTsplayer",
+          "owner": "Yunmin Chen（边界：AmTsplayer）",
+          "issues_classification": "Amtsplayer based issues, AVSYNC, PIP, FCC"
+        },
+        {
+          "component": "CSB-Playback",
+          "owner": "Jiabin Zhu（边界：CSB Playback）",
+          "issues_classification": "Playback/FCC/AVSYNC"
+        },
+        {
+          "component": "Linux Media",
+          "owner": "Bo Xiao（边界：Linux Media与RDK AAMP）",
+          "issues_classification": "Gstreamer/Youtube/NTS/Prime video/local streaming"
+        },
+        {
+          "component": "RDK AAMP player",
+          "owner": "Bo Xiao（边界：Linux Media与RDK AAMP）",
+          "issues_classification": "（未填写）"
+        },
+        {
+          "component": "Network Stack",
+          "owner": "Kejun Gao（边界：网络协议栈）",
+          "issues_classification": "IPV4/IPV6/VLAN/network configure"
+        }
+      ],
+      "classification_hints": [
+        "Video Decoder/V4l2/Decoder bringup",
+        "WV/Playready/Miracast HDCP",
+        "WV/Playready/Nagra DASH/Airplay",
+        "CAS v2 for VMX/Nagra",
+        "HLS/IPTV Drmplayer",
+        "ATV相关，Youtube/Netflix",
+        "OMX bugs/feature develop",
+        "Codec2 bugs/feature develop",
+        "Media VTS/CTS/GTS",
+        "Youtube cert",
+        "Android TVTS cert",
+        "Android NTS cert",
+        "amnuplayer/local/HTTP/HLS/UDP",
+        "Resource conflicts",
+        "AVSYNC/PIP/FCC",
+        "Playback/FCC/AVSYNC",
+        "Gstreamer/Youtube/NTS/Prime video/local streaming",
+        "IPV4/IPV6/VLAN/network configure"
+      ]
+    },
+    {
+      "macro_type": "Zhiheng Cao（IPTV播放器线）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "Video-AmPlayer",
+          "owner": "Chuanqi Wang（边界：AmPlayer）",
+          "issues_classification": "IPTV MultiInstance AmuMediaPlayer issues"
+        },
+        {
+          "component": "Video-CTCPlayer",
+          "owner": "Jiwei Sun（边界：CTC/CMCC/Libplayer）",
+          "issues_classification": "IPTV China Telecom CTC module"
+        },
+        {
+          "component": "Video-CMCCPlayer",
+          "owner": "Jiwei Sun（边界：CTC/CMCC/Libplayer）",
+          "issues_classification": "IPTV China Mobile player module"
+        },
+        {
+          "component": "Video-Libplayer",
+          "owner": "Jiwei Sun（边界：CTC/CMCC/Libplayer）",
+          "issues_classification": "IPTV LibPlayer module"
+        }
+      ],
+      "classification_hints": [
+        "IPTV MultiInstance AmuMediaPlayer issues",
+        "IPTV China Telecom CTC module",
+        "IPTV China Mobile player module",
+        "IPTV LibPlayer module"
+      ]
+    },
+    {
+      "macro_type": "Tao Dong（DVB/ISDB/ATSC广播栈）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "DVB Stack",
+          "owner": "Xiaorong Wang（边界：DVB/ISDB EPG与OAD/EWS）",
+          "issues_classification": "EPG；DTV OAD"
+        },
+        {
+          "component": "ISDB Stack",
+          "owner": "Xiaorong Wang（边界：DVB/ISDB EPG与OAD/EWS）",
+          "issues_classification": "EPG；EWS/EWBS"
+        }
+      ],
+      "classification_hints": [
+        "DVB Stack：EPG",
+        "DTV OAD",
+        "EWS/EWBS"
+      ]
+    },
+    {
+      "macro_type": "Lei Li（DVB/ISDB/ATSC广播栈）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "DVB Stack",
+          "owner": "Haobin Chen（边界：DVB-DVBS scan flow）",
+          "issues_classification": "DVBS frontend：LNB/Satellite/Transponder/Diseqc and Satellite scan flow"
+        },
+        {
+          "component": "DVB Stack",
+          "owner": "Jianlin Liu（边界：DVB-DVBT/DVBC scan与DTV configuration）",
+          "issues_classification": "DVBT scan flow；DVBC scan flow；DTV configuration"
+        },
+        {
+          "component": "DVB Stack",
+          "owner": "Rongsheng Jiang（边界：DVB/ISDB/ATSC 调台时钟分级语言）",
+          "issues_classification": "Channel tuning/channel information；DTV time；Parental rating；DTV audio language"
+        },
+        {
+          "component": "ISDB Stack",
+          "owner": "Rongsheng Jiang（边界：DVB/ISDB/ATSC 调台时钟分级语言）",
+          "issues_classification": "Channel tuning/channel information；DTV time；Parental rating；DTV audio language"
+        },
+        {
+          "component": "ATSC Stack",
+          "owner": "Rongsheng Jiang（边界：DVB/ISDB/ATSC 调台时钟分级语言）",
+          "issues_classification": "Channel tuning/channel information；DTV time；Parental rating；DTV audio language"
+        },
+        {
+          "component": "DVB Stack",
+          "owner": "Liyang Huang（边界：DVB/ISDB/ATSC Network update）",
+          "issues_classification": "Network update: service addition/removal, etc."
+        },
+        {
+          "component": "ISDB Stack",
+          "owner": "Liyang Huang（边界：DVB/ISDB/ATSC Network update）",
+          "issues_classification": "Network update: service addition/removal, etc."
+        },
+        {
+          "component": "ATSC Stack",
+          "owner": "Liyang Huang（边界：DVB/ISDB/ATSC Network update）",
+          "issues_classification": "Network update: service addition/removal, etc."
+        },
+        {
+          "component": "DVB Stack",
+          "owner": "Bing Feng（边界：DVB HBBTV）",
+          "issues_classification": "HBBTV"
+        },
+        {
+          "component": "DVB Stack",
+          "owner": "Gengxin Li（边界：DVB Freely）",
+          "issues_classification": "Freely"
+        },
+        {
+          "component": "ATSC Stack",
+          "owner": "Zhiwei Jiang（边界：ATSC Scan）",
+          "issues_classification": "Scan"
+        },
+        {
+          "component": "ATSC Stack",
+          "owner": "Suxiang Hao（边界：ATSC EPG）",
+          "issues_classification": "ATSC Stack：EPG"
+        }
+      ],
+      "classification_hints": [
+        "DVBS frontend：LNB/Satellite/Transponder/Diseqc and Satellite scan flow",
+        "DVBT scan flow；DVBC scan flow；DTV configuration",
+        "Channel tuning/channel information；DTV time；Parental rating；DTV audio language",
+        "Network update: service addition/removal, etc.",
+        "HBBTV",
+        "Freely",
+        "ATSC Stack：Scan",
+        "ATSC Stack：EPG"
+      ]
+    },
+    {
+      "macro_type": "Victor Wan（DVB/ISDB/ATSC广播栈）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "DVB Stack",
+          "owner": "Zhiqiang Han（边界：DVB/ISDB/ATSC PVR/Timeshift 与 DVB FCC/PIP）",
+          "issues_classification": "PVR/Timeshift；FCC/PIP"
+        },
+        {
+          "component": "ISDB Stack",
+          "owner": "Zhiqiang Han（边界：DVB/ISDB/ATSC PVR/Timeshift 与 DVB FCC/PIP）",
+          "issues_classification": "PVR/Timeshift"
+        },
+        {
+          "component": "ATSC Stack",
+          "owner": "Zhiqiang Han（边界：DVB/ISDB/ATSC PVR/Timeshift 与 DVB FCC/PIP）",
+          "issues_classification": "PVR/Timeshift"
+        },
+        {
+          "component": "DVB Stack",
+          "owner": "Yan Yan（边界：DVB CI+（PVR））",
+          "issues_classification": "CI+（PVR）"
+        }
+      ],
+      "classification_hints": [
+        "PVR/Timeshift；FCC/PIP",
+        "PVR/Timeshift",
+        "CI+（PVR）"
+      ]
+    },
+    {
+      "macro_type": "Pradeep Sriram（RDK SDK/UI）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "RDK SDK",
+          "owner": "Pradeep Sriram（边界：RDK SDK 与 Residence App）",
+          "issues_classification": ""
+        },
+        {
+          "component": "RDK UI",
+          "owner": "Pradeep Sriram（边界：RDK SDK 与 Residence App）",
+          "issues_classification": "To track issues of RDK Residence App"
+        }
+      ],
+      "classification_hints": [
+        "To track issues of RDK Residence App"
+      ]
+    },
+    {
+      "macro_type": "Terrence Pu（RDK应用生态）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "RDK-Amazon",
+          "owner": "Terrence Pu（边界：RDK Amazon 与第三方App）",
+          "issues_classification": "（未填写）"
+        },
+        {
+          "component": "RDK-3rd Party App",
+          "owner": "Terrence Pu（边界：RDK Amazon 与第三方App）",
+          "issues_classification": "（未填写）"
+        }
+      ],
+      "classification_hints": []
+    },
+    {
+      "macro_type": "Ashok Patil（Zapper应用）",
+      "aliases": [],
+      "components": [
+        {
+          "component": "Zapper App (Arka)",
+          "owner": "Sasi Sibyala（边界：Zapper App）",
+          "issues_classification": "Zapper Application"
+        }
+      ],
+      "classification_hints": [
+        "Zapper Application"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 
 from common.config import ANALYZER_OPENAI_DEEPSEEK_V3_CONFIG, ANALYZER_DASHSCOPE_DEEPSEEK_V3_CONFIG
-from jira_common.utils import get_jira_info
+from jira_common.utils import get_jira_info, get_jira_manager_history
 from common.utils import fetch_json_content
 import json
 import re
@@ -530,7 +530,7 @@ def identify_rd(jira_key: str = "OTT-93265", with_comments: bool = True) -> dict
     mylog(f"round1_input:{round1_input}")
     # round1_agent = SimpleImpAgent(
     round1_agent = SimpleAgent(
-        model_args=ANALYZER_DASHSCOPE_DEEPSEEK_V3_CONFIG,
+        model_args=ANALYZER_OPENAI_DEEPSEEK_V3_CONFIG,
         # prompt=jira_identify_more_macro_instructions,
         # prompt=jira_macro_identify_instructions,
         prompt=jira_macro_identify_instructions2,
@@ -557,7 +557,7 @@ def identify_rd(jira_key: str = "OTT-93265", with_comments: bool = True) -> dict
     mylog(f"round2_input:{round2_input}")
     # round2_agent = SimpleImpAgent(
     round2_agent = SimpleAgent(
-        model_args=ANALYZER_DASHSCOPE_DEEPSEEK_V3_CONFIG,
+        model_args=ANALYZER_OPENAI_DEEPSEEK_V3_CONFIG,
         prompt=jira_owner_identify_instructions,
         output_json=False,
     )
@@ -566,6 +566,12 @@ def identify_rd(jira_key: str = "OTT-93265", with_comments: bool = True) -> dict
     output["agent_owner"] = _extract_english_name(owner)
     output["agent_owner_reason"] = round2_result
     output["correct_manager"] = output["jira_manager"] == output["agent_manager"]
+    if output["correct_manager"] is False:
+        agent_manager = (output.get("agent_manager") or "").strip()
+        if agent_manager:
+            history_managers = get_jira_manager_history(output.get("jira_id") or jira_key)
+            if agent_manager.lower() in {str(m or "").strip().lower() for m in history_managers}:
+                output["correct_manager"] = "H_True"
     output = _normalize_jira_owner_by_hierarchy(output)
     if output["jira_owner"] and output["agent_owner"]:
         output["correct_owner"] = output["jira_owner"] == output["agent_owner"]
@@ -598,40 +604,41 @@ if __name__ == "__main__":
     # jqls.append("project = \"OTT projects\" AND text ~ AI智能分析 and Manager not in (zh.cao,shawn.wu) and createdDate >= 2026-3-26 and createdDate <= 2026-3-28 order BY created DESC")
     # jqls.append("key = OTT-93227")
 
-    jqls.append("""key in (
-        OTT-93520, OTT-93515, OTT-93458, OTT-93430, OTT-93402,
-        OTT-93339, OTT-93295, OTT-93290, OTT-93270, OTT-93265,
-        OTT-93263, OTT-93262, OTT-93260, OTT-93257, OTT-93252,
-        OTT-93248, OTT-93247, OTT-93245, OTT-93240, OTT-93239,
-        OTT-93238, OTT-93236, OTT-93235, OTT-93228, OTT-93227,
-        OTT-93224, OTT-93223, OTT-93222, OTT-93205, OTT-93202
-        )""") 
-    timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
-    for jql in jqls:
-        issues = jira_client.search_issues(jql)
-        len_issues = len(issues)
-        writer = None
-        file_handle = open(f"rd_owner_result_{len_issues}_{timestamp}.csv", "w", encoding="utf-8", newline="")
-        for issue in issues:
-            jira_id = issue.key
-            _,result = identify_rd(jira_id, with_comments=False)
-            # mylog(f"output:{result}")
-            if writer is None:
-                writer = csv.DictWriter(file_handle, fieldnames=list(result.keys()))
-                writer.writeheader()
-            writer.writerow(result)
-            file_handle.flush()
-        file_handle.close()
+    # jqls.append("""key in (
+    #     OTT-93520, OTT-93515, OTT-93458, OTT-93430, OTT-93402,
+    #     OTT-93339, OTT-93295, OTT-93290, OTT-93270, OTT-93265,
+    #     OTT-93263, OTT-93262, OTT-93260, OTT-93257, OTT-93252,
+    #     OTT-93248, OTT-93247, OTT-93245, OTT-93240, OTT-93239,
+    #     OTT-93238, OTT-93236, OTT-93235, OTT-93228, OTT-93227,
+    #     OTT-93224, OTT-93223, OTT-93222, OTT-93205, OTT-93202
+    #     )""") 
+    # timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    # for jql in jqls:
+    #     issues = jira_client.search_issues(jql)
+    #     len_issues = len(issues)
+    #     writer = None
+    #     file_handle = open(f"rd_owner_result_{len_issues}_{timestamp}.csv", "w", encoding="utf-8", newline="")
+    #     for issue in issues:
+    #         jira_id = issue.key
+    #         _,result = identify_rd(jira_id, with_comments=False)
+    #         # mylog(f"output:{result}")
+    #         if writer is None:
+    #             writer = csv.DictWriter(file_handle, fieldnames=list(result.keys()))
+    #             writer.writeheader()
+    #         writer.writerow(result)
+    #         file_handle.flush()
+    #     file_handle.close()
     
     # jql = "project = \"OTT projects\" AND text ~ AI智能分析 and Manager not in (zh.cao,shawn.wu) and createdDate >= 2026-3-26 and createdDate <= 2026-3-28 order BY created DESC"
-    jql = """key in (
-        OTT-93520, OTT-93515, OTT-93458, OTT-93430, OTT-93402,
-        OTT-93339, OTT-93295, OTT-93290, OTT-93270, OTT-93265,
-        OTT-93263, OTT-93262, OTT-93260, OTT-93257, OTT-93252,
-        OTT-93248, OTT-93247, OTT-93245, OTT-93240, OTT-93239,
-        OTT-93238, OTT-93236, OTT-93235, OTT-93228, OTT-93227,
-        OTT-93224, OTT-93223, OTT-93222, OTT-93205, OTT-93202
-        )"""
+    jql = "text ~ AI智能分析 AND priority in (High,Highest) and Manager not in (zh.cao, shawn.wu) AND createdDate >= 2026-2-2 ORDER BY priority DESC, created DESC"
+    # jql = """key in (
+    #     OTT-93520, OTT-93515, OTT-93458, OTT-93430, OTT-93402,
+    #     OTT-93339, OTT-93295, OTT-93290, OTT-93270, OTT-93265,
+    #     OTT-93263, OTT-93262, OTT-93260, OTT-93257, OTT-93252,
+    #     OTT-93248, OTT-93247, OTT-93245, OTT-93240, OTT-93239,
+    #     OTT-93238, OTT-93236, OTT-93235, OTT-93228, OTT-93227,
+    #     OTT-93224, OTT-93223, OTT-93222, OTT-93205, OTT-93202
+    #     )"""
     issues = jira_client.search_issues(jql)
     len_issues = len(issues)
     writer = None
