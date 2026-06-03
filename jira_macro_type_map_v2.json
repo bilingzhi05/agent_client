@@ -887,38 +887,6 @@
       ]
     },
     {
-      "macro_type": "Zhiheng Cao（IPTV播放器线）",
-      "aliases": [],
-      "components": [
-        {
-          "component": "Video-AmPlayer",
-          "owner": "Chuanqi Wang（边界：AmPlayer）",
-          "issues_classification": "IPTV MultiInstance AmuMediaPlayer issues"
-        },
-        {
-          "component": "Video-CTCPlayer",
-          "owner": "Jiwei Sun（边界：CTC/CMCC/Libplayer）",
-          "issues_classification": "IPTV China Telecom CTC module"
-        },
-        {
-          "component": "Video-CMCCPlayer",
-          "owner": "Jiwei Sun（边界：CTC/CMCC/Libplayer）",
-          "issues_classification": "IPTV China Mobile player module"
-        },
-        {
-          "component": "Video-Libplayer",
-          "owner": "Jiwei Sun（边界：CTC/CMCC/Libplayer）",
-          "issues_classification": "IPTV LibPlayer module"
-        }
-      ],
-      "classification_hints": [
-        "IPTV MultiInstance AmuMediaPlayer issues",
-        "IPTV China Telecom CTC module",
-        "IPTV China Mobile player module",
-        "IPTV LibPlayer module"
-      ]
-    },
-    {
       "macro_type": "Tao Dong（DVB/ISDB/ATSC广播栈）",
       "aliases": [],
       "components": [
