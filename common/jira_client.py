@@ -96,6 +96,19 @@ class MyJira:
         manager = self._get_field_value_by_names(issue, ["manager", "manager id", "manager_id", "窗口人", "窗口经理", "模块经理"])
         return self._pick_user_value(manager)
 
+    def getSoftRelease(self, issue_key):
+        """
+        获取issue的soft release
+        :param issue_key: JIRA issue key
+        :return: soft release内容
+        """
+        issue = self._issue_with_retry(issue_key)
+        soft_release = self._get_field_value_by_names(
+            issue,
+            ["soft release", "soft_release", "software release", "software_release", "软件版本", "版本"],
+        )
+        return self._pick_user_value(soft_release)
+
     def getManagerWithSql(self, sql):
         """
         批量获取多个issue的manager
